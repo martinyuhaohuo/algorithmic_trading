@@ -34,3 +34,15 @@
 [2026-01-27 20:53:08,171:     agent.fmClient Instal]:     INFO - ---------- Test robot successfully ran ----------
 [2026-01-27 20:53:08,171:     agent.fmClient Instal]:     INFO - I have been asked to stop! [94m[1m:-([0m
 [2026-01-27 20:53:10,173:     agent.fmClient Instal]:     INFO - Shutting Down
+
+=============================== Log Started [2026-01-27 20:54:42 GMT] ===============================
+[2026-01-27 20:54:42,234:     agent.fmClient Instal]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-01-27 20:54:42,234:     agent.fmClient Instal]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-01-27 20:54:42,696:     agent.fmClient Instal]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-01-27 20:54:42,974:     agent.fmClient Instal]:     INFO - Requesting initial information for marketplace `1515`
+[2026-01-27 20:54:43,061:     ws.FM.fmClient Instal]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-01-27 20:54:43,321:     agent.fmClient Instal]:     INFO - Initialisation complete. Received marketplace information.
+[2026-01-27 20:54:43,322:     agent.fmClient Instal]:     INFO - I am fmClient Installed Test Robot(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-01-27 20:54:43,322:     agent.fmClient Instal]:     INFO - ---------- Test robot successfully ran ----------
+[2026-01-27 20:54:43,322:     agent.fmClient Instal]:     INFO - I have been asked to stop! [94m[1m:-([0m
+[2026-01-27 20:54:45,324:     agent.fmClient Instal]:     INFO - Shutting Down
