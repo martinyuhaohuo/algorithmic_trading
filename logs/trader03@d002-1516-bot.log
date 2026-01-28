@@ -1,0 +1,212 @@
+
+=============================== Log Started [2026-01-28 12:17:53 GMT] ===============================
+[2026-01-28 12:17:53,044:     agent.fmClient Instal]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-01-28 12:17:53,045:     agent.fmClient Instal]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-01-28 12:17:53,509:     agent.fmClient Instal]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-01-28 12:17:53,783:     agent.fmClient Instal]:     INFO - Requesting initial information for marketplace `1516`
+[2026-01-28 12:17:53,870:     ws.FM.fmClient Instal]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-01-28 12:17:54,135:     agent.fmClient Instal]:     INFO - Initialisation complete. Received marketplace information.
+[2026-01-28 12:17:54,135:     agent.fmClient Instal]:     INFO - I am fmClient Installed Test Robot(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-01-28 12:17:54,136:     agent.fmClient Instal]:     INFO - Session: SID:141299:SessionState.OPEN
+
+=============================== Log Started [2026-01-28 12:29:46 GMT] ===============================
+[2026-01-28 12:29:46,375:     agent.fmClient Instal]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-01-28 12:29:46,375:     agent.fmClient Instal]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-01-28 12:29:46,831:     agent.fmClient Instal]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-01-28 12:29:47,112:     agent.fmClient Instal]:     INFO - Requesting initial information for marketplace `1516`
+[2026-01-28 12:29:47,197:     ws.FM.fmClient Instal]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-01-28 12:29:47,463:     agent.fmClient Instal]:     INFO - Initialisation complete. Received marketplace information.
+[2026-01-28 12:29:47,463:     agent.fmClient Instal]:     INFO - I am fmClient Installed Test Robot(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-01-28 12:29:47,464:     agent.fmClient Instal]:     INFO - Session: SID:141299:SessionState.OPEN
+
+=============================== Log Started [2026-01-28 12:31:31 GMT] ===============================
+[2026-01-28 12:31:31,987:     agent.fmClient Instal]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-01-28 12:31:31,988:     agent.fmClient Instal]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-01-28 12:31:32,443:     agent.fmClient Instal]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-01-28 12:31:32,724:     agent.fmClient Instal]:     INFO - Requesting initial information for marketplace `1516`
+[2026-01-28 12:31:32,810:     ws.FM.fmClient Instal]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-01-28 12:31:33,070:     agent.fmClient Instal]:     INFO - Initialisation complete. Received marketplace information.
+[2026-01-28 12:31:33,071:     agent.fmClient Instal]:     INFO - I am fmClient Installed Test Robot(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-01-28 12:31:33,071:     agent.fmClient Instal]:     INFO - market place: D002 - Welcome - Practice, marketplace id: 1516, marketplace description: Welcome Trading Game - Practice
+[2026-01-28 12:31:33,071:     agent.fmClient Instal]:     INFO - Session: SID:141299:SessionState.OPEN
+
+=============================== Log Started [2026-01-28 12:34:33 GMT] ===============================
+[2026-01-28 12:34:33,282:     agent.fmClient Instal]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-01-28 12:34:33,282:     agent.fmClient Instal]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-01-28 12:34:33,757:     agent.fmClient Instal]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-01-28 12:34:34,044:     agent.fmClient Instal]:     INFO - Requesting initial information for marketplace `1516`
+[2026-01-28 12:34:34,131:     ws.FM.fmClient Instal]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-01-28 12:34:34,436:     agent.fmClient Instal]:     INFO - Initialisation complete. Received marketplace information.
+[2026-01-28 12:34:34,436:     agent.fmClient Instal]:     INFO - I am fmClient Installed Test Robot(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-01-28 12:34:34,436:     agent.fmClient Instal]:     INFO - market place: D002 - Welcome - Practice, marketplace id: 1516, marketplace description: Welcome Trading Game - Practice
+[2026-01-28 12:34:34,437:     agent.fmClient Instal]:     INFO - 	 with market: Asset A, fm_id: 2686, market description: Asset A, tick size: 1
+[2026-01-28 12:34:34,437:     agent.fmClient Instal]:     INFO - 	 with market: Asset B, fm_id: 2687, market description: Asset B, tick size: 1
+[2026-01-28 12:34:34,437:     agent.fmClient Instal]:     INFO - 	 with market: Asset C, fm_id: 2688, market description: Asset C, tick size: 1
+[2026-01-28 12:34:34,437:     agent.fmClient Instal]:     INFO - Session: SID:141299:SessionState.OPEN
+
+=============================== Log Started [2026-01-28 12:38:46 GMT] ===============================
+[2026-01-28 12:38:46,226:     agent.fmClient Instal]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-01-28 12:38:46,227:     agent.fmClient Instal]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-01-28 12:38:46,674:     agent.fmClient Instal]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-01-28 12:38:46,951:     agent.fmClient Instal]:     INFO - Requesting initial information for marketplace `1516`
+[2026-01-28 12:38:47,038:     ws.FM.fmClient Instal]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-01-28 12:38:47,361:     agent.fmClient Instal]:     INFO - Initialisation complete. Received marketplace information.
+[2026-01-28 12:38:47,362:     agent.fmClient Instal]:     INFO - I am fmClient Installed Test Robot(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-01-28 12:38:47,362:     agent.fmClient Instal]:     INFO - market place: D002 - Welcome - Practice, marketplace id: 1516, marketplace description: Welcome Trading Game - Practice
+[2026-01-28 12:38:47,362:     agent.fmClient Instal]:     INFO - 	 with market: Asset A, fm_id: 2686, market description: Asset A, tick size: 1
+[2026-01-28 12:38:47,362:     agent.fmClient Instal]:     INFO - 	 with market: Asset B, fm_id: 2687, market description: Asset B, tick size: 1
+[2026-01-28 12:38:47,362:     agent.fmClient Instal]:     INFO - 	 with market: Asset C, fm_id: 2688, market description: Asset C, tick size: 1
+[2026-01-28 12:38:47,363:     agent.fmClient Instal]:     INFO - Session: SID:141299:SessionState.OPEN
+[2026-01-28 12:38:47,363:     agent.fmClient Instal]:    ERROR - AttributeError('FMRobot' object has no attribute 'session') in FMRobot.received_session_info() method. Run with DEBUG for details
+[2026-01-28 12:38:50,904:     agent.fmClient Instal]:     INFO - Session: SID:141299:SessionState.CLOSED
+[2026-01-28 12:38:50,904:     agent.fmClient Instal]:    ERROR - AttributeError('FMRobot' object has no attribute 'session') in FMRobot.received_session_info() method. Run with DEBUG for details
+[2026-01-28 12:39:03,137:     agent.fmClient Instal]:     INFO - Session: SID:141306:SessionState.OPEN
+[2026-01-28 12:39:03,137:     agent.fmClient Instal]:    ERROR - AttributeError('FMRobot' object has no attribute 'session') in FMRobot.received_session_info() method. Run with DEBUG for details
+
+=============================== Log Started [2026-01-28 12:39:33 GMT] ===============================
+[2026-01-28 12:39:33,937:     agent.fmClient Instal]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-01-28 12:39:33,937:     agent.fmClient Instal]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-01-28 12:39:34,391:     agent.fmClient Instal]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-01-28 12:39:34,675:     agent.fmClient Instal]:     INFO - Requesting initial information for marketplace `1516`
+[2026-01-28 12:39:34,761:     ws.FM.fmClient Instal]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-01-28 12:39:35,027:     agent.fmClient Instal]:     INFO - Initialisation complete. Received marketplace information.
+[2026-01-28 12:39:35,028:     agent.fmClient Instal]:     INFO - I am fmClient Installed Test Robot(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-01-28 12:39:35,028:     agent.fmClient Instal]:     INFO - market place: D002 - Welcome - Practice, marketplace id: 1516, marketplace description: Welcome Trading Game - Practice
+[2026-01-28 12:39:35,028:     agent.fmClient Instal]:     INFO - 	 with market: Asset A, fm_id: 2686, market description: Asset A, tick size: 1
+[2026-01-28 12:39:35,028:     agent.fmClient Instal]:     INFO - 	 with market: Asset B, fm_id: 2687, market description: Asset B, tick size: 1
+[2026-01-28 12:39:35,028:     agent.fmClient Instal]:     INFO - 	 with market: Asset C, fm_id: 2688, market description: Asset C, tick size: 1
+[2026-01-28 12:39:35,029:     agent.fmClient Instal]:     INFO - Session: SID:141306:SessionState.OPEN
+[2026-01-28 12:39:35,029:     agent.fmClient Instal]:     INFO - Session id: 141306, your are able to trade 
+
+=============================== Log Started [2026-01-28 12:49:18 GMT] ===============================
+[2026-01-28 12:49:18,213:     agent.fmClient Instal]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-01-28 12:49:18,213:     agent.fmClient Instal]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-01-28 12:49:18,679:     agent.fmClient Instal]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-01-28 12:49:18,961:     agent.fmClient Instal]:     INFO - Requesting initial information for marketplace `1516`
+[2026-01-28 12:49:19,048:     ws.FM.fmClient Instal]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-01-28 12:49:19,316:     agent.fmClient Instal]:     INFO - Initialisation complete. Received marketplace information.
+[2026-01-28 12:49:19,316:     agent.fmClient Instal]:     INFO - I am fmClient Installed Test Robot(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-01-28 12:49:19,316:     agent.fmClient Instal]:     INFO - market place: D002 - Welcome - Practice, marketplace id: 1516, marketplace description: Welcome Trading Game - Practice
+[2026-01-28 12:49:19,316:     agent.fmClient Instal]:     INFO - 	 with market: Asset A, fm_id: 2686, market description: Asset A, tick size: 1
+[2026-01-28 12:49:19,317:     agent.fmClient Instal]:     INFO - 	 with market: Asset B, fm_id: 2687, market description: Asset B, tick size: 1
+[2026-01-28 12:49:19,317:     agent.fmClient Instal]:     INFO - 	 with market: Asset C, fm_id: 2688, market description: Asset C, tick size: 1
+[2026-01-28 12:49:19,317:     agent.fmClient Instal]:     INFO - Session: SID:141306:SessionState.OPEN
+[2026-01-28 12:49:19,317:     agent.fmClient Instal]:     INFO - Session id: 141306, your are able to trade
+[2026-01-28 12:49:19,318:     agent.fmClient Instal]:     INFO - my current settled cash is 200, my current avaliable cash is 200
+[2026-01-28 12:49:19,318:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Market(2686,Asset A,Asset A,False) : Asset(Market(2686,Asset A,Asset A,False),0,5,0,5,True,True)
+[2026-01-28 12:49:19,318:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Market(2687,Asset B,Asset B,False) : Asset(Market(2687,Asset B,Asset B,False),0,5,0,5,True,True)
+[2026-01-28 12:49:19,318:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Market(2688,Asset C,Asset C,False) : Asset(Market(2688,Asset C,Asset C,False),3,8,3,5,True,True)
+
+=============================== Log Started [2026-01-28 12:50:23 GMT] ===============================
+[2026-01-28 12:50:23,144:     agent.fmClient Instal]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-01-28 12:50:23,144:     agent.fmClient Instal]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-01-28 12:50:23,638:     agent.fmClient Instal]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-01-28 12:50:23,908:     agent.fmClient Instal]:     INFO - Requesting initial information for marketplace `1516`
+[2026-01-28 12:50:23,994:     ws.FM.fmClient Instal]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-01-28 12:50:24,257:     agent.fmClient Instal]:     INFO - Initialisation complete. Received marketplace information.
+[2026-01-28 12:50:24,257:     agent.fmClient Instal]:     INFO - I am fmClient Installed Test Robot(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-01-28 12:50:24,257:     agent.fmClient Instal]:     INFO - market place: D002 - Welcome - Practice, marketplace id: 1516, marketplace description: Welcome Trading Game - Practice
+[2026-01-28 12:50:24,257:     agent.fmClient Instal]:     INFO - 	 with market: Asset A, fm_id: 2686, market description: Asset A, tick size: 1
+[2026-01-28 12:50:24,257:     agent.fmClient Instal]:     INFO - 	 with market: Asset B, fm_id: 2687, market description: Asset B, tick size: 1
+[2026-01-28 12:50:24,257:     agent.fmClient Instal]:     INFO - 	 with market: Asset C, fm_id: 2688, market description: Asset C, tick size: 1
+[2026-01-28 12:50:24,258:     agent.fmClient Instal]:     INFO - Session: SID:141306:SessionState.OPEN
+[2026-01-28 12:50:24,258:     agent.fmClient Instal]:     INFO - Session id: 141306, your are able to trade
+[2026-01-28 12:50:24,258:     agent.fmClient Instal]:     INFO - my current settled cash is 200, my current avaliable cash is 200
+[2026-01-28 12:50:24,259:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Asset A : 0
+[2026-01-28 12:50:24,259:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Asset B : 0
+[2026-01-28 12:50:24,259:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Asset C : 3
+
+=============================== Log Started [2026-01-28 12:56:25 GMT] ===============================
+[2026-01-28 12:56:25,326:     agent.fmClient Instal]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-01-28 12:56:25,326:     agent.fmClient Instal]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-01-28 12:56:25,778:     agent.fmClient Instal]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-01-28 12:56:26,056:     agent.fmClient Instal]:     INFO - Requesting initial information for marketplace `1516`
+[2026-01-28 12:56:26,143:     ws.FM.fmClient Instal]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-01-28 12:56:26,404:     agent.fmClient Instal]:     INFO - Initialisation complete. Received marketplace information.
+[2026-01-28 12:56:26,404:     agent.fmClient Instal]:     INFO - I am fmClient Installed Test Robot(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-01-28 12:56:26,404:     agent.fmClient Instal]:     INFO - market place: D002 - Welcome - Practice, marketplace id: 1516, marketplace description: Welcome Trading Game - Practice
+[2026-01-28 12:56:26,404:     agent.fmClient Instal]:     INFO - 	 with market: Asset A, fm_id: 2686, market description: Asset A, tick size: 1
+[2026-01-28 12:56:26,404:     agent.fmClient Instal]:     INFO - 	 with market: Asset B, fm_id: 2687, market description: Asset B, tick size: 1
+[2026-01-28 12:56:26,405:     agent.fmClient Instal]:     INFO - 	 with market: Asset C, fm_id: 2688, market description: Asset C, tick size: 1
+[2026-01-28 12:56:26,405:     agent.fmClient Instal]:     INFO - Session: SID:141306:SessionState.OPEN
+[2026-01-28 12:56:26,405:     agent.fmClient Instal]:     INFO - Session id: 141306, your are able to trade
+[2026-01-28 12:56:26,406:     agent.fmClient Instal]:     INFO - my current settled cash is 200, my current avaliable cash is 200
+[2026-01-28 12:56:26,406:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Asset A : 0
+[2026-01-28 12:56:26,406:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Asset B : 0
+[2026-01-28 12:56:26,406:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Asset C : 3
+[2026-01-28 12:56:59,458:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:56:59,458:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:56:59,458:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:56:59,459:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:56:59,459:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:56:59,459:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:56:59,459:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:56:59,459:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:56:59,459:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,794:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,794:     agent.fmClient Instal]:     INFO - we have a new order : 51501570, this is a CANCEL for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,795:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,795:     agent.fmClient Instal]:     INFO - we have a new order : 51501570, this is a CANCEL for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,795:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,795:     agent.fmClient Instal]:     INFO - we have a new order : 51501570, this is a CANCEL for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,796:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,796:     agent.fmClient Instal]:     INFO - we have a new order : 51501570, this is a CANCEL for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,796:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,796:     agent.fmClient Instal]:     INFO - we have a new order : 51501570, this is a CANCEL for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,796:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,796:     agent.fmClient Instal]:     INFO - we have a new order : 51501570, this is a CANCEL for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,797:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,797:     agent.fmClient Instal]:     INFO - we have a new order : 51501570, this is a CANCEL for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,797:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,797:     agent.fmClient Instal]:     INFO - we have a new order : 51501570, this is a CANCEL for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,797:     agent.fmClient Instal]:     INFO - we have a new order : 51501569, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:11,797:     agent.fmClient Instal]:     INFO - we have a new order : 51501570, this is a CANCEL for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:19,179:     agent.fmClient Instal]:     INFO - we have a new order : 51501571, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:19,179:     agent.fmClient Instal]:     INFO - we have a new order : 51501571, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:19,179:     agent.fmClient Instal]:     INFO - we have a new order : 51501571, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:19,179:     agent.fmClient Instal]:     INFO - we have a new order : 51501571, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:19,179:     agent.fmClient Instal]:     INFO - we have a new order : 51501571, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:19,180:     agent.fmClient Instal]:     INFO - we have a new order : 51501571, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:19,180:     agent.fmClient Instal]:     INFO - we have a new order : 51501571, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:19,180:     agent.fmClient Instal]:     INFO - we have a new order : 51501571, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:19,180:     agent.fmClient Instal]:     INFO - we have a new order : 51501571, this is a LIMIT for Asset B to BUY with 1 units at price 160
+[2026-01-28 12:57:25,142:     agent.fmClient Instal]:     INFO - we have a new order : 51501572, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,143:     agent.fmClient Instal]:     INFO - we have a new order : 51501572, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,143:     agent.fmClient Instal]:     INFO - we have a new order : 51501572, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,143:     agent.fmClient Instal]:     INFO - we have a new order : 51501572, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,143:     agent.fmClient Instal]:     INFO - we have a new order : 51501572, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,143:     agent.fmClient Instal]:     INFO - we have a new order : 51501572, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,143:     agent.fmClient Instal]:     INFO - we have a new order : 51501572, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,143:     agent.fmClient Instal]:     INFO - we have a new order : 51501572, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,143:     agent.fmClient Instal]:     INFO - we have a new order : 51501572, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,750:     agent.fmClient Instal]:     INFO - we have a new order : 51501573, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,750:     agent.fmClient Instal]:     INFO - we have a new order : 51501573, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,750:     agent.fmClient Instal]:     INFO - we have a new order : 51501573, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,750:     agent.fmClient Instal]:     INFO - we have a new order : 51501573, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,751:     agent.fmClient Instal]:     INFO - we have a new order : 51501573, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,751:     agent.fmClient Instal]:     INFO - we have a new order : 51501573, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,751:     agent.fmClient Instal]:     INFO - we have a new order : 51501573, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,751:     agent.fmClient Instal]:     INFO - we have a new order : 51501573, this is a LIMIT for Asset B to BUY with 1 units at price 17
+[2026-01-28 12:57:25,751:     agent.fmClient Instal]:     INFO - we have a new order : 51501573, this is a LIMIT for Asset B to BUY with 1 units at price 17
+
+=============================== Log Started [2026-01-28 12:58:17 GMT] ===============================
+[2026-01-28 12:58:18,000:     agent.fmClient Instal]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-01-28 12:58:18,000:     agent.fmClient Instal]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-01-28 12:58:18,465:     agent.fmClient Instal]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-01-28 12:58:18,742:     agent.fmClient Instal]:     INFO - Requesting initial information for marketplace `1516`
+[2026-01-28 12:58:18,827:     ws.FM.fmClient Instal]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-01-28 12:58:19,091:     agent.fmClient Instal]:     INFO - Initialisation complete. Received marketplace information.
+[2026-01-28 12:58:19,092:     agent.fmClient Instal]:     INFO - I am fmClient Installed Test Robot(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-01-28 12:58:19,092:     agent.fmClient Instal]:     INFO - market place: D002 - Welcome - Practice, marketplace id: 1516, marketplace description: Welcome Trading Game - Practice
+[2026-01-28 12:58:19,092:     agent.fmClient Instal]:     INFO - 	 with market: Asset A, fm_id: 2686, market description: Asset A, tick size: 1
+[2026-01-28 12:58:19,092:     agent.fmClient Instal]:     INFO - 	 with market: Asset B, fm_id: 2687, market description: Asset B, tick size: 1
+[2026-01-28 12:58:19,092:     agent.fmClient Instal]:     INFO - 	 with market: Asset C, fm_id: 2688, market description: Asset C, tick size: 1
+[2026-01-28 12:58:19,093:     agent.fmClient Instal]:     INFO - Session: SID:141306:SessionState.OPEN
+[2026-01-28 12:58:19,093:     agent.fmClient Instal]:     INFO - Session id: 141306, your are able to trade
+[2026-01-28 12:58:19,093:     agent.fmClient Instal]:     INFO - my current settled cash is 200, my current avaliable cash is 200
+[2026-01-28 12:58:19,093:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Asset A : 0
+[2026-01-28 12:58:19,093:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Asset B : 0
+[2026-01-28 12:58:19,093:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Asset C : 3
+[2026-01-28 12:58:19,094:     agent.fmClient Instal]:     INFO - we have a new order : 51501571, this is a LIMIT order for Asset B to BUY 1 units at price 160
+[2026-01-28 12:58:19,094:     agent.fmClient Instal]:     INFO - we have a new order : 51501572, this is a LIMIT order for Asset B to BUY 1 units at price 17
+[2026-01-28 12:58:19,094:     agent.fmClient Instal]:     INFO - we have a new order : 51501573, this is a LIMIT order for Asset B to BUY 1 units at price 17
