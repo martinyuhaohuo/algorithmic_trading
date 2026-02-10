@@ -40,6 +40,7 @@ class FMRobot(Agent):
         self.private_price_1 = None
         self.private_price_2 = None
         self.old_widget_asset = None
+        self.current_widget_asset = None
         self.widget_change = False
         self.description = f"This is {name} bot for {email}"
 
@@ -86,15 +87,14 @@ class FMRobot(Agent):
             self.inform(f"Session id: {session.fm_id}, the session is paused")
 
     def received_holdings(self, holdings: Holding) -> None:
-        self.widget_change = False
         self.inform(f"{self.old_widget_asset}, {self.widget_change}")
         for market, asset in holdings.assets.items():
             if market.fm_id == widget_market_id:
                 current_widget_asset = asset.units
                 if self.old_widget_asset is None:
                     self.old_widget_asset = current_widget_asset
-                elif current_widget_asset != self.old_widget_asset:
-                    self.old_widget_asset = current_widget_asset
+                self.current_widget_asset = current_widget_asset
+                if self.current_widget_asset != self.old_widget_asset:
                     self.widget_change = True
                     self._my_standing_order = None
         self.inform(f"{self.old_widget_asset}, {self.widget_change}")
@@ -143,8 +143,9 @@ class FMRobot(Agent):
     
     def _check_signal_private_sell(self):
         signal = False
-        if self.widget_change:
+        if self.current_widget_asset != self.old_widget_asset:
             signal = True
+            self.old_widget_asset += 1
         else:
             self._cancel_order()
         return signal

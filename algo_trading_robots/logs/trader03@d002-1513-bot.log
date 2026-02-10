@@ -2703,3 +2703,66 @@
 [2026-02-10 23:02:24,890:     agent.fmClient Instal]:     INFO - 14, False
 [2026-02-10 23:02:24,891:     agent.fmClient Instal]:     INFO - 14, False
 [2026-02-10 23:02:24,891:     agent.fmClient Instal]:     INFO - I have CANCEL order accepted by the book: 2026-02-10 23:02:23.644869_3
+
+=============================== Log Started [2026-02-10 23:15:12 GMT] ===============================
+[2026-02-10 23:15:12,323:     agent.fmClient Instal]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-02-10 23:15:12,323:     agent.fmClient Instal]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-02-10 23:15:12,776:     agent.fmClient Instal]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-02-10 23:15:13,047:     agent.fmClient Instal]:     INFO - Requesting initial information for marketplace `1513`
+[2026-02-10 23:15:13,131:     ws.FM.fmClient Instal]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-10 23:15:13,474:     agent.fmClient Instal]:     INFO - Initialisation complete. Received marketplace information.
+[2026-02-10 23:15:13,475:     agent.fmClient Instal]:     INFO - I am fmClient Installed Test Robot(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-02-10 23:15:13,475:     agent.fmClient Instal]:     INFO - 	 with market: Widget Public Market, fm_id: 2681, market description: widget, tick size: 1
+[2026-02-10 23:15:13,475:     agent.fmClient Instal]:     INFO - 	 with market: Private Market, fm_id: 2682, market description: private, tick size: 1
+[2026-02-10 23:15:13,475:     agent.fmClient Instal]:     INFO - Session: SID:141374:SessionState.OPEN
+[2026-02-10 23:15:13,476:     agent.fmClient Instal]:     INFO - Session id: 141374, your are able to trade
+[2026-02-10 23:15:13,476:     agent.fmClient Instal]:     INFO - None, False
+[2026-02-10 23:15:13,476:     agent.fmClient Instal]:     INFO - 14, False
+[2026-02-10 23:15:54,067:     agent.fmClient Instal]:     INFO - I have LIMIT order accepted by the book: 2026-02-10 23:15:53.517465_1
+[2026-02-10 23:15:54,142:     agent.fmClient Instal]:     INFO - 14, False
+[2026-02-10 23:15:54,142:     agent.fmClient Instal]:     INFO - 15, True
+[2026-02-10 23:15:54,682:     agent.fmClient Instal]:     INFO - I have LIMIT order accepted by the book: 2026-02-10 23:15:54.518845_2
+[2026-02-10 23:15:54,751:     agent.fmClient Instal]:     INFO - 15, False
+[2026-02-10 23:15:54,751:     agent.fmClient Instal]:     INFO - 16, True
+[2026-02-10 23:15:54,792:     agent.fmClient Instal]:     INFO - I have LIMIT order accepted by the book: 2026-02-10 23:15:54.519008_3
+[2026-02-10 23:15:54,854:     agent.fmClient Instal]:     INFO - 16, False
+[2026-02-10 23:15:54,854:     agent.fmClient Instal]:     INFO - 16, False
+[2026-02-10 23:15:55,662:     agent.fmClient Instal]:     INFO - I have CANCEL order accepted by the book: 2026-02-10 23:15:54.519008_3
+[2026-02-10 23:15:55,663:     agent.fmClient Instal]:     INFO - 16, False
+[2026-02-10 23:15:55,664:     agent.fmClient Instal]:     INFO - 16, False
+
+=============================== Log Started [2026-02-10 23:24:22 GMT] ===============================
+[2026-02-10 23:24:22,099:     agent.fmClient Instal]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-02-10 23:24:22,100:     agent.fmClient Instal]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-02-10 23:24:22,564:     agent.fmClient Instal]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-02-10 23:24:22,835:     agent.fmClient Instal]:     INFO - Requesting initial information for marketplace `1513`
+[2026-02-10 23:24:22,921:     ws.FM.fmClient Instal]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-10 23:24:23,267:     agent.fmClient Instal]:     INFO - Initialisation complete. Received marketplace information.
+[2026-02-10 23:24:23,268:     agent.fmClient Instal]:     INFO - I am fmClient Installed Test Robot(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-02-10 23:24:23,268:     agent.fmClient Instal]:     INFO - 	 with market: Widget Public Market, fm_id: 2681, market description: widget, tick size: 1
+[2026-02-10 23:24:23,268:     agent.fmClient Instal]:     INFO - 	 with market: Private Market, fm_id: 2682, market description: private, tick size: 1
+[2026-02-10 23:24:23,268:     agent.fmClient Instal]:     INFO - Session: SID:141374:SessionState.OPEN
+[2026-02-10 23:24:23,268:     agent.fmClient Instal]:     INFO - Session id: 141374, your are able to trade
+[2026-02-10 23:24:23,269:     agent.fmClient Instal]:     INFO - None, False
+[2026-02-10 23:24:23,269:     agent.fmClient Instal]:     INFO - 16, False
+[2026-02-10 23:24:50,763:     agent.fmClient Instal]:     INFO - I have LIMIT order accepted by the book: 2026-02-10 23:24:50.297998_1
+[2026-02-10 23:24:50,784:     agent.fmClient Instal]:     INFO - 16, False
+[2026-02-10 23:24:50,785:     agent.fmClient Instal]:     INFO - 16, True
+[2026-02-10 23:24:51,636:     agent.fmClient Instal]:     INFO - I have LIMIT order accepted by the book: 2026-02-10 23:24:51.299195_2
+[2026-02-10 23:24:51,696:     agent.fmClient Instal]:     INFO - 17, True
+[2026-02-10 23:24:51,697:     agent.fmClient Instal]:     INFO - 17, True
+[2026-02-10 23:24:51,752:     agent.fmClient Instal]:     INFO - I have LIMIT order accepted by the book: 2026-02-10 23:24:51.299292_3
+[2026-02-10 23:24:51,798:     agent.fmClient Instal]:     INFO - 17, True
+[2026-02-10 23:24:51,799:     agent.fmClient Instal]:     INFO - 17, True
+[2026-02-10 23:24:52,608:     agent.fmClient Instal]:     INFO - I have LIMIT order accepted by the book: 2026-02-10 23:24:52.300521_4
+[2026-02-10 23:24:52,610:     agent.fmClient Instal]:     INFO - 18, True
+[2026-02-10 23:24:52,610:     agent.fmClient Instal]:     INFO - 18, True
+[2026-02-10 23:24:52,706:     agent.fmClient Instal]:     INFO - I have LIMIT order accepted by the book: 2026-02-10 23:24:52.300670_5
+[2026-02-10 23:24:52,711:     agent.fmClient Instal]:     INFO - 18, True
+[2026-02-10 23:24:52,712:     agent.fmClient Instal]:     INFO - 18, True
+[2026-02-10 23:24:53,578:     agent.fmClient Instal]:     INFO - I have LIMIT order accepted by the book: 2026-02-10 23:24:53.302088_6
+[2026-02-10 23:24:53,623:     agent.fmClient Instal]:     INFO - 19, True
+[2026-02-10 23:24:53,623:     agent.fmClient Instal]:     INFO - 19, True
+[2026-02-10 23:24:54,437:     agent.fmClient Instal]:     INFO - I have CANCEL order accepted by the book: 2026-02-10 23:24:53.302088_6
+[2026-02-10 23:24:54,534:     agent.fmClient Instal]:     INFO - 19, True
+[2026-02-10 23:24:54,535:     agent.fmClient Instal]:     INFO - 19, True
