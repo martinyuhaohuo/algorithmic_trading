@@ -1545,3 +1545,31 @@
 [2026-02-04 12:55:37,268:     agent.fmClient Instal]:     INFO - best standing sell order : 51508255, this is a LIMIT order for Asset A to SELL 1 units at price 489
 [2026-02-04 12:55:37,268:     agent.fmClient Instal]:     INFO - best standing sell order : 51508255, this is a LIMIT order for Asset A to SELL 1 units at price 489
 [2026-02-04 12:55:37,268:     agent.fmClient Instal]:     INFO - best standing sell order : 51508255, this is a LIMIT order for Asset A to SELL 1 units at price 489
+
+=============================== Log Started [2026-02-09 22:29:13 GMT] ===============================
+[2026-02-09 22:29:13,655:     agent.fmClient Instal]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-02-09 22:29:13,655:     agent.fmClient Instal]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-02-09 22:29:14,132:     agent.fmClient Instal]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-02-09 22:29:14,405:     agent.fmClient Instal]:     INFO - Requesting initial information for marketplace `1516`
+[2026-02-09 22:29:14,492:     ws.FM.fmClient Instal]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-09 22:29:14,750:     agent.fmClient Instal]:     INFO - Initialisation complete. Received marketplace information.
+[2026-02-09 22:29:14,751:     agent.fmClient Instal]:     INFO - I am fmClient Installed Test Robot(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-02-09 22:29:14,751:     agent.fmClient Instal]:     INFO - market place: D002 - Welcome - Practice, marketplace id: 1516, marketplace description: Welcome Trading Game - Practice
+[2026-02-09 22:29:14,751:     agent.fmClient Instal]:     INFO - 	 with market: Asset A, fm_id: 2686, market description: Asset A, tick size: 1
+[2026-02-09 22:29:14,751:     agent.fmClient Instal]:     INFO - 	 with market: Asset B, fm_id: 2687, market description: Asset B, tick size: 1
+[2026-02-09 22:29:14,751:     agent.fmClient Instal]:     INFO - 	 with market: Asset C, fm_id: 2688, market description: Asset C, tick size: 1
+[2026-02-09 22:29:14,752:     agent.fmClient Instal]:     INFO - Session: SID:141379:SessionState.OPEN
+[2026-02-09 22:29:14,752:     agent.fmClient Instal]:     INFO - Session id: 141379, your are able to trade
+[2026-02-09 22:29:14,752:     agent.fmClient Instal]:     INFO - my current settled cash is 200, my current avaliable cash is 200
+[2026-02-09 22:29:14,752:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Asset A : 0
+[2026-02-09 22:29:14,752:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Asset B : 0
+[2026-02-09 22:29:14,753:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Asset C : 3
+[2026-02-09 22:29:14,753:     agent.fmClient Instal]:     INFO - we have a new order : 51509777, this is a LIMIT order for Asset A to BUY 1 units at price 1
+[2026-02-09 22:29:14,753:     agent.fmClient Instal]:     INFO - we have a new order : 51509778, this is a LIMIT order for Asset A to BUY 1 units at price 1
+[2026-02-09 22:29:14,753:     agent.fmClient Instal]:     INFO - we have a new order : 51509779, this is a LIMIT order for Asset A to BUY 1 units at price 1
+[2026-02-09 22:29:14,753:     agent.fmClient Instal]:     INFO - we have a new order : 51509780, this is a LIMIT order for Asset A to BUY 1 units at price 1
+[2026-02-09 22:29:14,753:     agent.fmClient Instal]:     INFO - we have a new order : 51509781, this is a LIMIT order for Asset A to BUY 1 units at price 1
+[2026-02-09 22:29:14,754:     agent.fmClient Instal]:     INFO - we have a new order : 51509782, this is a LIMIT order for Asset A to BUY 1 units at price 1
+[2026-02-09 22:29:14,754:     agent.fmClient Instal]:     INFO - we have a new order : 51509783, this is a LIMIT order for Asset A to BUY 1 units at price 1
+[2026-02-09 22:29:14,754:     agent.fmClient Instal]:     INFO - we have a new order : 51509784, this is a LIMIT order for Asset A to BUY 1 units at price 1
+[2026-02-09 22:29:14,754:     agent.fmClient Instal]:     INFO - we have a new order : 51509785, this is a LIMIT order for Asset A to BUY 1 units at price 1

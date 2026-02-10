@@ -29,7 +29,7 @@ class FMRobot(Agent):
         # Initialise the parent class, Agent
         super().__init__(account, email, password, marketplace_id, name=name)
         # self._my_standing_order = pd.DataFrame(columns=["ref", "market", "side", "price", "unit", "order"])
-        self._my_standing_order = None
+        self._my_standing_order = dict()
         self._best_standing_order = {
             "private": {"buy":None, "sell":None},
             "widget": {"buy":None, "sell":None}
@@ -39,8 +39,6 @@ class FMRobot(Agent):
         self.widget_price_2 = None
         self.private_price_1 = None
         self.private_price_2 = None
-        self.old_widget_asset = None
-        self.widget_change = False
         self.description = f"This is {name} bot for {email}"
 
     def initialised(self) -> None:
@@ -49,8 +47,7 @@ class FMRobot(Agent):
             self.inform(f"\t with market: {market.name}, fm_id: {market.fm_id}, market description: {market.description}, tick size: {market.price_tick}")
 
     def pre_start_tasks(self) -> None:
-        self.execute_periodically_conditionally(self._widget_buy, 1, self._check_signal_widget_buy)
-        self.execute_periodically_conditionally(self._private_sell, 1, self._check_signal_private_sell)
+        self.execute_periodically(self._buy_at_low, sleep_time = 1)
     
     def _place_order(self, price, units, side, market_id, target = None) -> None:
         market = Market.get_by_id(market_id)
@@ -69,13 +66,12 @@ class FMRobot(Agent):
         self.order_num += 1
         self.send_order(order = new_order)
     
-    def _cancel_order(self):
-        if self._my_standing_order:
-            cancel_order = copy.copy(
-                self._my_standing_order
-            )
-            cancel_order.order_type = OrderType.CANCEL
-            self.send_order(order = cancel_order)
+    def _cancel_order(self, ref):
+        cancel_order = copy.copy(
+            self._my_standing_order[ref]["order"]
+        )
+        cancel_order.order_type = OrderType.CANCEL
+        self.send_order(order = cancel_order)
 
     def received_session_info(self, session: Session) -> None:
         if session.is_open:
@@ -86,29 +82,20 @@ class FMRobot(Agent):
             self.inform(f"Session id: {session.fm_id}, the session is paused")
 
     def received_holdings(self, holdings: Holding) -> None:
-        self.widget_change = False
-        self.inform(f"{self.old_widget_asset}, {self.widget_change}")
-        for market, asset in holdings.assets.items():
-            if market.fm_id == widget_market_id:
-                current_widget_asset = asset.units
-                if self.old_widget_asset is None:
-                    self.old_widget_asset = current_widget_asset
-                elif current_widget_asset != self.old_widget_asset:
-                    self.old_widget_asset = current_widget_asset
-                    self.widget_change = True
-                    self._my_standing_order = None
-        self.inform(f"{self.old_widget_asset}, {self.widget_change}")
+        pass
         
     def received_orders(self, orders: list[Order]) -> None:
-        self._best_standing_order["private"]["buy"] = None
-        self._best_standing_order["private"]["sell"] = None
-        self._best_standing_order["widget"]["buy"] = None
-        self._best_standing_order["widget"]["sell"] = None
         for order in Order.current().values():
             if order.order_type is OrderType.LIMIT:
                 if order.mine:
-                    if self._my_standing_order is None:
-                        self._my_standing_order = order
+                    if order.ref not in self._my_standing_order.keys():
+                        self._my_standing_order[order.ref] = {
+                            "market": order.market.fm_id, 
+                            "side": order.order_side, 
+                            "price": order.price, 
+                            "unit" : order.units, 
+                            "order": order
+                        }
                 else:
                     if order.market.fm_id == private_market_id:
                         if order.order_side is OrderSide.SELL:
@@ -134,32 +121,27 @@ class FMRobot(Agent):
         signal = False
         best_private_buy = self._best_standing_order["private"]["buy"]
         best_widget_sell = self._best_standing_order["widget"]["sell"]
-        if (best_private_buy is not None) & (best_widget_sell is not None) & (self._my_standing_order is None):
+        if (best_private_buy is not None) & (best_widget_sell is not None):
             if best_private_buy.price >= best_widget_sell.price + 20:
                 signal = True
                 self.widget_price_1 = best_widget_sell.price
                 self.private_price_1 = best_private_buy.price
         return signal
     
-    def _check_signal_private_sell(self):
+    def _check_signal_private_buy(self):
         signal = False
-        if self.widget_change:
-            signal = True
-        else:
-            self._cancel_order()
-        return signal
-            
+
     def _check_signal_widget_sell(self):
         signal = False
         best_private_sell = self._best_standing_order["private"]["sell"]
         best_widget_buy = self._best_standing_order["widget"]["buy"]
-        if (best_private_sell is not None) & (best_widget_buy is not None) & (self._my_standing_order is None):
+        if (best_private_sell is not None) & (best_widget_buy is not None):
             if best_private_sell.price <= best_widget_buy.price - 20:
                 signal = True
                 self.widget_price_2 = best_widget_buy.price
                 self.private_price_2 = best_private_sell.price
         return signal
-    
+
     def _widget_buy(self):
         self._place_order(self.widget_price_1, 1, "buy", widget_market_id)
     
@@ -175,9 +157,15 @@ class FMRobot(Agent):
     def order_accepted(self, order: Order) -> None:
         self.inform(f"I have {order.order_type.name} order accepted by the book: {order.ref}")
         if order.order_type is OrderType.LIMIT:
-            self._my_standing_order = order
+            self._my_standing_order[order.ref] = {
+                "market": order.market.fm_id, 
+                "side": order.order_side, 
+                "price": order.price, 
+                "unit" : order.units, 
+                "order": order
+            }
         elif order.order_type is OrderType.CANCEL:
-            self._my_standing_order = None
+            value = self._my_standing_order.pop(order.ref, None)
 
     def order_rejected(self, info: dict[str, str], order: Order) -> None:
         self.inform(f"I have {order.order_type.name} order rejected by the book: {order.ref}, reason: {info}")

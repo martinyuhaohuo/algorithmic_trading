@@ -1,0 +1,109 @@
+
+=============================== Log Started [2026-02-10 20:11:29 GMT] ===============================
+[2026-02-10 20:11:29,156:     agent.Order Generator]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-02-10 20:11:29,157:     agent.Order Generator]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-02-10 20:11:29,606:     agent.Order Generator]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-02-10 20:11:29,883:     agent.Order Generator]:     INFO - Requesting initial information for marketplace `1513`
+[2026-02-10 20:11:29,969:     ws.FM.Order Generator]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-10 20:11:30,305:     agent.Order Generator]:     INFO - Initialisation complete. Received marketplace information.
+[2026-02-10 20:11:30,306:     agent.Order Generator]:     INFO - I am Order Generator(User(52422,,,yh620@d002,[USER]))
+[2026-02-10 20:11:30,306:     agent.Order Generator]:     INFO - 	 with market: Widget Public Market, fm_id: 2681, market description: widget, tick size: 1
+[2026-02-10 20:11:30,306:     agent.Order Generator]:     INFO - 	 with market: Private Market, fm_id: 2682, market description: private, tick size: 1
+[2026-02-10 20:11:30,308:     agent.Order Generator]:     INFO - Session: SID:141374:SessionState.OPEN
+[2026-02-10 20:11:30,308:     agent.Order Generator]:     INFO - Session id: 141374, your are able to trade
+[2026-02-10 20:11:30,308:     agent.Order Generator]:     INFO - my current settled cash is 20000, my current avaliable cash is 20000
+[2026-02-10 20:11:30,308:     agent.Order Generator]:     INFO - 	 holdings of asset in market Widget Public Market : 0
+[2026-02-10 20:11:30,308:     agent.Order Generator]:     INFO - 	 holdings of asset in market Private Market : 0
+[2026-02-10 20:11:30,399:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: sell_1_600_0
+[2026-02-10 20:11:30,424:     agent.Order Generator]:     INFO - my current settled cash is 20000, my current avaliable cash is 20000
+[2026-02-10 20:11:30,424:     agent.Order Generator]:     INFO - 	 holdings of asset in market Widget Public Market : 0
+[2026-02-10 20:11:30,424:     agent.Order Generator]:     INFO - 	 holdings of asset in market Private Market : 0
+[2026-02-10 20:11:30,490:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: sell_1_620_1
+[2026-02-10 20:11:30,526:     agent.Order Generator]:     INFO - my current settled cash is 20000, my current avaliable cash is 20000
+[2026-02-10 20:11:30,527:     agent.Order Generator]:     INFO - 	 holdings of asset in market Widget Public Market : 0
+[2026-02-10 20:11:30,527:     agent.Order Generator]:     INFO - 	 holdings of asset in market Private Market : 0
+[2026-02-10 20:11:30,583:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: sell_1_650_2
+[2026-02-10 20:11:30,629:     agent.Order Generator]:     INFO - my current settled cash is 20000, my current avaliable cash is 20000
+[2026-02-10 20:11:30,629:     agent.Order Generator]:     INFO - 	 holdings of asset in market Widget Public Market : 0
+[2026-02-10 20:11:30,629:     agent.Order Generator]:     INFO - 	 holdings of asset in market Private Market : 0
+[2026-02-10 20:11:30,677:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: buy_2_700_3
+[2026-02-10 20:11:30,731:     agent.Order Generator]:     INFO - my current settled cash is 20000, my current avaliable cash is 18600
+[2026-02-10 20:11:30,731:     agent.Order Generator]:     INFO - 	 holdings of asset in market Widget Public Market : 0
+[2026-02-10 20:11:30,731:     agent.Order Generator]:     INFO - 	 holdings of asset in market Private Market : 0
+[2026-02-10 20:11:30,768:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: buy_2_10_4
+[2026-02-10 20:11:30,832:     agent.Order Generator]:     INFO - my current settled cash is 20000, my current avaliable cash is 18580
+[2026-02-10 20:11:30,832:     agent.Order Generator]:     INFO - 	 holdings of asset in market Widget Public Market : 0
+[2026-02-10 20:11:30,832:     agent.Order Generator]:     INFO - 	 holdings of asset in market Private Market : 0
+
+=============================== Log Started [2026-02-10 20:12:45 GMT] ===============================
+[2026-02-10 20:12:45,952:     agent.Order Generator]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-02-10 20:12:45,952:     agent.Order Generator]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-02-10 20:12:46,407:     agent.Order Generator]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-02-10 20:12:46,682:     agent.Order Generator]:     INFO - Requesting initial information for marketplace `1513`
+[2026-02-10 20:12:46,768:     ws.FM.Order Generator]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-10 20:12:47,109:     agent.Order Generator]:     INFO - Initialisation complete. Received marketplace information.
+[2026-02-10 20:12:47,109:     agent.Order Generator]:     INFO - I am Order Generator(User(52422,,,yh620@d002,[USER]))
+[2026-02-10 20:12:47,109:     agent.Order Generator]:     INFO - 	 with market: Widget Public Market, fm_id: 2681, market description: widget, tick size: 1
+[2026-02-10 20:12:47,110:     agent.Order Generator]:     INFO - 	 with market: Private Market, fm_id: 2682, market description: private, tick size: 1
+[2026-02-10 20:12:47,111:     agent.Order Generator]:     INFO - Session: SID:141374:SessionState.OPEN
+[2026-02-10 20:12:47,111:     agent.Order Generator]:     INFO - Session id: 141374, your are able to trade
+[2026-02-10 20:12:47,112:     agent.Order Generator]:     INFO - my current settled cash is 20000, my current avaliable cash is 20000
+[2026-02-10 20:12:47,112:     agent.Order Generator]:     INFO - 	 holdings of asset in market Widget Public Market : 0
+[2026-02-10 20:12:47,112:     agent.Order Generator]:     INFO - 	 holdings of asset in market Private Market : 0
+[2026-02-10 20:12:47,201:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: sell_1_600_0
+[2026-02-10 20:12:47,224:     agent.Order Generator]:     INFO - my current settled cash is 20000, my current avaliable cash is 20000
+[2026-02-10 20:12:47,224:     agent.Order Generator]:     INFO - 	 holdings of asset in market Widget Public Market : 0
+[2026-02-10 20:12:47,224:     agent.Order Generator]:     INFO - 	 holdings of asset in market Private Market : 0
+[2026-02-10 20:12:47,292:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: sell_1_620_1
+[2026-02-10 20:12:47,326:     agent.Order Generator]:     INFO - my current settled cash is 20000, my current avaliable cash is 20000
+[2026-02-10 20:12:47,326:     agent.Order Generator]:     INFO - 	 holdings of asset in market Widget Public Market : 0
+[2026-02-10 20:12:47,326:     agent.Order Generator]:     INFO - 	 holdings of asset in market Private Market : 0
+[2026-02-10 20:12:47,385:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: sell_1_650_2
+[2026-02-10 20:12:47,428:     agent.Order Generator]:     INFO - my current settled cash is 20000, my current avaliable cash is 20000
+[2026-02-10 20:12:47,429:     agent.Order Generator]:     INFO - 	 holdings of asset in market Widget Public Market : 0
+[2026-02-10 20:12:47,429:     agent.Order Generator]:     INFO - 	 holdings of asset in market Private Market : 0
+[2026-02-10 20:12:47,479:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: buy_2_700_3
+[2026-02-10 20:12:47,531:     agent.Order Generator]:     INFO - my current settled cash is 20000, my current avaliable cash is 18600
+[2026-02-10 20:12:47,531:     agent.Order Generator]:     INFO - 	 holdings of asset in market Widget Public Market : 0
+[2026-02-10 20:12:47,531:     agent.Order Generator]:     INFO - 	 holdings of asset in market Private Market : 0
+[2026-02-10 20:12:47,571:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: buy_2_10_4
+[2026-02-10 20:12:47,633:     agent.Order Generator]:     INFO - my current settled cash is 20000, my current avaliable cash is 18580
+[2026-02-10 20:12:47,634:     agent.Order Generator]:     INFO - 	 holdings of asset in market Widget Public Market : 0
+[2026-02-10 20:12:47,634:     agent.Order Generator]:     INFO - 	 holdings of asset in market Private Market : 0
+
+=============================== Log Started [2026-02-10 20:13:41 GMT] ===============================
+[2026-02-10 20:13:41,277:     agent.Order Generator]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-02-10 20:13:41,277:     agent.Order Generator]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-02-10 20:13:41,732:     agent.Order Generator]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-02-10 20:13:41,998:     agent.Order Generator]:     INFO - Requesting initial information for marketplace `1513`
+[2026-02-10 20:13:42,084:     ws.FM.Order Generator]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-10 20:13:42,425:     agent.Order Generator]:     INFO - Initialisation complete. Received marketplace information.
+[2026-02-10 20:13:42,425:     agent.Order Generator]:     INFO - I am Order Generator(User(52422,,,yh620@d002,[USER]))
+[2026-02-10 20:13:42,425:     agent.Order Generator]:     INFO - 	 with market: Widget Public Market, fm_id: 2681, market description: widget, tick size: 1
+[2026-02-10 20:13:42,425:     agent.Order Generator]:     INFO - 	 with market: Private Market, fm_id: 2682, market description: private, tick size: 1
+[2026-02-10 20:13:42,427:     agent.Order Generator]:     INFO - Session: SID:141374:SessionState.OPEN
+[2026-02-10 20:13:42,427:     agent.Order Generator]:     INFO - Session id: 141374, your are able to trade
+[2026-02-10 20:13:42,520:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: sell_1_600_0
+[2026-02-10 20:13:42,637:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: sell_1_620_1
+[2026-02-10 20:13:42,731:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: sell_1_650_2
+[2026-02-10 20:13:42,822:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: buy_2_700_3
+[2026-02-10 20:13:42,914:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: buy_2_10_4
+
+=============================== Log Started [2026-02-10 21:28:14 GMT] ===============================
+[2026-02-10 21:28:14,971:     agent.Order Generator]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-02-10 21:28:14,972:     agent.Order Generator]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-02-10 21:28:15,429:     agent.Order Generator]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-02-10 21:28:15,701:     agent.Order Generator]:     INFO - Requesting initial information for marketplace `1513`
+[2026-02-10 21:28:15,787:     ws.FM.Order Generator]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-10 21:28:16,130:     agent.Order Generator]:     INFO - Initialisation complete. Received marketplace information.
+[2026-02-10 21:28:16,131:     agent.Order Generator]:     INFO - I am Order Generator(User(52422,,,yh620@d002,[USER]))
+[2026-02-10 21:28:16,131:     agent.Order Generator]:     INFO - 	 with market: Widget Public Market, fm_id: 2681, market description: widget, tick size: 1
+[2026-02-10 21:28:16,131:     agent.Order Generator]:     INFO - 	 with market: Private Market, fm_id: 2682, market description: private, tick size: 1
+[2026-02-10 21:28:16,133:     agent.Order Generator]:     INFO - Session: SID:141374:SessionState.OPEN
+[2026-02-10 21:28:16,133:     agent.Order Generator]:     INFO - Session id: 141374, your are able to trade
+[2026-02-10 21:28:16,227:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: sell_1_600_0
+[2026-02-10 21:28:16,318:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: sell_1_620_1
+[2026-02-10 21:28:16,409:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: sell_1_650_2
+[2026-02-10 21:28:16,499:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: buy_2_700_3
+[2026-02-10 21:28:16,593:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: buy_2_10_4
+[2026-02-10 21:28:16,685:     agent.Order Generator]:     INFO - I have LIMIT order accepted by the book: buy_1_5_5
