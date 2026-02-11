@@ -1,8 +1,6 @@
 # The Imports
-
 import copy
 import logging #used to create all the robot logs
-
 from fmclient import Agent, Market, Holding, Session, Order, OrderType, OrderSide
 import pandas as pd
 import time
@@ -10,38 +8,39 @@ from datetime import datetime
 
 
 # Flex-E-Market credential
-
 FM_ACCOUNT = "fain-premium"
 FM_EMAIL = "trader03@d002"
 FM_PASSWORD = "LIPNE"
-ROBOT_NAME = "fmClient Installed Test Robot"
+ROBOT_NAME = "fmClient Trade Robot 2"
 FM_MARKETPLACE_ID = 1513
 widget_market_id = 2681
 private_market_id = 2682
 target_id = "M000"
+margin = 10
 
 
 # The Base Robot Class definition
-
 class FMRobot(Agent):
 
     def __init__(self, account: str, email: str, password: str, marketplace_id: int, name: str = 'FMRobot'):
         # Initialise the parent class, Agent
         super().__init__(account, email, password, marketplace_id, name=name)
         # self._my_standing_order = pd.DataFrame(columns=["ref", "market", "side", "price", "unit", "order"])
-        self._my_standing_order = None
         self._best_standing_order = {
             "private": {"buy":None, "sell":None},
             "widget": {"buy":None, "sell":None}
             }
         self.order_num = 1
+
         self.widget_price_1 = None
         self.widget_price_2 = None
         self.private_price_1 = None
         self.private_price_2 = None
-        self.old_widget_asset = None
-        self.current_widget_asset = None
-        self.widget_change = False
+
+        self._my_standing_widget_order = None
+        self._my_standing_private_order = None
+        self._placing_order = False
+
         self.description = f"This is {name} bot for {email}"
 
     def initialised(self) -> None:
@@ -52,7 +51,9 @@ class FMRobot(Agent):
     def pre_start_tasks(self) -> None:
         self.execute_periodically_conditionally(self._widget_buy, 1, self._check_signal_widget_buy)
         self.execute_periodically_conditionally(self._private_sell, 1, self._check_signal_private_sell)
-    
+        self.execute_periodically_conditionally(self._widget_sell, 1, self._check_signal_widget_sell)
+        self.execute_periodically_conditionally(self._private_buy, 1, self._check_signal_private_buy)
+
     def _place_order(self, price, units, side, market_id, target = None) -> None:
         market = Market.get_by_id(market_id)
         new_order = Order.create_new(market = market)
@@ -71,10 +72,9 @@ class FMRobot(Agent):
         self.send_order(order = new_order)
     
     def _cancel_order(self):
-        if self._my_standing_order:
-            cancel_order = copy.copy(
-                self._my_standing_order
-            )
+        if self._my_standing_widget_order is not None:
+            order = self._my_standing_widget_order
+            cancel_order = copy.copy(order)
             cancel_order.order_type = OrderType.CANCEL
             self.send_order(order = cancel_order)
 
@@ -87,17 +87,8 @@ class FMRobot(Agent):
             self.inform(f"Session id: {session.fm_id}, the session is paused")
 
     def received_holdings(self, holdings: Holding) -> None:
-        self.inform(f"{self.old_widget_asset}, {self.widget_change}")
-        for market, asset in holdings.assets.items():
-            if market.fm_id == widget_market_id:
-                current_widget_asset = asset.units
-                if self.old_widget_asset is None:
-                    self.old_widget_asset = current_widget_asset
-                self.current_widget_asset = current_widget_asset
-                if self.current_widget_asset != self.old_widget_asset:
-                    self.widget_change = True
-                    self._my_standing_order = None
-        self.inform(f"{self.old_widget_asset}, {self.widget_change}")
+        # self.inform(f"{self._my_standing_widget_order}, {self._my_standing_private_order}, {self._placing_order}")
+        pass 
         
     def received_orders(self, orders: list[Order]) -> None:
         self._best_standing_order["private"]["buy"] = None
@@ -107,8 +98,7 @@ class FMRobot(Agent):
         for order in Order.current().values():
             if order.order_type is OrderType.LIMIT:
                 if order.mine:
-                    if self._my_standing_order is None:
-                        self._my_standing_order = order
+                    self._my_standing_order = order
                 else:
                     if order.market.fm_id == private_market_id:
                         if order.order_side is OrderSide.SELL:
@@ -134,31 +124,66 @@ class FMRobot(Agent):
         signal = False
         best_private_buy = self._best_standing_order["private"]["buy"]
         best_widget_sell = self._best_standing_order["widget"]["sell"]
-        if (best_private_buy is not None) & (best_widget_sell is not None) & (self._my_standing_order is None):
-            if best_private_buy.price >= best_widget_sell.price + 20:
+        self.inform(f"this is widget buy")
+        self.inform(f"{best_private_buy}, {best_widget_sell}, {self._my_standing_private_order}, {self._my_standing_widget_order}, {self._placing_order}")
+        if ((best_private_buy is not None) & 
+            (best_widget_sell is not None) & 
+            (self._my_standing_private_order is None) & 
+            (self._my_standing_widget_order is None) & 
+            (self._placing_order is False)
+            ):
+            if best_private_buy.price >= best_widget_sell.price + margin:
                 signal = True
                 self.widget_price_1 = best_widget_sell.price
                 self.private_price_1 = best_private_buy.price
+                self._placing_order = True
+        self.inform(f"{best_private_buy}, {best_widget_sell}, {self._my_standing_private_order}, {self._my_standing_widget_order}, {self._placing_order}")
         return signal
-    
-    def _check_signal_private_sell(self):
-        signal = False
-        if self.current_widget_asset != self.old_widget_asset:
-            signal = True
-            self.old_widget_asset += 1
-        else:
-            self._cancel_order()
-        return signal
-            
+
     def _check_signal_widget_sell(self):
         signal = False
         best_private_sell = self._best_standing_order["private"]["sell"]
         best_widget_buy = self._best_standing_order["widget"]["buy"]
-        if (best_private_sell is not None) & (best_widget_buy is not None) & (self._my_standing_order is None):
-            if best_private_sell.price <= best_widget_buy.price - 20:
+        self.inform(f"this is widget sell")
+        self.inform(f"{best_private_sell}, {best_widget_buy}, {self._my_standing_private_order}, {self._my_standing_widget_order}, {self._placing_order}")
+        if ((best_private_sell is not None) & 
+            (best_widget_buy is not None) & 
+            (self._my_standing_private_order is None) & 
+            (self._my_standing_widget_order is None) & 
+            (self._placing_order is False)
+            ):
+            if best_private_sell.price <= best_widget_buy.price - margin:
                 signal = True
                 self.widget_price_2 = best_widget_buy.price
                 self.private_price_2 = best_private_sell.price
+                self._placing_order = True
+        self.inform(f"{best_private_sell}, {best_widget_buy}, {self._my_standing_private_order}, {self._my_standing_widget_order}, {self._placing_order}")
+        return signal
+    
+    def _check_signal_private_sell(self):
+        signal = False
+        self.inform(f"this is private sell")
+        self.inform(f"{self._best_standing_order["private"]["buy"]}, {self._best_standing_order["widget"]["sell"]}, {self._my_standing_private_order}, {self._my_standing_widget_order}, {self._placing_order}, {self._my_standing_widget_order.has_traded}")
+        if self._my_standing_widget_order is not None:
+            if self._placing_order is False:
+                if self._my_standing_widget_order.has_traded:
+                    if self._my_standing_widget_order.order_side is OrderSide.BUY:
+                        signal = True
+                        self._placing_order = True
+                        self._my_standing_widget_order = None
+        return signal
+    
+    def _check_signal_private_buy(self):
+        signal = False
+        self.inform(f"this is private buy")
+        self.inform(f"{self._best_standing_order["private"]["sell"]}, {self._best_standing_order["widget"]["buy"]}, {self._my_standing_private_order}, {self._my_standing_widget_order}, {self._placing_order}, {self._my_standing_widget_order.has_traded}")
+        if self._my_standing_widget_order is not None:
+            if self._placing_order is False:
+                if self._my_standing_widget_order.has_traded:
+                    if self._my_standing_widget_order.order_side is OrderSide.SELL:
+                        signal = True
+                        self._placing_order = True
+                        self._my_standing_widget_order = None
         return signal
     
     def _widget_buy(self):
@@ -176,12 +201,22 @@ class FMRobot(Agent):
     def order_accepted(self, order: Order) -> None:
         self.inform(f"I have {order.order_type.name} order accepted by the book: {order.ref}")
         if order.order_type is OrderType.LIMIT:
-            self._my_standing_order = order
+            if order.market.fm_id == private_market_id:
+                self._my_standing_private_order = None
+                self._placing_order = False
+            elif order.market.fm_id == widget_market_id:
+                self._my_standing_widget_order = order
+                self._placing_order = False
+        
         elif order.order_type is OrderType.CANCEL:
-            self._my_standing_order = None
+            if order.market.fm_id == private_market_id:
+                self._my_standing_private_order = None
+            elif order.market.fm_id == widget_market_id:
+                self._my_standing_widget_order = None
 
     def order_rejected(self, info: dict[str, str], order: Order) -> None:
         self.inform(f"I have {order.order_type.name} order rejected by the book: {order.ref}, reason: {info}")
+        self._placing_order = False
 
 # The dunder name equals dunder main
 if __name__ == "__main__":
