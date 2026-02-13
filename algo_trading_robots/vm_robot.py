@@ -16,8 +16,8 @@ FM_MARKETPLACE_ID = 1513
 
 widget_market_id = 2681
 private_market_id = 2682
-# target_id = "M000"
-target_id = "yh" # test mode
+target_id = "M000"
+# target_id = "yh" # test mode
 max_margin = 18
 min_margin = 12
 
@@ -123,7 +123,7 @@ class FMRobot(Agent):
             self.last_P_PB = None
             self.last_P_PA = None
         
-        if self.timing > 60:
+        if self.timing > 160:
             self._widget_sell_signal = False
             self._widget_buy_signal = False
         
@@ -148,21 +148,23 @@ class FMRobot(Agent):
                 self._wait_time = 0
                 self.margin = max_margin
                 if self._current_standing_order.order_side is OrderSide.BUY:
+                    self.inform(f"I have placed private order")
                     self._place_order(self.P_PB, 1, "sell", private_market_id, target = target_id)
                     self._current_standing_order = None
                     self._order_placing_signal = True
                 elif self._current_standing_order.order_side is OrderSide.SELL:
+                    self.inform(f"I have placed private order")
                     self._place_order(self.P_PA, 1, "buy", private_market_id, target = target_id)
                     self._current_standing_order = None
                     self._order_placing_signal = True
             # If the traded standing order is in private market, just set current standing order back to None, socan pose order in widget market in future
             elif self._current_standing_order.market.fm_id == private_market_id:
                 self._current_standing_order = None
-        # Reduce ask price / increase bid price after every 5 seconds
+        # Reduce ask price / increase bid price after every 10 seconds
         elif self._current_standing_order.has_traded is False:
             if self._current_standing_order.market.fm_id == widget_market_id:
                 self._wait_time += 1
-                if self._wait_time % 5 == 0:
+                if self._wait_time % 10 == 0:
                     cancel_order = copy.copy(self._current_standing_order)
                     cancel_order.order_type = OrderType.CANCEL
                     self.send_order(order = cancel_order)
