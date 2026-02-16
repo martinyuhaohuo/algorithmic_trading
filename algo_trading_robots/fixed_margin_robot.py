@@ -16,10 +16,10 @@ FM_MARKETPLACE_ID = 1513
 
 widget_market_id = 2681
 private_market_id = 2682
-target_id = "M000"
-# target_id = "yh" # test mode
-max_margin = 18
-min_margin = 12
+# target_id = "M000"
+target_id = "yh" # test mode
+margin = 15
+timing = 50
 
 # The robot class
 class FMRobot(Agent):
@@ -29,17 +29,16 @@ class FMRobot(Agent):
         super().__init__(account, email, password, marketplace_id, name=name)
         self.P_PB = None
         self.P_PA = None
+        self.last_P_PB = None
+        self.last_P_PA = None
         self._widget_buy_signal = False
         self._widget_sell_signal = False
         self._order_placing_signal = False
         self._current_standing_order = None
-        self._wait_time = 0
-        self.margin = max_margin
-
-        self.last_P_PB = None
-        self.last_P_PA = None
         self.timing = 0
-
+        self.widget_asset = 0
+        self.private_asset = 0
+        self.holding_imbalance = False
         self.description = f"This is {name} bot for {email}"
 
     def initialised(self) -> None:
@@ -47,7 +46,8 @@ class FMRobot(Agent):
         for market in self.markets.values():
             self.inform(f"\t with market: {market.name}, fm_id: {market.fm_id}, market description: {market.description}, tick size: {market.price_tick}")
 
-    def pre_start_tasks(self) -> None:
+    def pre_start_tasks(self):
+        # Periodic functions: check if there is private signal -> place widget ask / bid order -> check if widget order is taken -> place private bid / ask order
         self.execute_periodically(self._check_private_market, 1)
         self.execute_periodically(self._place_widget_order, 1)
         self.execute_periodically_conditionally(self._check_trade_success, 1, condition=lambda: self._current_standing_order is not None)
@@ -68,6 +68,7 @@ class FMRobot(Agent):
             new_order.owner_or_target = target
         new_order.ref = f"Market: {market}, Order Type: {new_order.order_type}, Side: {new_order.order_side}, Unit: {new_order.units}, Price: {new_order.price}"
         self.send_order(order = new_order)
+        self.inform(f"Placed order: {new_order}")
 
     def received_session_info(self, session: Session) -> None:
         # Inform session start, closed, or paused
@@ -83,6 +84,10 @@ class FMRobot(Agent):
         self.inform(f"settled cash: {holdings.cash}, avaliable cash: {holdings.cash_available}")
         for market, asset in holdings.assets.items():
             self.inform(f"\t asset in market {market.name} : {asset.units}")
+            if market.fm_id == widget_market_id:
+                self.widget_asset = asset.units
+            elif market.fm_id == private_market_id:
+                self.private_asset = asset.units
         
     def received_orders(self, orders: list[Order]) -> None:
         # Update best bid and ask price in private market each time when orders are updated 
@@ -102,13 +107,13 @@ class FMRobot(Agent):
                                 self.P_PB = order.price
 
     def _check_private_market(self):
+        # Count the time that private signal has remained unchanged
         if self.last_P_PB is not None and self.P_PB is not None and self.last_P_PB == self.P_PB:
             self.timing += 1
         elif self.last_P_PA is not None and self.P_PA is not None and self.last_P_PA == self.P_PA:
             self.timing += 1
         else:
             self.timing = 0
-
         # Check best bid and ask in private market, determine whether buy or sell in the widget market
         if self.P_PB is not None:
             self._widget_buy_signal = True
@@ -125,61 +130,82 @@ class FMRobot(Agent):
             self._widget_buy_signal = False
             self.last_P_PB = None
             self.last_P_PA = None
-        
-        if self.timing > 100:
+        # If the private signal remain unchanged for > pre-specified time, cancel standing order in widget market, wait for next private signal
+        if self.timing > timing:
             self._widget_sell_signal = False
             self._widget_buy_signal = False
+            if self._current_standing_order is not None:
+                if self._current_standing_order.market.fm_id == widget_market_id:
+                    self._cancel_order(self._current_standing_order)
         
+        # After cancelling widget order, if holding is unbalanced, place private order to balance it
+        if self.timing > timing + 5:
+            if self.widget_asset + self.private_asset > 0:
+                self.inform(f"The holding is unbalanced at the time of cancelling all order, place private order to balance the holding")
+                self._place_order(self.P_PB, 1, "sell", private_market_id, target = target_id)
+                self._current_standing_order = None
+                self._order_placing_signal = True
+            elif self.widget_asset + self.private_asset < 0:
+                self.inform(f"The holding is unbalanced at the time of cancelling all order, place private order to balance the holding")
+                self._place_order(self.P_PA, 1, "buy", private_market_id, target = target_id)
+                self._current_standing_order = None
+                self._order_placing_signal = True
+            else:
+                self.inform(f"The holding is balanced")
+
+
+    def _cancel_order(self, order):
+        # Cancel a specified order
+        cancel_order = copy.copy(order)
+        cancel_order.order_type = OrderType.CANCEL
+        self.send_order(order = cancel_order)
+        self.inform(f"Cancel order sent, order: {self._current_standing_order}")
     
     def _place_widget_order(self):
         # Check the signal of buy / sell widget, conduct instructed action (send bid order / sell order in widget market)
         if self._widget_buy_signal is True and self._widget_sell_signal is False:
             if self._order_placing_signal is False and self._current_standing_order is None:
-                self._place_order(self.P_PB - self.margin, 1, "buy", widget_market_id)
+                self._place_order(self.P_PB - margin, 1, "buy", widget_market_id)
                 self._order_placing_signal = True
         elif self._widget_buy_signal is False and self._widget_sell_signal is True:
             if self._order_placing_signal is False and self._current_standing_order is None:
-                self._place_order(self.P_PA + self.margin, 1, "sell", widget_market_id)
+                self._place_order(self.P_PA + margin, 1, "sell", widget_market_id)
                 self._order_placing_signal = True
     
     def _check_trade_success(self):
+        self.inform(f"Current standing order: {self._current_standing_order}, traded: {self._current_standing_order.has_traded}")
         # Check if the standing order is traded
         if self._current_standing_order.has_traded is True:
             self.inform(f"I have order traded: {self._current_standing_order.ref}")
             # If the traded standing order is in widget market, pose bid/ask order in privte market to earn margin
             if self._current_standing_order.market.fm_id == widget_market_id:
-                self._wait_time = 0
-                self.margin = max_margin
                 if self._current_standing_order.order_side is OrderSide.BUY:
-                    self.inform(f"I have placed private order")
                     self._place_order(self.P_PB, 1, "sell", private_market_id, target = target_id)
                     self._current_standing_order = None
                     self._order_placing_signal = True
                 elif self._current_standing_order.order_side is OrderSide.SELL:
-                    self.inform(f"I have placed private order")
                     self._place_order(self.P_PA, 1, "buy", private_market_id, target = target_id)
                     self._current_standing_order = None
                     self._order_placing_signal = True
             # If the traded standing order is in private market, just set current standing order back to None, socan pose order in widget market in future
             elif self._current_standing_order.market.fm_id == private_market_id:
                 self._current_standing_order = None
-        # Reduce ask price / increase bid price after every 10 seconds
-        elif self._current_standing_order.has_traded is False:
-            if self._current_standing_order.market.fm_id == widget_market_id:
-                self._wait_time += 1
-                if self._wait_time % 10 == 0:
-                    cancel_order = copy.copy(self._current_standing_order)
-                    cancel_order.order_type = OrderType.CANCEL
-                    self.send_order(order = cancel_order)
-                    if self.margin > min_margin:
-                        self.margin = self.margin - 2
-                    # When margin reaches minimum, adjust back to maximum
-                    elif self.margin <= min_margin:
-                        self.margin = max_margin
+        # It might be the case that widget order traded but the attribute not updated, in such case, using current holding to determine whether order is taken
+        elif self.widget_asset + self.private_asset > 0:
+            self.inform(f"I have order traded: {self._current_standing_order.ref}")
+            self._place_order(self.P_PB, 1, "sell", private_market_id, target = target_id)
+            self._current_standing_order = None
+            self._order_placing_signal = True
+        elif self.widget_asset + self.private_asset < 0:
+            self.inform(f"I have order traded: {self._current_standing_order.ref}")
+            self._place_order(self.P_PA, 1, "buy", private_market_id, target = target_id)
+            self._current_standing_order = None
+            self._order_placing_signal = True
                 
+
     def order_accepted(self, order: Order) -> None:
         # If order accepted, set current standing order to the approved order, set order placing signal to false
-        self.inform(f"I have order accepted by the book: {order.ref}")
+        self.inform(f"I have {order.order_type} order accepted by the book: {order.ref}")
         if order.order_type is OrderType.LIMIT:
             self._current_standing_order = order
             self._order_placing_signal = False

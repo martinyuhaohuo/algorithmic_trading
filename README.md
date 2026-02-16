@@ -5,4 +5,5 @@ A repository for algorithmic trading class notes and codes.
 source activate_venv.sh
 
 # run test robot
-python Test_Robot.py
+python algo_trading_robots/fixed_margin_robot.py
+

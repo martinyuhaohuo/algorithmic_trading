@@ -1010,3 +1010,1116 @@
 [2026-02-13 20:20:19,300:     agent.fmClient Trade ]:     INFO - Session id: 141399, the session is paused
 [2026-02-13 20:20:21,322:     agent.fmClient Trade ]:     INFO - Session: SID:141399:SessionState.CLOSED
 [2026-02-13 20:20:21,322:     agent.fmClient Trade ]:     INFO - Session id: 141399, the session is closed
+
+=============================== Log Started [2026-02-14 20:00:42 GMT] ===============================
+[2026-02-14 20:00:42,655:     agent.fmClient Trade ]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-02-14 20:00:42,656:     agent.fmClient Trade ]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-02-14 20:00:43,128:     agent.fmClient Trade ]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-02-14 20:00:43,398:     agent.fmClient Trade ]:     INFO - Requesting initial information for marketplace `1513`
+[2026-02-14 20:00:43,484:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-14 20:00:43,835:     agent.fmClient Trade ]:     INFO - Initialisation complete. Received marketplace information.
+[2026-02-14 20:00:43,836:     agent.fmClient Trade ]:     INFO - I am fmClient Trade Robot 000(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-02-14 20:00:43,836:     agent.fmClient Trade ]:     INFO - 	 with market: Widget Public Market, fm_id: 2681, market description: widget, tick size: 1
+[2026-02-14 20:00:43,836:     agent.fmClient Trade ]:     INFO - 	 with market: Private Market, fm_id: 2682, market description: private, tick size: 1
+[2026-02-14 20:00:43,836:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.OPEN
+[2026-02-14 20:00:43,836:     agent.fmClient Trade ]:     INFO - Session id: 141424, your are able to trade
+[2026-02-14 20:00:44,940:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 73
+[2026-02-14 20:00:55,105:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 73
+[2026-02-14 20:00:55,955:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 71
+[2026-02-14 20:01:06,118:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 71
+[2026-02-14 20:01:06,971:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 69
+[2026-02-14 20:01:17,137:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 69
+[2026-02-14 20:01:17,990:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 67
+[2026-02-14 20:01:28,153:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 67
+[2026-02-14 20:01:29,005:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 73
+[2026-02-14 20:01:39,163:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 73
+[2026-02-14 20:01:40,015:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 71
+[2026-02-14 20:01:50,177:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 71
+[2026-02-14 20:01:51,028:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 69
+[2026-02-14 20:02:01,193:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 69
+[2026-02-14 20:02:02,049:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 67
+[2026-02-14 20:02:12,211:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 67
+[2026-02-14 20:02:13,061:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 73
+[2026-02-14 20:02:23,222:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 73
+[2026-02-14 20:02:24,072:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 71
+[2026-02-14 20:02:34,229:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 71
+[2026-02-14 20:02:35,079:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 69
+[2026-02-14 20:02:45,246:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 69
+[2026-02-14 20:02:46,096:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 67
+[2026-02-14 20:02:56,255:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 67
+[2026-02-14 20:02:57,106:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 73
+[2026-02-14 20:03:07,264:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 73
+[2026-02-14 20:03:08,115:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 71
+[2026-02-14 20:03:18,276:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 71
+[2026-02-14 20:03:19,126:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 69
+[2026-02-14 20:03:29,279:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 69
+[2026-02-14 20:03:33,137:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 397
+[2026-02-14 20:03:43,297:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 397
+[2026-02-14 20:03:44,146:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 403
+[2026-02-14 20:03:54,305:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 403
+[2026-02-14 20:03:55,155:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 401
+[2026-02-14 20:04:05,316:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 401
+[2026-02-14 20:04:06,162:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 399
+[2026-02-14 20:04:16,321:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 399
+[2026-02-14 20:04:17,169:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 397
+[2026-02-14 20:04:27,328:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 397
+[2026-02-14 20:04:28,179:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 403
+[2026-02-14 20:04:38,336:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 403
+[2026-02-14 20:04:39,185:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 401
+[2026-02-14 20:04:49,346:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 401
+[2026-02-14 20:04:50,446:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 399
+[2026-02-14 20:05:00,360:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 399
+[2026-02-14 20:05:01,209:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 397
+[2026-02-14 20:05:11,362:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 397
+[2026-02-14 20:05:12,463:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 403
+[2026-02-14 20:05:22,370:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 403
+[2026-02-14 20:05:23,471:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 401
+[2026-02-14 20:05:33,375:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 401
+[2026-02-14 20:05:34,474:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 399
+[2026-02-14 20:05:44,376:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 399
+[2026-02-14 20:05:45,473:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 397
+[2026-02-14 20:05:55,379:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 397
+[2026-02-14 20:05:56,478:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 403
+[2026-02-14 20:06:06,379:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 403
+[2026-02-14 20:06:07,476:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 401
+[2026-02-14 20:06:17,378:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 401
+[2026-02-14 20:06:52,639:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 638
+[2026-02-14 20:07:02,547:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 638
+[2026-02-14 20:07:03,397:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 640
+[2026-02-14 20:07:13,554:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 640
+[2026-02-14 20:07:14,401:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 634
+[2026-02-14 20:07:24,560:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 634
+[2026-02-14 20:07:25,407:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 636
+[2026-02-14 20:07:35,560:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 636
+[2026-02-14 20:07:36,406:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 638
+[2026-02-14 20:07:46,563:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 638
+[2026-02-14 20:07:47,411:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 640
+[2026-02-14 20:07:57,571:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 640
+[2026-02-14 20:07:58,420:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 634
+[2026-02-14 20:08:08,580:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 634
+[2026-02-14 20:08:09,426:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 636
+[2026-02-14 20:08:19,581:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 636
+[2026-02-14 20:08:20,429:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 638
+[2026-02-14 20:08:30,585:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 638
+[2026-02-14 20:08:31,430:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 640
+[2026-02-14 20:08:41,583:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 640
+[2026-02-14 20:08:42,680:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 634
+[2026-02-14 20:08:52,584:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 634
+[2026-02-14 20:08:53,683:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 636
+[2026-02-14 20:09:03,587:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 636
+[2026-02-14 20:09:04,683:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 638
+[2026-02-14 20:09:07,375:     agent.fmClient Trade ]:     INFO - I have order traded: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 638
+[2026-02-14 20:09:07,376:     agent.fmClient Trade ]:     INFO - I have placed private order
+[2026-02-14 20:09:07,555:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2682,private,Private Market,True), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 652
+[2026-02-14 20:09:08,376:     agent.fmClient Trade ]:     INFO - I have order traded: Market: Market(2682,private,Private Market,True), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 652
+[2026-02-14 20:09:09,655:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 634
+[2026-02-14 20:09:10,379:     agent.fmClient Trade ]:     INFO - I have order traded: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 634
+[2026-02-14 20:09:10,379:     agent.fmClient Trade ]:     INFO - I have placed private order
+[2026-02-14 20:09:10,523:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2682,private,Private Market,True), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 652
+[2026-02-14 20:09:11,380:     agent.fmClient Trade ]:     INFO - I have order traded: Market: Market(2682,private,Private Market,True), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 652
+[2026-02-14 20:09:12,642:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 634
+[2026-02-14 20:09:22,541:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 634
+[2026-02-14 20:09:23,638:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 636
+[2026-02-14 20:09:33,539:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 636
+[2026-02-14 20:10:12,811:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 818
+[2026-02-14 20:10:13,447:     agent.fmClient Trade ]:     INFO - I have order traded: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 818
+[2026-02-14 20:10:13,447:     agent.fmClient Trade ]:     INFO - I have placed private order
+[2026-02-14 20:10:13,672:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2682,private,Private Market,True), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 832
+[2026-02-14 20:10:14,448:     agent.fmClient Trade ]:     INFO - I have order traded: Market: Market(2682,private,Private Market,True), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 832
+[2026-02-14 20:10:15,775:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 814
+[2026-02-14 20:10:16,451:     agent.fmClient Trade ]:     INFO - I have order traded: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 814
+[2026-02-14 20:10:16,451:     agent.fmClient Trade ]:     INFO - I have placed private order
+[2026-02-14 20:10:16,633:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2682,private,Private Market,True), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 832
+[2026-02-14 20:10:17,452:     agent.fmClient Trade ]:     INFO - I have order traded: Market: Market(2682,private,Private Market,True), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 832
+[2026-02-14 20:10:18,736:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 814
+[2026-02-14 20:10:28,643:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 814
+[2026-02-14 20:10:29,742:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 816
+[2026-02-14 20:10:39,642:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 816
+[2026-02-14 20:10:40,738:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 818
+[2026-02-14 20:10:50,639:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 818
+[2026-02-14 20:10:51,743:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 820
+[2026-02-14 20:11:01,655:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 820
+[2026-02-14 20:11:02,752:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 814
+[2026-02-14 20:11:12,655:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 814
+[2026-02-14 20:11:13,754:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 816
+[2026-02-14 20:11:23,656:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 816
+[2026-02-14 20:11:24,753:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 818
+[2026-02-14 20:11:34,655:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 818
+[2026-02-14 20:11:35,754:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 820
+[2026-02-14 20:11:45,950:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 820
+[2026-02-14 20:11:47,062:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 814
+[2026-02-14 20:11:56,711:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 814
+[2026-02-14 20:11:57,807:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 816
+[2026-02-14 20:12:07,708:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 816
+[2026-02-14 20:12:08,807:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 818
+[2026-02-14 20:12:18,708:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 818
+[2026-02-14 20:12:19,808:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 820
+[2026-02-14 20:12:29,709:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 820
+[2026-02-14 20:12:30,807:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 814
+[2026-02-14 20:12:40,975:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 814
+[2026-02-14 20:12:41,820:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 816
+[2026-02-14 20:12:51,982:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 816
+[2026-02-14 20:12:52,832:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 818
+[2026-02-14 20:13:02,986:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 818
+[2026-02-14 20:13:34,277:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 117
+[2026-02-14 20:13:43,919:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 117
+[2026-02-14 20:13:44,774:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 123
+[2026-02-14 20:13:54,939:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 123
+[2026-02-14 20:13:55,795:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 121
+[2026-02-14 20:14:05,958:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 121
+[2026-02-14 20:14:06,815:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 119
+[2026-02-14 20:14:16,978:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 119
+[2026-02-14 20:14:17,833:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 117
+[2026-02-14 20:14:27,996:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 117
+[2026-02-14 20:14:28,852:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 123
+[2026-02-14 20:14:39,015:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 123
+[2026-02-14 20:14:39,871:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 121
+[2026-02-14 20:14:50,034:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 121
+[2026-02-14 20:14:50,891:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 119
+[2026-02-14 20:15:01,057:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 119
+[2026-02-14 20:15:01,914:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 117
+[2026-02-14 20:15:12,076:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 117
+[2026-02-14 20:15:12,931:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 123
+[2026-02-14 20:15:23,096:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 123
+[2026-02-14 20:15:23,951:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 121
+[2026-02-14 20:15:34,114:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 121
+[2026-02-14 20:15:34,970:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 119
+[2026-02-14 20:15:45,135:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 119
+[2026-02-14 20:15:45,992:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 117
+[2026-02-14 20:15:56,154:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 117
+[2026-02-14 20:15:57,011:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 123
+[2026-02-14 20:16:07,175:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 123
+[2026-02-14 20:16:08,031:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 121
+[2026-02-14 20:16:18,197:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 121
+[2026-02-14 20:16:54,460:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 338
+[2026-02-14 20:17:04,095:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 338
+[2026-02-14 20:17:05,191:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 340
+[2026-02-14 20:17:05,876:     agent.fmClient Trade ]:     INFO - I have order traded: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 340
+[2026-02-14 20:17:05,877:     agent.fmClient Trade ]:     INFO - I have placed private order
+[2026-02-14 20:17:06,052:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2682,private,Private Market,True), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 352
+[2026-02-14 20:17:06,878:     agent.fmClient Trade ]:     INFO - I have order traded: Market: Market(2682,private,Private Market,True), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 352
+[2026-02-14 20:17:08,154:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334
+[2026-02-14 20:17:18,059:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334
+[2026-02-14 20:17:19,156:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 336
+[2026-02-14 20:17:29,058:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 336
+[2026-02-14 20:17:30,153:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 338
+[2026-02-14 20:17:40,057:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 338
+[2026-02-14 20:17:41,153:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 340
+[2026-02-14 20:17:51,050:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 340
+[2026-02-14 20:17:52,146:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334
+[2026-02-14 20:18:02,096:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334
+[2026-02-14 20:18:03,193:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 336
+[2026-02-14 20:18:13,095:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 336
+[2026-02-14 20:18:14,192:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 338
+[2026-02-14 20:18:24,090:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 338
+[2026-02-14 20:18:25,186:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 340
+[2026-02-14 20:18:35,087:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 340
+[2026-02-14 20:18:36,184:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334
+[2026-02-14 20:18:46,335:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334
+[2026-02-14 20:18:47,207:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 336
+[2026-02-14 20:18:57,108:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 336
+[2026-02-14 20:18:58,207:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 338
+[2026-02-14 20:19:08,357:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 338
+[2026-02-14 20:19:09,202:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 340
+[2026-02-14 20:19:19,353:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 340
+[2026-02-14 20:19:20,200:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334
+[2026-02-14 20:19:30,355:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334
+[2026-02-14 20:19:31,200:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 336
+[2026-02-14 20:19:41,354:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 336
+[2026-02-14 20:20:21,384:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.PAUSED
+[2026-02-14 20:20:21,385:     agent.fmClient Trade ]:     INFO - Session id: 141424, the session is paused
+[2026-02-14 20:20:23,408:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-14 20:20:23,408:     agent.fmClient Trade ]:     INFO - Session id: 141424, the session is closed
+
+=============================== Log Started [2026-02-14 23:29:47 GMT] ===============================
+[2026-02-14 23:29:47,539:     agent.fmClient Trade ]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-02-14 23:29:47,539:     agent.fmClient Trade ]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-02-14 23:29:48,005:     agent.fmClient Trade ]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-02-14 23:29:48,273:     agent.fmClient Trade ]:     INFO - Requesting initial information for marketplace `1513`
+[2026-02-14 23:29:48,361:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-14 23:29:48,711:     agent.fmClient Trade ]:     INFO - Initialisation complete. Received marketplace information.
+[2026-02-14 23:29:48,712:     agent.fmClient Trade ]:     INFO - I am fmClient Trade Robot 000(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-02-14 23:29:48,712:     agent.fmClient Trade ]:     INFO - 	 with market: Widget Public Market, fm_id: 2681, market description: widget, tick size: 1
+[2026-02-14 23:29:48,712:     agent.fmClient Trade ]:     INFO - 	 with market: Private Market, fm_id: 2682, market description: private, tick size: 1
+[2026-02-14 23:29:48,713:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-14 23:29:48,713:     agent.fmClient Trade ]:     INFO - Session id: 141424, the session is closed
+[2026-02-14 23:29:48,714:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-14 23:29:48,714:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-14 23:29:48,714:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-14 23:46:42,782:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-14 23:46:43,031:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-14 23:46:43,031:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-14 23:46:43,032:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-14 23:46:43,032:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 00:03:03,275:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-02-15 00:03:03,482:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 00:03:03,483:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 00:03:03,483:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 00:03:03,483:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 00:20:55,638:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-15 00:20:55,917:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 00:20:55,918:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 00:20:55,918:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 00:20:55,918:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 00:37:02,272:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-15 00:37:02,488:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 00:37:02,488:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 00:37:02,489:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 00:37:02,489:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 00:52:45,248:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-15 00:52:45,456:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 00:52:45,457:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 00:52:45,457:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 00:52:45,457:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 01:00:43,540:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-15 01:00:43,699:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 01:00:43,699:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 01:00:43,699:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 01:00:43,699:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 01:16:42,215:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-15 01:16:42,528:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 01:16:42,529:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 01:16:42,529:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 01:16:42,529:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 01:31:39,766:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-02-15 01:31:40,140:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 01:31:40,140:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 01:31:40,141:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 01:31:40,141:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 01:47:12,508:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-15 01:47:12,768:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 01:47:12,768:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 01:47:12,768:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 01:47:12,768:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 01:50:24,227:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-15 01:50:24,441:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 01:50:24,441:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 01:50:24,441:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 01:50:24,441:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 02:06:34,882:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-02-15 02:06:35,127:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 02:06:35,127:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 02:06:35,127:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 02:06:35,127:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 02:22:33,210:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-15 02:22:33,396:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 02:22:33,397:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 02:22:33,397:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 02:22:33,397:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 02:39:06,064:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-15 02:39:06,255:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 02:39:06,255:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 02:39:06,255:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 02:39:06,255:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 02:49:54,935:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-15 02:49:55,197:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 02:49:55,197:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 02:49:55,198:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 02:49:55,198:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 03:09:44,021:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-02-15 03:09:44,230:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 03:09:44,230:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 03:09:44,230:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 03:09:44,230:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 03:17:29,189:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-15 03:17:29,349:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 03:17:29,350:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 03:17:29,350:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 03:17:29,350:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 03:33:26,970:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-15 03:33:27,131:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 03:33:27,132:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 03:33:27,132:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 03:33:27,132:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 03:38:29,165:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-15 03:38:29,378:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 03:38:29,379:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 03:38:29,379:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 03:38:29,379:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 03:43:47,625:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-02-15 03:43:47,936:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 03:43:47,937:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 03:43:47,937:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 03:43:47,937:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 03:48:35,511:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-15 03:48:35,697:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 03:48:35,698:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 03:48:35,698:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 03:48:35,698:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 04:04:52,622:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-15 04:04:52,835:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 04:04:52,835:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 04:04:52,835:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 04:04:52,835:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 04:21:13,597:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-15 04:21:13,824:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 04:21:13,824:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 04:21:13,824:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 04:21:13,824:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 04:31:58,863:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-15 04:31:59,061:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 04:31:59,062:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 04:31:59,062:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 04:31:59,062:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 04:47:48,152:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-15 04:47:48,354:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 04:47:48,355:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 04:47:48,355:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 04:47:48,355:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 05:06:28,174:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-15 05:06:28,423:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 05:06:28,423:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 05:06:28,423:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 05:06:28,423:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 05:20:05,541:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-15 05:20:05,706:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 05:20:05,707:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 05:20:05,707:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 05:20:05,707:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 05:28:19,853:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-15 05:28:20,059:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 05:28:20,059:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 05:28:20,059:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 05:28:20,060:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 05:46:17,592:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-02-15 05:46:17,736:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 05:46:17,839:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 05:46:17,839:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 05:46:17,839:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 06:05:39,922:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-15 06:05:40,253:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 06:05:40,253:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 06:05:40,253:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 06:05:40,253:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 06:22:27,386:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-15 06:22:27,610:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 06:22:27,610:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 06:22:27,610:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 06:22:27,610:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 06:40:15,659:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-15 06:40:15,934:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 06:40:15,934:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 06:40:15,934:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 06:40:15,934:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 06:56:14,254:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-02-15 06:56:14,601:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 06:56:14,601:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 06:56:14,601:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 06:56:14,601:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 07:12:17,235:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-15 07:12:17,430:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 07:12:17,431:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 07:12:17,431:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 07:12:17,431:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 07:28:49,246:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-15 07:28:49,426:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 07:28:49,426:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 07:28:49,426:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 07:28:49,426:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 07:31:23,807:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-15 07:31:23,956:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 07:31:23,956:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 07:31:23,956:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 07:31:23,956:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 07:38:09,418:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-02-15 07:38:09,651:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 07:38:09,652:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 07:38:09,652:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 07:38:09,652:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 07:54:22,758:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-15 07:54:23,006:     agent.fmClient Trade ]:     INFO - Session: SID:141424:SessionState.CLOSED
+[2026-02-15 07:54:23,007:     agent.fmClient Trade ]:     INFO - settled cash: 19864, avaliable cash: 19864
+[2026-02-15 07:54:23,007:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 5
+[2026-02-15 07:54:23,007:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : -5
+[2026-02-15 08:11:34,257:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-15 08:11:34,532:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 08:11:34,533:     agent.fmClient Trade ]:     INFO - Session id: 141425, your are able to trade
+[2026-02-15 08:11:34,533:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 08:11:34,533:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 08:11:34,533:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 08:28:00,769:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-02-15 08:28:00,915:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 08:28:00,915:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 08:28:00,915:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 08:28:00,915:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 08:45:06,597:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-15 08:45:06,846:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 08:45:06,846:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 08:45:06,846:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 08:45:06,847:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 09:01:54,578:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-15 09:01:54,785:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 09:01:54,785:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 09:01:54,785:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 09:01:54,786:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 09:17:55,581:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-02-15 09:17:55,829:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 09:17:55,829:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 09:17:55,829:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 09:17:55,829:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 09:30:00,540:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-15 09:30:00,699:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 09:30:00,699:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 09:30:00,699:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 09:30:00,699:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 09:46:11,916:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-02-15 09:46:12,186:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 09:46:12,186:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 09:46:12,186:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 09:46:12,186:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 10:03:25,357:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-15 10:03:25,617:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 10:03:25,617:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 10:03:25,618:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 10:03:25,618:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 10:19:08,837:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-15 10:19:09,084:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 10:19:09,084:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 10:19:09,084:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 10:19:09,085:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 10:30:51,699:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-15 10:30:51,949:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 10:30:51,950:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 10:30:51,950:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 10:30:51,950:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 10:47:40,920:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-02-15 10:47:41,171:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 10:47:41,172:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 10:47:41,172:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 10:47:41,172:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 11:03:40,588:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-15 11:03:40,835:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 11:03:40,835:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 11:03:40,835:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 11:03:40,835:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 11:21:21,287:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-15 11:21:21,440:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 11:21:21,440:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 11:21:21,440:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 11:21:21,440:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 11:30:18,077:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-02-15 11:30:18,225:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 11:30:18,226:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 11:30:18,226:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 11:30:18,226:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 11:46:51,054:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-02-15 11:46:51,270:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 11:46:51,271:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 11:46:51,271:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 11:46:51,271:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 11:51:50,477:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-15 11:51:50,697:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 11:51:50,697:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 11:51:50,697:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 11:51:50,697:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 12:07:11,112:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-02-15 12:07:11,361:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 12:07:11,361:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 12:07:11,361:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 12:07:11,361:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 12:20:58,513:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-15 12:20:58,681:     agent.fmClient Trade ]:     INFO - Session: SID:141425:SessionState.OPEN
+[2026-02-15 12:20:58,682:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 12:20:58,682:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 12:20:58,682:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+
+=============================== Log Started [2026-02-15 20:06:52 GMT] ===============================
+[2026-02-15 20:06:52,422:     agent.fmClient Trade ]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-02-15 20:06:52,422:     agent.fmClient Trade ]:     INFO - Attempting to log into AHM as fain-premium|trader03@d002
+[2026-02-15 20:06:52,923:     agent.fmClient Trade ]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-02-15 20:06:53,194:     agent.fmClient Trade ]:     INFO - Requesting initial information for marketplace `1513`
+[2026-02-15 20:06:53,280:     ws.FM.fmClient Trade ]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-02-15 20:06:53,631:     agent.fmClient Trade ]:     INFO - Initialisation complete. Received marketplace information.
+[2026-02-15 20:06:53,632:     agent.fmClient Trade ]:     INFO - I am fmClient Trade Robot 000(User(51570,Trader,03,trader03@d002,[USER]))
+[2026-02-15 20:06:53,632:     agent.fmClient Trade ]:     INFO - 	 with market: Widget Public Market, fm_id: 2681, market description: widget, tick size: 1
+[2026-02-15 20:06:53,632:     agent.fmClient Trade ]:     INFO - 	 with market: Private Market, fm_id: 2682, market description: private, tick size: 1
+[2026-02-15 20:06:53,633:     agent.fmClient Trade ]:     INFO - Session: SID:141426:SessionState.OPEN
+[2026-02-15 20:06:53,633:     agent.fmClient Trade ]:     INFO - Session id: 141426, your are able to trade
+[2026-02-15 20:06:53,633:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:06:53,633:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:06:53,633:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:06:54,734:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 336
+[2026-02-15 20:06:54,745:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:06:54,745:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:06:54,745:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:07:04,894:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 336
+[2026-02-15 20:07:04,954:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:07:04,955:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:07:04,955:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:07:05,744:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 334
+[2026-02-15 20:07:05,765:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:07:05,765:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:07:05,766:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:07:15,903:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 334
+[2026-02-15 20:07:15,976:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:07:15,976:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:07:15,976:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:07:17,002:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 332
+[2026-02-15 20:07:17,088:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:07:17,088:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:07:17,088:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:07:26,909:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 332
+[2026-02-15 20:07:26,997:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:07:26,997:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:07:26,997:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:07:28,007:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 330
+[2026-02-15 20:07:28,007:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:07:28,007:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:07:28,008:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:07:37,930:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 330
+[2026-02-15 20:07:38,028:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:07:38,029:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:07:38,029:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:07:38,778:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 336
+[2026-02-15 20:07:38,838:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:07:38,839:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:07:38,839:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:07:48,940:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 336
+[2026-02-15 20:07:48,949:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:07:48,949:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:07:48,950:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:07:49,788:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 334
+[2026-02-15 20:07:49,861:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:07:49,862:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:07:49,862:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:07:59,948:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 334
+[2026-02-15 20:07:59,972:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:07:59,972:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:07:59,972:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:08:01,049:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 332
+[2026-02-15 20:08:01,086:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:08:01,086:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:08:01,086:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:08:10,956:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 332
+[2026-02-15 20:08:10,991:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:08:10,992:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:08:10,992:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:08:12,058:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 330
+[2026-02-15 20:08:12,104:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:08:12,104:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:08:12,104:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:08:21,967:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 330
+[2026-02-15 20:08:22,017:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:08:22,018:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:08:22,018:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:08:23,066:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 336
+[2026-02-15 20:08:23,128:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:08:23,129:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:08:23,129:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:08:32,978:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 336
+[2026-02-15 20:08:33,037:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:08:33,038:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:08:33,038:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:08:35,084:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 336
+[2026-02-15 20:08:35,163:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19664
+[2026-02-15 20:08:35,164:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:08:35,164:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:08:44,990:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 336
+[2026-02-15 20:08:45,075:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:08:45,075:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:08:45,076:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:08:46,090:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 338
+[2026-02-15 20:08:46,188:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19662
+[2026-02-15 20:08:46,188:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:08:46,188:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:08:56,040:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 338
+[2026-02-15 20:08:56,093:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:08:56,093:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:08:56,093:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:08:56,890:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 340
+[2026-02-15 20:08:56,902:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19660
+[2026-02-15 20:08:56,903:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:08:56,903:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:09:07,049:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 340
+[2026-02-15 20:09:07,114:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:09:07,114:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:09:07,114:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:09:07,899:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334
+[2026-02-15 20:09:07,925:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19666
+[2026-02-15 20:09:07,925:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:09:07,925:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:09:18,060:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334
+[2026-02-15 20:09:18,139:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:09:18,139:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:09:18,139:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:09:18,910:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 336
+[2026-02-15 20:09:18,949:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19664
+[2026-02-15 20:09:18,950:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:09:18,950:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:09:29,073:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 336
+[2026-02-15 20:09:29,160:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:09:29,161:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:09:29,161:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:09:29,922:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 338
+[2026-02-15 20:09:29,971:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19662
+[2026-02-15 20:09:29,972:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:09:29,972:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:09:40,083:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 338
+[2026-02-15 20:09:40,181:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:09:40,182:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:09:40,182:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:09:40,931:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 340
+[2026-02-15 20:09:40,992:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19660
+[2026-02-15 20:09:40,992:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:09:40,993:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:09:51,092:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 340
+[2026-02-15 20:09:51,099:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:09:51,099:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:09:51,099:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:09:51,994:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334
+[2026-02-15 20:09:52,010:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19666
+[2026-02-15 20:09:52,010:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:09:52,010:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:10:02,184:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334
+[2026-02-15 20:10:02,221:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:10:02,221:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:10:02,221:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:10:03,034:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 336
+[2026-02-15 20:10:03,132:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19664
+[2026-02-15 20:10:03,133:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:10:03,133:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:10:13,192:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 336
+[2026-02-15 20:10:13,241:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:10:13,241:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:10:13,241:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:10:15,043:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 813
+[2026-02-15 20:10:15,061:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19187
+[2026-02-15 20:10:15,061:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:10:15,061:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:10:25,204:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 813
+[2026-02-15 20:10:25,269:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:10:25,269:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:10:25,269:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:10:26,054:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 815
+[2026-02-15 20:10:26,080:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19185
+[2026-02-15 20:10:26,080:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:10:26,081:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:10:36,215:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 815
+[2026-02-15 20:10:36,294:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:10:36,294:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:10:36,294:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:10:37,064:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 809
+[2026-02-15 20:10:37,104:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19191
+[2026-02-15 20:10:37,104:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:10:37,104:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:10:47,225:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 809
+[2026-02-15 20:10:47,315:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:10:47,316:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:10:47,316:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:10:48,072:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 811
+[2026-02-15 20:10:48,124:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19189
+[2026-02-15 20:10:48,125:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:10:48,125:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:10:58,235:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 811
+[2026-02-15 20:10:58,334:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:10:58,335:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:10:58,335:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:10:59,118:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 813
+[2026-02-15 20:10:59,144:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19187
+[2026-02-15 20:10:59,144:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:10:59,144:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:11:09,025:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 813
+[2026-02-15 20:11:09,060:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:11:09,061:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:11:09,061:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:11:10,122:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 815
+[2026-02-15 20:11:10,173:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19185
+[2026-02-15 20:11:10,173:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:11:10,173:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:11:20,296:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 815
+[2026-02-15 20:11:20,386:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:11:20,386:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:11:20,386:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:11:21,145:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 809
+[2026-02-15 20:11:21,197:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19191
+[2026-02-15 20:11:21,197:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:11:21,197:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:11:31,058:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 809
+[2026-02-15 20:11:31,107:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:11:31,107:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:11:31,108:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:11:32,160:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 811
+[2026-02-15 20:11:32,219:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19189
+[2026-02-15 20:11:32,219:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:11:32,219:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:11:42,067:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 811
+[2026-02-15 20:11:42,134:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:11:42,135:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:11:42,135:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:11:43,166:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 813
+[2026-02-15 20:11:43,248:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19187
+[2026-02-15 20:11:43,248:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:11:43,248:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:11:53,070:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 813
+[2026-02-15 20:11:53,157:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:11:53,157:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:11:53,157:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:11:54,165:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 815
+[2026-02-15 20:11:54,169:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19185
+[2026-02-15 20:11:54,170:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:11:54,170:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:12:04,077:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 815
+[2026-02-15 20:12:04,176:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:12:04,176:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:12:04,177:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:12:05,177:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 809
+[2026-02-15 20:12:05,187:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19191
+[2026-02-15 20:12:05,187:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:12:05,187:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:12:15,084:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 809
+[2026-02-15 20:12:15,094:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:12:15,094:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:12:15,094:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:12:16,183:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 811
+[2026-02-15 20:12:16,208:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19189
+[2026-02-15 20:12:16,208:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:12:16,208:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:12:26,340:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 811
+[2026-02-15 20:12:26,422:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:12:26,422:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:12:26,423:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:12:27,189:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 813
+[2026-02-15 20:12:27,232:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19187
+[2026-02-15 20:12:27,232:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:12:27,232:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:12:37,351:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 813
+[2026-02-15 20:12:37,352:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:12:37,352:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:12:37,353:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:12:38,202:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 815
+[2026-02-15 20:12:38,271:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19185
+[2026-02-15 20:12:38,271:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:12:38,271:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:12:48,134:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 815
+[2026-02-15 20:12:48,149:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:12:48,150:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:12:48,150:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:12:49,234:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 809
+[2026-02-15 20:12:49,272:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19191
+[2026-02-15 20:12:49,272:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:12:49,272:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:12:59,168:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 809
+[2026-02-15 20:12:59,257:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:12:59,257:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:12:59,257:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:13:00,269:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 811
+[2026-02-15 20:13:00,278:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19189
+[2026-02-15 20:13:00,278:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:13:00,278:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:13:10,204:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 811
+[2026-02-15 20:13:10,264:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:13:10,265:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:13:10,265:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:13:11,306:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 813
+[2026-02-15 20:13:11,387:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19187
+[2026-02-15 20:13:11,387:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:13:11,387:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:13:21,247:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 813
+[2026-02-15 20:13:21,258:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:13:21,258:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:13:21,258:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:13:22,349:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 815
+[2026-02-15 20:13:22,381:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19185
+[2026-02-15 20:13:22,381:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:13:22,381:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:13:32,291:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 815
+[2026-02-15 20:13:32,375:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:13:32,375:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:13:32,375:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:13:34,398:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 140
+[2026-02-15 20:13:34,412:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19860
+[2026-02-15 20:13:34,412:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:13:34,412:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:13:44,336:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 140
+[2026-02-15 20:13:44,405:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:13:44,405:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:13:44,405:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:13:45,434:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 142
+[2026-02-15 20:13:45,524:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19858
+[2026-02-15 20:13:45,524:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:13:45,525:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:13:55,374:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 142
+[2026-02-15 20:13:55,402:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:13:55,403:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:13:55,403:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:13:56,225:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 144
+[2026-02-15 20:13:56,323:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19856
+[2026-02-15 20:13:56,323:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:13:56,323:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:14:06,415:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 144
+[2026-02-15 20:14:06,416:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:14:06,417:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:14:06,417:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:14:07,267:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 146
+[2026-02-15 20:14:07,335:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19854
+[2026-02-15 20:14:07,335:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:14:07,335:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:14:17,458:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 146
+[2026-02-15 20:14:17,514:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:14:17,515:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:14:17,515:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:14:18,308:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 140
+[2026-02-15 20:14:18,328:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19860
+[2026-02-15 20:14:18,329:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:14:18,329:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:14:28,499:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 140
+[2026-02-15 20:14:28,519:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:14:28,519:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:14:28,519:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:14:29,351:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 142
+[2026-02-15 20:14:29,439:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19858
+[2026-02-15 20:14:29,439:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:14:29,439:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:14:39,534:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 142
+[2026-02-15 20:14:39,628:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:14:39,628:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:14:39,628:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:14:40,384:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 144
+[2026-02-15 20:14:40,445:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19856
+[2026-02-15 20:14:40,446:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:14:40,446:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:14:50,569:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 144
+[2026-02-15 20:14:50,633:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:14:50,634:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:14:50,634:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:14:51,420:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 146
+[2026-02-15 20:14:51,450:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19854
+[2026-02-15 20:14:51,450:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:14:51,450:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:15:01,374:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 146
+[2026-02-15 20:15:01,436:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:15:01,436:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:15:01,436:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:15:02,476:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 140
+[2026-02-15 20:15:02,558:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19860
+[2026-02-15 20:15:02,558:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:15:02,558:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:15:12,411:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 140
+[2026-02-15 20:15:12,443:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:15:12,443:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:15:12,443:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:15:14,520:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 379
+[2026-02-15 20:15:14,584:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:15:14,584:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:15:14,585:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:15:24,454:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 379
+[2026-02-15 20:15:24,456:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:15:24,457:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:15:24,457:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:15:25,557:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 377
+[2026-02-15 20:15:25,576:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:15:25,576:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:15:25,576:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:15:35,527:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 377
+[2026-02-15 20:15:35,552:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:15:35,552:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:15:35,552:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:15:36,626:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 375
+[2026-02-15 20:15:36,672:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:15:36,672:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:15:36,672:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:15:46,561:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 375
+[2026-02-15 20:15:46,652:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:15:46,652:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:15:46,653:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:15:47,660:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 381
+[2026-02-15 20:15:47,670:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:15:47,670:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:15:47,670:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:15:57,598:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 381
+[2026-02-15 20:15:57,656:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:15:57,656:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:15:57,657:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:15:58,446:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 379
+[2026-02-15 20:15:58,472:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:15:58,472:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:15:58,473:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:16:08,637:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 379
+[2026-02-15 20:16:08,669:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:16:08,670:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:16:08,670:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:16:09,508:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 377
+[2026-02-15 20:16:09,589:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:16:09,590:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:16:09,590:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:16:19,710:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 377
+[2026-02-15 20:16:19,783:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:16:19,784:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:16:19,784:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:16:20,560:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 375
+[2026-02-15 20:16:20,601:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:16:20,601:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:16:20,601:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:16:30,751:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 375
+[2026-02-15 20:16:30,787:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:16:30,787:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:16:30,787:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:16:31,601:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 381
+[2026-02-15 20:16:31,602:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:16:31,602:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:16:31,602:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:16:41,792:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 381
+[2026-02-15 20:16:41,794:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:16:41,794:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:16:41,795:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:16:42,642:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 379
+[2026-02-15 20:16:42,713:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:16:42,713:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:16:42,713:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:16:52,572:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 379
+[2026-02-15 20:16:52,592:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:16:52,592:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:16:52,592:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:16:55,686:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 221
+[2026-02-15 20:16:55,747:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:16:55,748:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:16:55,748:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:17:05,629:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 221
+[2026-02-15 20:17:05,634:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:17:05,634:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:17:05,635:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:17:06,730:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 219
+[2026-02-15 20:17:06,758:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:17:06,758:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:17:06,758:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:17:16,663:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 219
+[2026-02-15 20:17:16,737:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:17:16,738:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:17:16,738:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:17:17,766:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 225
+[2026-02-15 20:17:17,859:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:17:17,859:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:17:17,859:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:17:27,706:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 225
+[2026-02-15 20:17:27,739:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:17:27,739:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:17:27,740:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:17:28,807:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 223
+[2026-02-15 20:17:28,862:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:17:28,862:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:17:28,862:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:17:38,748:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 223
+[2026-02-15 20:17:38,841:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:17:38,841:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:17:38,841:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:17:39,847:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 221
+[2026-02-15 20:17:39,860:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:17:39,860:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:17:39,860:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:17:49,781:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 221
+[2026-02-15 20:17:49,844:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:17:49,844:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:17:49,844:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:17:50,882:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 219
+[2026-02-15 20:17:50,964:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:17:50,964:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:17:50,964:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:18:00,811:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 219
+[2026-02-15 20:18:00,854:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:18:00,854:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:18:00,854:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:18:01,912:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 225
+[2026-02-15 20:18:01,975:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:18:01,975:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:18:01,975:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:18:11,848:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 225
+[2026-02-15 20:18:11,947:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:18:11,947:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:18:11,947:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:18:12,698:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 223
+[2026-02-15 20:18:12,761:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:18:12,762:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:18:12,762:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:18:22,880:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 223
+[2026-02-15 20:18:22,947:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:18:22,947:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:18:22,947:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:18:23,730:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 221
+[2026-02-15 20:18:23,763:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:18:23,763:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:18:23,763:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:18:33,915:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 221
+[2026-02-15 20:18:33,954:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:18:33,954:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:18:33,954:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:18:34,760:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 225
+[2026-02-15 20:18:34,769:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19775
+[2026-02-15 20:18:34,769:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:18:34,769:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:18:44,947:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 225
+[2026-02-15 20:18:44,954:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:18:44,954:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:18:44,954:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:18:45,798:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 219
+[2026-02-15 20:18:45,873:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19781
+[2026-02-15 20:18:45,874:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:18:45,874:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:18:55,987:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 219
+[2026-02-15 20:18:56,064:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:18:56,065:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:18:56,065:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:18:56,837:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 221
+[2026-02-15 20:18:56,879:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19779
+[2026-02-15 20:18:56,879:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:18:56,879:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:19:07,025:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 221
+[2026-02-15 20:19:07,056:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:19:07,056:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:19:07,056:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:19:07,875:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 223
+[2026-02-15 20:19:07,976:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19777
+[2026-02-15 20:19:07,977:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:19:07,977:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:19:18,066:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 223
+[2026-02-15 20:19:18,159:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:19:18,159:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:19:18,159:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:19:18,912:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 225
+[2026-02-15 20:19:18,975:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19775
+[2026-02-15 20:19:18,975:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:19:18,975:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:19:28,847:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 225
+[2026-02-15 20:19:28,861:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:19:28,862:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:19:28,862:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:19:29,945:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 219
+[2026-02-15 20:19:29,985:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19781
+[2026-02-15 20:19:29,985:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:19:29,985:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:19:39,870:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 219
+[2026-02-15 20:19:39,965:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:19:39,965:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:19:39,965:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:19:40,967:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 221
+[2026-02-15 20:19:40,980:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19779
+[2026-02-15 20:19:40,980:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:19:40,980:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:19:50,878:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 221
+[2026-02-15 20:19:50,907:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:19:50,907:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:19:50,907:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:19:51,976:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 223
+[2026-02-15 20:19:52,020:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19777
+[2026-02-15 20:19:52,020:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:19:52,020:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:20:02,189:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 223
+[2026-02-15 20:20:02,226:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:20:02,226:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:20:02,226:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:20:03,041:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 225
+[2026-02-15 20:20:03,138:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 19775
+[2026-02-15 20:20:03,139:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:20:03,139:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:20:12,946:     agent.fmClient Trade ]:     INFO - I have order accepted by the book: Market: Market(2681,widget,Widget Public Market,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 225
+[2026-02-15 20:20:13,045:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:20:13,046:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:20:13,046:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
+[2026-02-15 20:20:20,729:     agent.fmClient Trade ]:     INFO - Session: SID:141426:SessionState.PAUSED
+[2026-02-15 20:20:20,729:     agent.fmClient Trade ]:     INFO - Session id: 141426, the session is paused
+[2026-02-15 20:20:22,651:     agent.fmClient Trade ]:     INFO - Session: SID:141426:SessionState.CLOSED
+[2026-02-15 20:20:22,651:     agent.fmClient Trade ]:     INFO - Session id: 141426, the session is closed
+[2026-02-15 20:21:35,230:     agent.fmClient Trade ]:     INFO - Session: SID:141427:SessionState.OPEN
+[2026-02-15 20:21:35,231:     agent.fmClient Trade ]:     INFO - Session id: 141427, your are able to trade
+[2026-02-15 20:21:35,636:     agent.fmClient Trade ]:     INFO - settled cash: 20000, avaliable cash: 20000
+[2026-02-15 20:21:35,637:     agent.fmClient Trade ]:     INFO - 	 asset in market Widget Public Market : 0
+[2026-02-15 20:21:35,637:     agent.fmClient Trade ]:     INFO - 	 asset in market Private Market : 0
