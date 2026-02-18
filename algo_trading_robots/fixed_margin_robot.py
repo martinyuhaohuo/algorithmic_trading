@@ -153,7 +153,6 @@ class FMRobot(Agent):
             else:
                 self.inform(f"The holding is balanced")
 
-
     def _cancel_order(self, order):
         # Cancel a specified order
         cancel_order = copy.copy(order)
@@ -202,7 +201,6 @@ class FMRobot(Agent):
             self._current_standing_order = None
             self._order_placing_signal = True
                 
-
     def order_accepted(self, order: Order) -> None:
         # If order accepted, set current standing order to the approved order, set order placing signal to false
         self.inform(f"I have {order.order_type} order accepted by the book: {order.ref}")
