@@ -6,3 +6,6 @@ source activate_venv.sh
 
 # run robot
 python algo_trading_robots/isd_bot.py
+
+# get market info
+python algo_trading_robots/base_robot_template.py

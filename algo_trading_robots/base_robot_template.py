@@ -9,10 +9,10 @@ from fmclient import Agent, Market, Holding, Session, Order, OrderType, OrderSid
 # Flex-E-Market credential
 
 FM_ACCOUNT = "fain-premium"
-FM_EMAIL = "trader03@d002"
-FM_PASSWORD = "LIPNE"
+FM_EMAIL = "yh620@d002"
+FM_PASSWORD = "yh620"
 ROBOT_NAME = "fmClient Installed Test Robot"
-FM_MARKETPLACE_ID = 1513
+FM_MARKETPLACE_ID = 1524
 
 
 # The Base Robot Class definition

@@ -1,0 +1,30 @@
+
+=============================== Log Started [2026-02-25 12:36:59 GMT] ===============================
+[2026-02-25 12:36:59,258:     agent.fmClient Instal]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-02-25 12:36:59,259:     agent.fmClient Instal]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-02-25 12:36:59,742:     agent.fmClient Instal]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-02-25 12:37:00,023:     agent.fmClient Instal]:     INFO - Requesting initial information for marketplace `1524`
+[2026-02-25 12:37:00,112:     ws.FM.fmClient Instal]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-02-25 12:37:00,374:     agent.fmClient Instal]:     INFO - Initialisation complete. Received marketplace information.
+[2026-02-25 12:37:00,374:     agent.fmClient Instal]:     INFO - I am fmClient Installed Test Robot(User(52422,,,yh620@d002,[USER]))
+[2026-02-25 12:37:00,374:     agent.fmClient Instal]:     INFO - market place: Diversification, marketplace id: 1524, marketplace description: 3 risky securities and 1 risk-free security
+[2026-02-25 12:37:00,375:     agent.fmClient Instal]:     INFO - 	 with market: Asset A, fm_id: 2714, market description: 1000,0,750,250, tick size: 1
+[2026-02-25 12:37:00,375:     agent.fmClient Instal]:     INFO - 	 with market: Asset B, fm_id: 2715, market description: 0,250,750,1000, tick size: 1
+[2026-02-25 12:37:00,375:     agent.fmClient Instal]:     INFO - 	 with market: Asset C, fm_id: 2716, market description: 0,750,250,1000, tick size: 1
+[2026-02-25 12:37:00,375:     agent.fmClient Instal]:     INFO - 	 with market: Note, fm_id: 2717, market description: 500,500,500,500, tick size: 1
+[2026-02-25 12:37:00,375:     agent.fmClient Instal]:     INFO - Session: SID:141524:SessionState.OPEN
+[2026-02-25 12:37:00,375:     agent.fmClient Instal]:     INFO - Session id: 141524, your are able to trade
+[2026-02-25 12:37:00,376:     agent.fmClient Instal]:     INFO - my current settled cash is 4200, my current avaliable cash is 4200
+[2026-02-25 12:37:00,376:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Asset A : 14
+[2026-02-25 12:37:00,376:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Asset B : 4
+[2026-02-25 12:37:00,376:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Asset C : 0
+[2026-02-25 12:37:00,376:     agent.fmClient Instal]:     INFO - 	 holdings of asset in market Note : 0
+[2026-02-25 12:37:00,376:     agent.fmClient Instal]:     INFO - we have a new order : 51553740, this is a LIMIT order for Note to BUY 1 units at price 499
+[2026-02-25 12:37:00,376:     agent.fmClient Instal]:     INFO - we have a new order : 51553741, this is a LIMIT order for Note to BUY 1 units at price 499
+[2026-02-25 12:37:00,377:     agent.fmClient Instal]:     INFO - we have a new order : 51553742, this is a LIMIT order for Note to BUY 1 units at price 499
+[2026-02-25 12:37:00,377:     agent.fmClient Instal]:     INFO - we have a new order : 51553743, this is a LIMIT order for Note to BUY 1 units at price 499
+[2026-02-25 12:37:00,377:     agent.fmClient Instal]:     INFO - we have a new order : 51553744, this is a LIMIT order for Note to BUY 1 units at price 499
+[2026-02-25 12:37:00,377:     agent.fmClient Instal]:     INFO - we have a new order : 51553745, this is a LIMIT order for Note to BUY 1 units at price 499
+[2026-02-25 12:37:00,377:     agent.fmClient Instal]:     INFO - we have a new order : 51553746, this is a LIMIT order for Note to BUY 1 units at price 499
+[2026-02-25 12:37:00,377:     agent.fmClient Instal]:     INFO - we have a new order : 51553747, this is a LIMIT order for Note to BUY 1 units at price 499
+[2026-02-25 12:37:00,377:     agent.fmClient Instal]:     INFO - we have a new order : 51553748, this is a LIMIT order for Note to BUY 1 units at price 208
