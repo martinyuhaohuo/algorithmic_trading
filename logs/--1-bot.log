@@ -1,0 +1,6 @@
+
+=============================== Log Started [2026-03-04 12:06:12 GMT] ===============================
+[2026-03-04 12:06:12,014:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-04 12:06:12,015:             agent.CAPMBot]:     INFO - Attempting to log into AHM as |
+[2026-03-04 12:06:12,015:             agent.CAPMBot]:    ERROR - Something went wrong. FMAuth: Account cannot be None or empty
+[2026-03-04 12:06:12,016:             agent.CAPMBot]:  WARNING - Initialisation failed. Exiting!

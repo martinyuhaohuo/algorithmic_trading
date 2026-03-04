@@ -28,3 +28,372 @@
 [2026-02-25 12:37:00,377:     agent.fmClient Instal]:     INFO - we have a new order : 51553746, this is a LIMIT order for Note to BUY 1 units at price 499
 [2026-02-25 12:37:00,377:     agent.fmClient Instal]:     INFO - we have a new order : 51553747, this is a LIMIT order for Note to BUY 1 units at price 499
 [2026-02-25 12:37:00,377:     agent.fmClient Instal]:     INFO - we have a new order : 51553748, this is a LIMIT order for Note to BUY 1 units at price 208
+
+=============================== Log Started [2026-03-04 12:07:22 GMT] ===============================
+[2026-03-04 12:07:22,996:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-04 12:07:22,996:             agent.CAPMBot]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-03-04 12:07:23,477:             agent.CAPMBot]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-03-04 12:07:23,755:             agent.CAPMBot]:     INFO - Requesting initial information for marketplace `1524`
+[2026-03-04 12:07:23,842:             ws.FM.CAPMBot]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-03-04 12:07:24,098:             agent.CAPMBot]:     INFO - Initialisation complete. Received marketplace information.
+[2026-03-04 12:07:24,099:             agent.CAPMBot]:     INFO - I am CAPMBot(User(52422,,,yh620@d002,[USER]))
+[2026-03-04 12:07:24,099:             agent.CAPMBot]:     INFO - Bot initialised, I have the payoffs for the states.
+[2026-03-04 12:07:24,100:             agent.CAPMBot]:     INFO - Session: SID:141654:SessionState.OPEN
+[2026-03-04 12:07:24,100:             agent.CAPMBot]:     INFO - Session id: 141654, your are able to trade
+[2026-03-04 12:07:24,100:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-04 12:07:24,100:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-04 12:07:24,100:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-04 12:07:24,100:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+
+=============================== Log Started [2026-03-04 12:14:16 GMT] ===============================
+[2026-03-04 12:14:16,628:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-04 12:14:16,628:             agent.CAPMBot]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-03-04 12:14:17,089:             agent.CAPMBot]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-03-04 12:14:17,365:             agent.CAPMBot]:     INFO - Requesting initial information for marketplace `1524`
+[2026-03-04 12:14:17,451:             ws.FM.CAPMBot]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-03-04 12:14:17,703:             agent.CAPMBot]:     INFO - Initialisation complete. Received marketplace information.
+[2026-03-04 12:14:17,704:             agent.CAPMBot]:     INFO - I am CAPMBot(User(52422,,,yh620@d002,[USER]))
+[2026-03-04 12:14:17,704:             agent.CAPMBot]:     INFO - Bot initialised, I have the payoffs for the states.
+[2026-03-04 12:14:17,704:             agent.CAPMBot]:    ERROR - TypeError('builtin_function_or_method' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:14:17,708:             agent.CAPMBot]:     INFO - Session: SID:141654:SessionState.OPEN
+[2026-03-04 12:14:17,708:             agent.CAPMBot]:     INFO - Session id: 141654, your are able to trade
+[2026-03-04 12:14:17,708:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-04 12:14:17,708:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-04 12:14:17,708:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-04 12:14:17,708:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-04 12:14:18,709:             agent.CAPMBot]:    ERROR - TypeError('builtin_function_or_method' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:14:19,711:             agent.CAPMBot]:    ERROR - TypeError('builtin_function_or_method' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:14:20,714:             agent.CAPMBot]:    ERROR - TypeError('builtin_function_or_method' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:14:21,716:             agent.CAPMBot]:    ERROR - TypeError('builtin_function_or_method' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:14:22,719:             agent.CAPMBot]:    ERROR - TypeError('builtin_function_or_method' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:14:23,722:             agent.CAPMBot]:    ERROR - TypeError('builtin_function_or_method' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:14:24,724:             agent.CAPMBot]:    ERROR - TypeError('builtin_function_or_method' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:14:25,727:             agent.CAPMBot]:    ERROR - TypeError('builtin_function_or_method' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+
+=============================== Log Started [2026-03-04 12:15:55 GMT] ===============================
+[2026-03-04 12:15:55,569:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-04 12:15:55,569:             agent.CAPMBot]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-03-04 12:15:56,037:             agent.CAPMBot]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-03-04 12:15:56,326:             agent.CAPMBot]:     INFO - Requesting initial information for marketplace `1524`
+[2026-03-04 12:15:56,411:             ws.FM.CAPMBot]:     INFO - Connected to AHM Server tcp4:18.211.231.38:443
+[2026-03-04 12:15:56,669:             agent.CAPMBot]:     INFO - Initialisation complete. Received marketplace information.
+[2026-03-04 12:15:56,670:             agent.CAPMBot]:     INFO - I am CAPMBot(User(52422,,,yh620@d002,[USER]))
+[2026-03-04 12:15:56,670:             agent.CAPMBot]:     INFO - Bot initialised, I have the payoffs for the states.
+[2026-03-04 12:15:56,670:             agent.CAPMBot]:    ERROR - TypeError(unsupported operand type(s) for /: 'NoneType' and 'int') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:15:56,672:             agent.CAPMBot]:     INFO - Session: SID:141654:SessionState.OPEN
+[2026-03-04 12:15:56,673:             agent.CAPMBot]:     INFO - Session id: 141654, your are able to trade
+[2026-03-04 12:15:56,673:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-04 12:15:56,673:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-04 12:15:56,673:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-04 12:15:56,673:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-04 12:15:57,673:             agent.CAPMBot]:    ERROR - TypeError(unsupported operand type(s) for ^: 'float' and 'float') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:15:58,676:             agent.CAPMBot]:    ERROR - TypeError(unsupported operand type(s) for ^: 'float' and 'float') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:15:59,694:             agent.CAPMBot]:    ERROR - TypeError(unsupported operand type(s) for ^: 'float' and 'float') in CAPMBot._check_market() method. Run with DEBUG for details
+
+=============================== Log Started [2026-03-04 12:19:04 GMT] ===============================
+[2026-03-04 12:19:04,002:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-04 12:19:04,002:             agent.CAPMBot]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-03-04 12:19:04,455:             agent.CAPMBot]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-03-04 12:19:04,734:             agent.CAPMBot]:     INFO - Requesting initial information for marketplace `1524`
+[2026-03-04 12:19:04,819:             ws.FM.CAPMBot]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-03-04 12:19:05,073:             agent.CAPMBot]:     INFO - Initialisation complete. Received marketplace information.
+[2026-03-04 12:19:05,074:             agent.CAPMBot]:     INFO - I am CAPMBot(User(52422,,,yh620@d002,[USER]))
+[2026-03-04 12:19:05,074:             agent.CAPMBot]:     INFO - Bot initialised, I have the payoffs for the states.
+[2026-03-04 12:19:05,074:             agent.CAPMBot]:    ERROR - TypeError(unsupported operand type(s) for /: 'NoneType' and 'int') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:19:05,076:             agent.CAPMBot]:     INFO - Session: SID:141654:SessionState.OPEN
+[2026-03-04 12:19:05,077:             agent.CAPMBot]:     INFO - Session id: 141654, your are able to trade
+[2026-03-04 12:19:05,077:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-04 12:19:05,077:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-04 12:19:05,077:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-04 12:19:05,077:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-04 12:19:06,078:             agent.CAPMBot]:    ERROR - AttributeError('NoneType' object has no attribute 'price') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:19:07,082:             agent.CAPMBot]:    ERROR - AttributeError('NoneType' object has no attribute 'price') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:19:08,085:             agent.CAPMBot]:    ERROR - AttributeError('NoneType' object has no attribute 'price') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:19:09,089:             agent.CAPMBot]:    ERROR - AttributeError('NoneType' object has no attribute 'price') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:19:10,092:             agent.CAPMBot]:    ERROR - AttributeError('NoneType' object has no attribute 'price') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:19:11,095:             agent.CAPMBot]:    ERROR - AttributeError('NoneType' object has no attribute 'price') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:19:12,099:             agent.CAPMBot]:    ERROR - AttributeError('NoneType' object has no attribute 'price') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:19:13,102:             agent.CAPMBot]:    ERROR - AttributeError('NoneType' object has no attribute 'price') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:19:14,105:             agent.CAPMBot]:    ERROR - AttributeError('NoneType' object has no attribute 'price') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:19:15,108:             agent.CAPMBot]:    ERROR - AttributeError('NoneType' object has no attribute 'price') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:19:16,111:             agent.CAPMBot]:    ERROR - AttributeError('NoneType' object has no attribute 'price') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:19:17,114:             agent.CAPMBot]:    ERROR - AttributeError('NoneType' object has no attribute 'price') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:19:18,116:             agent.CAPMBot]:    ERROR - AttributeError('NoneType' object has no attribute 'price') in CAPMBot._check_market() method. Run with DEBUG for details
+
+=============================== Log Started [2026-03-04 12:22:55 GMT] ===============================
+[2026-03-04 12:22:55,775:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-04 12:22:55,776:             agent.CAPMBot]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-03-04 12:22:56,237:             agent.CAPMBot]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-03-04 12:22:56,531:             agent.CAPMBot]:     INFO - Requesting initial information for marketplace `1524`
+[2026-03-04 12:22:56,617:             ws.FM.CAPMBot]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-03-04 12:22:56,873:             agent.CAPMBot]:     INFO - Initialisation complete. Received marketplace information.
+[2026-03-04 12:22:56,874:             agent.CAPMBot]:     INFO - I am CAPMBot(User(52422,,,yh620@d002,[USER]))
+[2026-03-04 12:22:56,874:             agent.CAPMBot]:     INFO - Bot initialised, I have the payoffs for the states.
+[2026-03-04 12:22:56,874:             agent.CAPMBot]:    ERROR - TypeError(unsupported operand type(s) for /: 'NoneType' and 'int') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:22:56,877:             agent.CAPMBot]:     INFO - Session: SID:141654:SessionState.OPEN
+[2026-03-04 12:22:56,877:             agent.CAPMBot]:     INFO - Session id: 141654, your are able to trade
+[2026-03-04 12:22:56,877:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-04 12:22:56,877:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-04 12:22:56,877:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-04 12:22:56,878:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-04 12:22:57,878:             agent.CAPMBot]:    ERROR - ValueError(Cannot set price to None because it must be an `int` and >= 0, not `NoneType`) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:22:58,883:             agent.CAPMBot]:    ERROR - ValueError(Cannot set price to None because it must be an `int` and >= 0, not `NoneType`) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:22:59,886:             agent.CAPMBot]:    ERROR - ValueError(Cannot set price to None because it must be an `int` and >= 0, not `NoneType`) in CAPMBot._check_market() method. Run with DEBUG for details
+
+=============================== Log Started [2026-03-04 12:26:39 GMT] ===============================
+[2026-03-04 12:26:39,361:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-04 12:26:39,361:             agent.CAPMBot]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-03-04 12:26:39,832:             agent.CAPMBot]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-03-04 12:26:40,113:             agent.CAPMBot]:     INFO - Requesting initial information for marketplace `1524`
+[2026-03-04 12:26:40,197:             ws.FM.CAPMBot]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-03-04 12:26:40,455:             agent.CAPMBot]:     INFO - Initialisation complete. Received marketplace information.
+[2026-03-04 12:26:40,455:             agent.CAPMBot]:     INFO - I am CAPMBot(User(52422,,,yh620@d002,[USER]))
+[2026-03-04 12:26:40,455:             agent.CAPMBot]:     INFO - Bot initialised, I have the payoffs for the states.
+[2026-03-04 12:26:40,456:             agent.CAPMBot]:    ERROR - TypeError(unsupported operand type(s) for /: 'NoneType' and 'int') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:26:40,458:             agent.CAPMBot]:     INFO - Session: SID:141654:SessionState.OPEN
+[2026-03-04 12:26:40,458:             agent.CAPMBot]:     INFO - Session id: 141654, your are able to trade
+[2026-03-04 12:26:40,459:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-04 12:26:40,459:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-04 12:26:40,459:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-04 12:26:40,459:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-04 12:26:41,468:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:26:41,468:             agent.CAPMBot]:     INFO - 	 Market: 2715, Side: OrderSide.SELL, Unit: 1, Price: 3.97
+[2026-03-04 12:26:41,468:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,SELL,1@397,B,LIMIT,REF:'Market: Market(2715,B,Asset B,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 397')
+[2026-03-04 12:26:41,573:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2715,B,Asset B,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 397
+[2026-03-04 12:26:41,671:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-04 12:26:41,672:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 3
+[2026-03-04 12:26:41,672:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-04 12:26:41,672:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+
+=============================== Log Started [2026-03-04 12:30:11 GMT] ===============================
+[2026-03-04 12:30:11,314:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-04 12:30:11,315:             agent.CAPMBot]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-03-04 12:30:11,780:             agent.CAPMBot]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-03-04 12:30:12,054:             agent.CAPMBot]:     INFO - Requesting initial information for marketplace `1524`
+[2026-03-04 12:30:12,140:             ws.FM.CAPMBot]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-03-04 12:30:12,394:             agent.CAPMBot]:     INFO - Initialisation complete. Received marketplace information.
+[2026-03-04 12:30:12,394:             agent.CAPMBot]:     INFO - I am CAPMBot(User(52422,,,yh620@d002,[USER]))
+[2026-03-04 12:30:12,395:             agent.CAPMBot]:     INFO - Bot initialised, I have the payoffs for the states.
+[2026-03-04 12:30:12,395:             agent.CAPMBot]:    ERROR - TypeError(unsupported operand type(s) for /: 'NoneType' and 'int') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:30:12,398:             agent.CAPMBot]:     INFO - Session: SID:141655:SessionState.OPEN
+[2026-03-04 12:30:12,398:             agent.CAPMBot]:     INFO - Session id: 141655, your are able to trade
+[2026-03-04 12:30:12,399:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-04 12:30:12,399:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-04 12:30:12,399:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-04 12:30:12,399:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-04 12:30:13,403:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:14,410:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:15,417:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:16,424:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:17,431:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:18,438:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:19,446:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:20,454:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:21,462:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:22,469:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:23,476:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:24,484:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:25,492:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:26,500:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:27,508:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:28,516:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:29,523:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:30,531:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:31,539:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:32,546:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:33,556:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:34,563:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:35,570:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:36,577:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:37,587:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:38,594:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:39,604:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:40,614:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:41,622:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:42,629:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:43,639:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:44,647:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:45,654:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:46,662:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:47,669:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:48,679:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:49,684:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:50,694:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:51,698:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:52,705:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:53,712:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:54,720:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:55,728:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:56,737:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:57,744:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:58,749:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:30:59,756:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:00,763:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:01,773:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:02,780:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:03,785:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:04,788:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:05,792:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:06,798:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:07,804:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:08,812:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:09,819:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:10,823:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:11,828:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:12,834:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:13,839:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:14,843:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:15,850:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:16,853:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:17,861:             agent.CAPMBot]:     INFO - optimal order list:
+
+=============================== Log Started [2026-03-04 12:31:22 GMT] ===============================
+[2026-03-04 12:31:22,459:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-04 12:31:22,460:             agent.CAPMBot]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-03-04 12:31:22,896:             agent.CAPMBot]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-03-04 12:31:23,168:             agent.CAPMBot]:     INFO - Requesting initial information for marketplace `1524`
+[2026-03-04 12:31:23,254:             ws.FM.CAPMBot]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-03-04 12:31:23,511:             agent.CAPMBot]:     INFO - Initialisation complete. Received marketplace information.
+[2026-03-04 12:31:23,512:             agent.CAPMBot]:     INFO - I am CAPMBot(User(52422,,,yh620@d002,[USER]))
+[2026-03-04 12:31:23,512:             agent.CAPMBot]:     INFO - Bot initialised, I have the payoffs for the states.
+[2026-03-04 12:31:23,512:             agent.CAPMBot]:    ERROR - TypeError(unsupported operand type(s) for /: 'NoneType' and 'int') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:31:23,514:             agent.CAPMBot]:     INFO - Session: SID:141655:SessionState.OPEN
+[2026-03-04 12:31:23,514:             agent.CAPMBot]:     INFO - Session id: 141655, your are able to trade
+[2026-03-04 12:31:23,514:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-04 12:31:23,514:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-04 12:31:23,514:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-04 12:31:23,515:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-04 12:31:24,521:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:25,527:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:26,532:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:27,536:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:28,540:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:29,547:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:30,556:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:31,563:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:32,567:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:33,574:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:34,580:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:35,589:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:36,596:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:37,603:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:38,609:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:39,616:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:40,621:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:41,630:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:42,637:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:43,645:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:44,652:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:45,660:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:46,667:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:47,673:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:48,682:             agent.CAPMBot]:     INFO - optimal order list:
+[2026-03-04 12:31:49,689:             agent.CAPMBot]:     INFO - optimal order list:
+
+=============================== Log Started [2026-03-04 12:35:58 GMT] ===============================
+[2026-03-04 12:35:58,618:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-04 12:35:58,618:             agent.CAPMBot]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-03-04 12:35:59,079:             agent.CAPMBot]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-03-04 12:35:59,357:             agent.CAPMBot]:     INFO - Requesting initial information for marketplace `1524`
+[2026-03-04 12:35:59,443:             ws.FM.CAPMBot]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-03-04 12:35:59,702:             agent.CAPMBot]:     INFO - Initialisation complete. Received marketplace information.
+[2026-03-04 12:35:59,702:             agent.CAPMBot]:     INFO - I am CAPMBot(User(52422,,,yh620@d002,[USER]))
+[2026-03-04 12:35:59,702:             agent.CAPMBot]:     INFO - Bot initialised, I have the payoffs for the states.
+[2026-03-04 12:35:59,702:             agent.CAPMBot]:    ERROR - KeyError(2714) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:35:59,706:             agent.CAPMBot]:     INFO - Session: SID:141655:SessionState.OPEN
+[2026-03-04 12:35:59,706:             agent.CAPMBot]:     INFO - Session id: 141655, your are able to trade
+[2026-03-04 12:35:59,706:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-04 12:35:59,706:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-04 12:35:59,706:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-04 12:35:59,706:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-04 12:36:00,715:             agent.CAPMBot]:    ERROR - TypeError('NoneType' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:36:01,726:             agent.CAPMBot]:    ERROR - TypeError('NoneType' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:36:02,735:             agent.CAPMBot]:    ERROR - TypeError('NoneType' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:36:03,745:             agent.CAPMBot]:    ERROR - TypeError('NoneType' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:36:04,755:             agent.CAPMBot]:    ERROR - TypeError('NoneType' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:36:05,764:             agent.CAPMBot]:    ERROR - TypeError('NoneType' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:36:06,773:             agent.CAPMBot]:    ERROR - TypeError('NoneType' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:36:07,781:             agent.CAPMBot]:    ERROR - TypeError('NoneType' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+
+=============================== Log Started [2026-03-04 12:36:27 GMT] ===============================
+[2026-03-04 12:36:27,477:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-04 12:36:27,477:             agent.CAPMBot]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-03-04 12:36:27,918:             agent.CAPMBot]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-03-04 12:36:28,200:             agent.CAPMBot]:     INFO - Requesting initial information for marketplace `1524`
+[2026-03-04 12:36:28,289:             ws.FM.CAPMBot]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-03-04 12:36:28,543:             agent.CAPMBot]:     INFO - Initialisation complete. Received marketplace information.
+[2026-03-04 12:36:28,544:             agent.CAPMBot]:     INFO - I am CAPMBot(User(52422,,,yh620@d002,[USER]))
+[2026-03-04 12:36:28,544:             agent.CAPMBot]:     INFO - Bot initialised, I have the payoffs for the states.
+[2026-03-04 12:36:28,544:             agent.CAPMBot]:    ERROR - TypeError(unsupported operand type(s) for /: 'NoneType' and 'int') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:36:28,547:             agent.CAPMBot]:     INFO - Session: SID:141655:SessionState.OPEN
+[2026-03-04 12:36:28,547:             agent.CAPMBot]:     INFO - Session id: 141655, your are able to trade
+[2026-03-04 12:36:28,547:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-04 12:36:28,547:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-04 12:36:28,547:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-04 12:36:28,547:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-04 12:36:29,554:             agent.CAPMBot]:    ERROR - TypeError('NoneType' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:36:30,561:             agent.CAPMBot]:    ERROR - TypeError('NoneType' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:36:31,570:             agent.CAPMBot]:    ERROR - TypeError('NoneType' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 12:36:32,580:             agent.CAPMBot]:    ERROR - TypeError('NoneType' object is not iterable) in CAPMBot._check_market() method. Run with DEBUG for details
+
+=============================== Log Started [2026-03-04 19:20:47 GMT] ===============================
+[2026-03-04 19:20:47,246:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-04 19:20:47,247:             agent.CAPMBot]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-03-04 19:20:47,721:             agent.CAPMBot]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-03-04 19:20:47,992:             agent.CAPMBot]:     INFO - Requesting initial information for marketplace `1524`
+[2026-03-04 19:20:48,076:             ws.FM.CAPMBot]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-03-04 19:20:48,331:             agent.CAPMBot]:     INFO - Initialisation complete. Received marketplace information.
+[2026-03-04 19:20:48,331:             agent.CAPMBot]:     INFO - I am CAPMBot(User(52422,,,yh620@d002,[USER]))
+[2026-03-04 19:20:48,331:             agent.CAPMBot]:     INFO - Bot initialised, I have the payoffs for the states.
+[2026-03-04 19:20:48,332:             agent.CAPMBot]:    ERROR - TypeError(unsupported operand type(s) for /: 'NoneType' and 'int') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 19:20:48,335:             agent.CAPMBot]:     INFO - Session: SID:141708:SessionState.OPEN
+[2026-03-04 19:20:48,336:             agent.CAPMBot]:     INFO - Session id: 141708, your are able to trade
+[2026-03-04 19:20:48,336:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-04 19:20:48,336:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-04 19:20:48,336:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-04 19:20:48,336:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+
+=============================== Log Started [2026-03-04 19:22:33 GMT] ===============================
+[2026-03-04 19:22:33,147:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-04 19:22:33,147:             agent.CAPMBot]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-03-04 19:22:33,619:             agent.CAPMBot]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-03-04 19:22:33,947:             agent.CAPMBot]:     INFO - Requesting initial information for marketplace `1524`
+[2026-03-04 19:22:34,031:             ws.FM.CAPMBot]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-03-04 19:22:34,286:             agent.CAPMBot]:     INFO - Initialisation complete. Received marketplace information.
+[2026-03-04 19:22:34,286:             agent.CAPMBot]:     INFO - I am CAPMBot(User(52422,,,yh620@d002,[USER]))
+[2026-03-04 19:22:34,286:             agent.CAPMBot]:     INFO - Bot initialised, I have the payoffs for the states.
+[2026-03-04 19:22:34,286:             agent.CAPMBot]:    ERROR - TypeError(unsupported operand type(s) for /: 'NoneType' and 'int') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 19:22:34,289:             agent.CAPMBot]:     INFO - Session: SID:141708:SessionState.OPEN
+[2026-03-04 19:22:34,289:             agent.CAPMBot]:     INFO - Session id: 141708, your are able to trade
+[2026-03-04 19:22:34,289:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-04 19:22:34,289:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-04 19:22:34,289:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-04 19:22:34,289:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-04 19:22:35,289:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-04 19:22:36,293:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-04 19:22:37,299:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-04 19:22:38,306:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-04 19:22:39,313:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-04 19:22:40,320:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-04 19:22:41,327:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-04 19:22:42,334:             agent.CAPMBot]:     INFO - current performance is: 104.125
+
+=============================== Log Started [2026-03-04 19:26:04 GMT] ===============================
+[2026-03-04 19:26:04,762:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-04 19:26:04,762:             agent.CAPMBot]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-03-04 19:26:05,716:             agent.CAPMBot]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-03-04 19:26:06,725:             agent.CAPMBot]:     INFO - Requesting initial information for marketplace `1524`
+[2026-03-04 19:26:06,808:             ws.FM.CAPMBot]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-03-04 19:26:07,583:             agent.CAPMBot]:     INFO - Initialisation complete. Received marketplace information.
+[2026-03-04 19:26:07,583:             agent.CAPMBot]:     INFO - I am CAPMBot(User(52422,,,yh620@d002,[USER]))
+[2026-03-04 19:26:07,583:             agent.CAPMBot]:     INFO - Bot initialised, I have the payoffs for the states.
+[2026-03-04 19:26:07,584:             agent.CAPMBot]:    ERROR - TypeError(unsupported operand type(s) for /: 'NoneType' and 'int') in CAPMBot._check_market() method. Run with DEBUG for details
+[2026-03-04 19:26:07,586:             agent.CAPMBot]:     INFO - Session: SID:141708:SessionState.OPEN
+[2026-03-04 19:26:07,586:             agent.CAPMBot]:     INFO - Session id: 141708, your are able to trade
+[2026-03-04 19:26:07,587:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-04 19:26:07,587:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-04 19:26:07,587:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-04 19:26:07,587:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-04 19:26:08,587:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-04 19:26:09,590:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-04 19:26:10,598:             agent.CAPMBot]:     INFO - current performance is: 104.125
