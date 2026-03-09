@@ -26,10 +26,11 @@ class CAPMBot(Agent):
         super().__init__(account, email, password, marketplace_id, name=bot_name)
         self._risk_penalty = risk_penalty
         self._payoffs = {}
-        self._bids = {}
-        self._asks = {}
-        self._asset = {}
-        self._cash = None
+        self._bids = {2714:0, 2715:0,  2716:0,  2717:0}
+        self._asks = {2714:20, 2715:20,  2716:20,  2717:20}
+        self._asset = {2714:0, 2715:0,  2716:0,  2717:0}
+        self._last_asset = {2714:0, 2715:0,  2716:0,  2717:0}
+        self._cash = 0
         self._best_order_list = None
         self._standing_order_list = {2714:None, 2715:None,  2716:None,  2717:None}
         self._order_placing = {2714:False, 2715:False,  2716:False,  2717:False}
@@ -60,14 +61,16 @@ class CAPMBot(Agent):
             asset_id = market.fm_id
             expected_asset[asset_id] = self._asset[asset_id]
         expected_cash = self._cash/100
-        
+                    
         for order in orders:
             if order.order_side == OrderSide.BUY:
-                expected_cash -= order.price * order.units
-                expected_asset[asset_id] += order.units
+                expected_cash -= (order.price * order.units)/100
+                expected_asset[order.market.fm_id] += order.units
             elif order.order_side == OrderSide.SELL:
-                expected_cash += order.price * order.units
-                expected_asset[asset_id] -= order.units
+                expected_cash += (order.price * order.units)/100
+                expected_asset[order.market.fm_id] -= order.units
+            self.inform(f"Current_asset: {self._asset[order.market.fm_id]}")
+            self.inform(f"Expected_asset: {expected_asset[order.market.fm_id]}")
 
         # Asset A, fm_id: 2714
         # Asset B, fm_id: 2715
@@ -78,12 +81,14 @@ class CAPMBot(Agent):
         payoff_y = expected_asset[2714]*7.5 + expected_asset[2715]*7.5 + expected_asset[2716]*2.5 + expected_asset[2717]*5 + expected_cash
         payoff_z = expected_asset[2714]*2.5 + expected_asset[2715]*10 + expected_asset[2716]*10 + expected_asset[2717]*5 + expected_cash
         expected_payoff = (payoff_w + payoff_x + payoff_y + payoff_z)/4
+
         variance = (
             (payoff_w - expected_payoff)**2 
             + (payoff_x - expected_payoff)**2 
             + (payoff_y - expected_payoff)**2 
             + (payoff_z - expected_payoff)**2 
             )/4
+
         performance = expected_payoff - variance*self._risk_penalty
 
         return performance
@@ -154,6 +159,7 @@ class CAPMBot(Agent):
             self.inform(f"current performance is not optimal, profit-making order list:")
             for order in self._best_order_list:
                 self.inform(f"\t Market: {order.market.fm_id}, Side: {order.order_side}, Unit: {order.units}, Price: {order.price}")
+            self.inform(f"expected performance: {best_performance}")
         return signal
 
     def _set_order(self, side: int, market_id: int) -> None:
@@ -225,6 +231,22 @@ class CAPMBot(Agent):
         for market, asset in holdings.assets.items():
             self.inform(f"\t asset in market {market.name} : {asset.units}")
             self._asset[market.fm_id] = asset.units
+        # Check if trade is success based on asset from last asset holding update
+        for market, current_asset in self._asset.items():
+            last_asset = self._last_asset[market]
+            standing_order = self._standing_order_list[market]
+            unit = 0
+            if standing_order is not None:
+                if standing_order.order_side == OrderSide.SELL:
+                    unit = -1
+                elif standing_order.order_side == OrderSide.BUY:
+                    unit = 1
+            if (current_asset != last_asset) and (last_asset + unit == current_asset):
+                self.inform(f"Trade success: {self._standing_order_list[market]}")
+                self._standing_order_list[market] = None
+        # Update asset from last asset holding update
+        for market, asset in self._asset.items():
+            self._last_asset[market] = asset
 
     def received_orders(self, orders: list[Order]):
         # Set best bid and ask in each market as None
