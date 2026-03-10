@@ -34,6 +34,11 @@ class CAPMBot(Agent):
         self._best_order_list = None
         self._standing_order_list = {2714:None, 2715:None,  2716:None,  2717:None}
         self._order_placing = {2714:False, 2715:False,  2716:False,  2717:False}
+        self._session_time = 1
+        self._wait_time = 0
+        self._order_cancelling = {2714:0, 2715:0,  2716:0,  2717:0} 
+        #1: Cancel order placed, 2: Cancel order accepted, 0: Cancel order succeed / no cancel order
+        self._min_margin = 3
 
 
     def initialised(self):
@@ -69,8 +74,6 @@ class CAPMBot(Agent):
             elif order.order_side == OrderSide.SELL:
                 expected_cash += (order.price * order.units)/100
                 expected_asset[order.market.fm_id] -= order.units
-            self.inform(f"Current_asset: {self._asset[order.market.fm_id]}")
-            self.inform(f"Expected_asset: {expected_asset[order.market.fm_id]}")
 
         # Asset A, fm_id: 2714
         # Asset B, fm_id: 2715
@@ -150,7 +153,7 @@ class CAPMBot(Agent):
                                     order_list.append(order)
                             if len(order_list) != 0:
                                 performance = self.get_potential_performance(order_list)
-                                if performance > current_performance:
+                                if performance > current_performance + self._min_margin:
                                     if best_performance is None or performance > best_performance:
                                         best_performance = performance
                                         self._best_order_list = order_list
@@ -195,6 +198,12 @@ class CAPMBot(Agent):
         self.send_order(order = order)
         self.inform(f"Placed order: {order}", ws = False)
     
+    def _cancel_order(self, order: Order) -> None:
+        cancel_order = copy.copy(order)
+        cancel_order.order_type = OrderType.CANCEL
+        self.send_order(order = cancel_order)
+        self.inform(f"\t Cancelling order: {order}")
+    
     def _check_market(self):
         is_order_placing = False
         for value in self._order_placing.values():
@@ -204,13 +213,32 @@ class CAPMBot(Agent):
         for order in self._standing_order_list.values():
             if order is not None:
                 is_standing_order = True
+        is_cancelling_order = False
+        for value in self._order_cancelling.values():
+            if value != 0:
+                is_cancelling_order = True
 
-        if is_order_placing is False and is_standing_order is False:
+        if is_order_placing is False and is_standing_order is False and is_cancelling_order is False:
+            self._wait_time  = 0
             is_optimal = self.is_portfolio_optimal()
             if not is_optimal:
                 for order in self._best_order_list:
                     self._place_order(order)
                     self._order_placing[order.market.fm_id] = True
+        elif is_order_placing is False and is_standing_order is True and is_cancelling_order is False:
+            self._wait_time += 1
+            if self._wait_time >= 5:
+                self.inform("Wait time > 5s, cancel standing orders")
+                for market, order in self._standing_order_list.items():
+                    if order is not None:
+                        self._cancel_order(order)
+                        self._order_cancelling[market] = 1
+        
+        self._session_time += 1
+        if self._session_time % 30 == 0:
+            if self._min_margin - 0.5 >= 0:
+                self._min_margin -= 0.5
+
 
     def pre_start_tasks(self):
         self.execute_periodically(self._check_market, 1)
@@ -244,6 +272,13 @@ class CAPMBot(Agent):
             if (current_asset != last_asset) and (last_asset + unit == current_asset):
                 self.inform(f"Trade success: {self._standing_order_list[market]}")
                 self._standing_order_list[market] = None
+                if self._order_cancelling[market] == 2:
+                    self.inform(f"Order cancel fail, the order is traded: {standing_order}")
+                    self._order_cancelling[market] = 0
+            elif self._order_cancelling[market] == 2 and current_asset == last_asset:
+                self.inform(f"Order successfully cancelled: {standing_order}")
+                self._standing_order_list[market] = None
+                self._order_cancelling[market] = 0
         # Update asset from last asset holding update
         for market, asset in self._asset.items():
             self._last_asset[market] = asset
@@ -273,9 +308,11 @@ class CAPMBot(Agent):
         if order.order_type is OrderType.LIMIT:
             self._standing_order_list[order.market.fm_id] = order
             self._order_placing[order.market.fm_id] = False
+        elif order.order_type is OrderType.CANCEL:
+            self._order_cancelling[order.market.fm_id] = 2
 
     def order_rejected(self, info: dict[str, str], order: Order):
-        pass
+        self.inform(f"I have {order.order_type} order rejected by book: {order.ref}")
 
 
 if __name__ == "__main__":
