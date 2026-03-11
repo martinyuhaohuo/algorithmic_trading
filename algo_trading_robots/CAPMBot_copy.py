@@ -39,8 +39,6 @@ class CAPMBot(Agent):
         self._order_cancelling = {2714:0, 2715:0,  2716:0,  2717:0} 
         #1: Cancel order placed, 2: Cancel order accepted, 0: Cancel order succeed / no cancel order
         self._min_margin = 3
-        self._current_performance = 0
-        self._perform_check_time = 0
 
 
     def initialised(self):
@@ -118,7 +116,6 @@ class CAPMBot(Agent):
             )/4
         current_performance = expected_payoff - variance*self._risk_penalty
         self.inform(f"current performance is: {current_performance}")
-        self._current_performance = current_performance
         best_performance = None
         self._best_order_list = None
         signal = True
@@ -197,51 +194,6 @@ class CAPMBot(Agent):
                 + f"Price: {new_order.price}")
         return new_order
     
-    def _placing_opportunity(self):
-        best_performance = None
-        self._best_order_list = None
-        signal = False
-        for side in [1, -1]:
-            for market_id in [2714, 2715, 2716, 2717]:
-                best_bid = self._bids[market_id]
-                best_ask = self._asks[market_id]
-                price = None
-                if best_bid is not None and best_ask is not None:
-                    bid_ask_spread = best_ask - best_bid
-                    cut = int(bid_ask_spread*0.2)
-                    if side == 1:
-                        price = best_bid + cut
-                        # self.inform(f"Price: {price}")
-                    elif side == -1:
-                        price = best_ask - cut
-                        # self.inform(f"Price: {price}")
-                    market = Market.get_by_id(market_id)
-                    new_order = Order.create_new(market = market)
-                    new_order.order_type = OrderType.LIMIT
-                    new_order.mine = True
-                    if side == 1:
-                        new_order.order_side = OrderSide.BUY
-                    elif side == -1:
-                        new_order.order_side = OrderSide.SELL
-                    new_order.units = 1
-                    new_order.price = price
-                    # check performance of this intended limit order
-                    if (self._cash - side * price >= 0) and (self._asset[market_id] + side >= 0):
-                        order_list = [new_order]
-                        performance = self.get_potential_performance(order_list)
-                        if performance > self._current_performance + self._min_margin:
-                            if best_performance is None or performance > best_performance:
-                                best_performance = performance
-                                self._best_order_list = order_list
-        if best_performance is not None:
-            signal = True
-            self.inform(f"Detected order placing opportunity:")
-            for order in self._best_order_list:
-                self.inform(f"\t Market: {order.market.fm_id}, Side: {order.order_side}, Unit: {order.units}, Price: {order.price}")
-            self.inform(f"expected performance: {best_performance}")
-        return signal
-
-    
     def _place_order(self, order) -> None:
         self.send_order(order = order)
         self.inform(f"Placed order: {order}", ws = False)
@@ -273,17 +225,6 @@ class CAPMBot(Agent):
                 for order in self._best_order_list:
                     self._place_order(order)
                     self._order_placing[order.market.fm_id] = True
-                self._perform_check_time = 0
-            elif is_optimal:
-                self._perform_check_time += 1
-                if self._perform_check_time >= 10:
-                    is_placing_opportunity = self._placing_opportunity()
-                    if is_placing_opportunity:
-                        for order in self._best_order_list:
-                            self._place_order(order)
-                            self._order_placing[order.market.fm_id] = True
-                        self._perform_check_time = 0
-
         elif is_order_placing is False and is_standing_order is True and is_cancelling_order is False:
             self._wait_time += 1
             if self._wait_time >= 5:
