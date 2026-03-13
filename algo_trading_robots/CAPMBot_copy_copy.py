@@ -4,7 +4,6 @@ This is a template for Trading Task 2 (Diversification - CAPM)
 
 import copy
 import logging
-from itertools import product
 from fmclient import Agent, Market, Holding, Session, Order, OrderType, OrderSide
 
 
@@ -27,18 +26,17 @@ class CAPMBot(Agent):
         super().__init__(account, email, password, marketplace_id, name=bot_name)
         self._risk_penalty = risk_penalty
         self._payoffs = {}
-        self._bids = {}
-        self._asks = {}
-        self._asset = {}
-        self._last_asset = {}
+        self._bids = {2714:0, 2715:0,  2716:0,  2717:0}
+        self._asks = {2714:20, 2715:20,  2716:20,  2717:20}
+        self._asset = {2714:0, 2715:0,  2716:0,  2717:0}
+        self._last_asset = {2714:0, 2715:0,  2716:0,  2717:0}
         self._cash = 0
         self._best_order_list = None
-        self._best_performance = None
-        self._standing_order_list = {}
-        self._order_placing = {}
+        self._standing_order_list = {2714:None, 2715:None,  2716:None,  2717:None}
+        self._order_placing = {2714:False, 2715:False,  2716:False,  2717:False}
         self._session_time = 1
         self._wait_time = 0
-        self._order_cancelling = {} 
+        self._order_cancelling = {2714:0, 2715:0,  2716:0,  2717:0} 
         #1: Cancel order placed, 2: Cancel order accepted, 0: Cancel order succeed / no cancel order
         self._min_margin = 3
         self._current_performance = 0
@@ -46,19 +44,11 @@ class CAPMBot(Agent):
 
 
     def initialised(self):
-        # extract payoff distribution for each asset
+        # Extract payoff distribution for each asset
         for market in self.markets.values():
             asset_id = market.fm_id
             description = market.description
             self._payoffs[asset_id] = [int(payoff) for payoff in description.split(",")]
-            # update inital value of other attributes
-            self._bids[asset_id] = 0
-            self._asks[asset_id] = 0
-            self._asset[asset_id] = 0
-            self._last_asset[asset_id] = 0
-            self._standing_order_list[asset_id] = None
-            self._order_placing[asset_id] = False
-            self._order_cancelling[asset_id] = 0
 
         self.inform("Bot initialised, I have the payoffs for the states.")
 
@@ -73,14 +63,12 @@ class CAPMBot(Agent):
         :param orders: list of orders
         :return: performance (float)
         """
-        # initalize expected asset as current asset, expected cash as current cash
         expected_asset = {}
         for market in self.markets.values():
             asset_id = market.fm_id
             expected_asset[asset_id] = self._asset[asset_id]
         expected_cash = self._cash/100
-        
-        # adjust expected asset and cash based on input order list
+                    
         for order in orders:
             if order.order_side == OrderSide.BUY:
                 expected_cash -= (order.price * order.units)/100
@@ -89,31 +77,25 @@ class CAPMBot(Agent):
                 expected_cash += (order.price * order.units)/100
                 expected_asset[order.market.fm_id] -= order.units
 
-        # compute payoff at each state
-        payoff_list = []
-        state_num = len(self._payoffs.values()[0])
-        for state in range(state_num):
-            payoff = 0
-            for market in self.markets.values():
-                asset_id = market.fm_id
-                payoff += expected_asset[asset_id]*self._payoffs[asset_id][state]
-            payoff += expected_cash
-            payoff_list.append(payoff)
-        
-        # compute expected payoff
-        expected_payoff = 0
-        for payoff in payoff_list:
-            expected_payoff += payoff
-        expected_payoff = expected_payoff/len(payoff_list)
+        # Asset A, fm_id: 2714
+        # Asset B, fm_id: 2715
+        # Asset C, fm_id: 2716
+        # Note, fm_id: 2717
+        payoff_w = expected_asset[2714]*10 + expected_asset[2715]*0 + expected_asset[2716]*0 + expected_asset[2717]*5 + expected_cash
+        payoff_x = expected_asset[2714]*0 + expected_asset[2715]*2.5 + expected_asset[2716]*7.5 + expected_asset[2717]*5 + expected_cash
+        payoff_y = expected_asset[2714]*7.5 + expected_asset[2715]*7.5 + expected_asset[2716]*2.5 + expected_asset[2717]*5 + expected_cash
+        payoff_z = expected_asset[2714]*2.5 + expected_asset[2715]*10 + expected_asset[2716]*10 + expected_asset[2717]*5 + expected_cash
+        expected_payoff = (payoff_w + payoff_x + payoff_y + payoff_z)/4
 
-        # compute variance
-        variance = 0
-        for payoff in payoff_list:
-            variance += (payoff - expected_payoff)**2
-        variance = variance/len(payoff_list)
+        variance = (
+            (payoff_w - expected_payoff)**2 
+            + (payoff_x - expected_payoff)**2 
+            + (payoff_y - expected_payoff)**2 
+            + (payoff_z - expected_payoff)**2 
+            )/4
 
-        # compute performance
         performance = expected_payoff - variance*self._risk_penalty
+
         return performance
 
     def is_portfolio_optimal(self) -> bool:
@@ -122,76 +104,68 @@ class CAPMBot(Agent):
         the current best standing prices in the market, and false otherwise.
         :return: performance is optimal (bool)
         """
-        # compute payoff of current holdings at each state
         cash = self._cash/100
-        payoff_list = []
-        state_num = len(self._payoffs.values()[0])
-        for state in range(state_num):
-            payoff = 0
-            for market in self.markets.values():
-                asset_id = market.fm_id
-                payoff += self._asset[asset_id]*self._payoffs[asset_id][state]
-            payoff += cash
-            payoff_list.append(payoff)
-        
-        # compute expected payoff
-        expected_payoff = 0
-        for payoff in payoff_list:
-            expected_payoff += payoff
-        expected_payoff = expected_payoff/len(payoff_list)
-
-        # compute variance
-        variance = 0
-        for payoff in payoff_list:
-            variance += (payoff - expected_payoff)**2
-        variance = variance/len(payoff_list)
-
-        # compute current performance
+        payoff_w = self._asset[2714]*10 + self._asset[2715]*0 + self._asset[2716]*0 + self._asset[2717]*5 + cash
+        payoff_x = self._asset[2714]*0 + self._asset[2715]*2.5 + self._asset[2716]*7.5 + self._asset[2717]*5 + cash
+        payoff_y = self._asset[2714]*7.5 + self._asset[2715]*7.5 + self._asset[2716]*2.5 + self._asset[2717]*5 + cash
+        payoff_z = self._asset[2714]*2.5 + self._asset[2715]*10 + self._asset[2716]*10 + self._asset[2717]*5 + cash
+        expected_payoff = (payoff_w + payoff_x + payoff_y + payoff_z)/4
+        variance = (
+            (payoff_w - expected_payoff)**2 
+            + (payoff_x - expected_payoff)**2 
+            + (payoff_y - expected_payoff)**2 
+            + (payoff_z - expected_payoff)**2 
+            )/4
         current_performance = expected_payoff - variance*self._risk_penalty
         self.inform(f"current performance is: {current_performance}")
         self._current_performance = current_performance
-
-        # check if there exist profit opportunity
-        self._best_performance = None
+        best_performance = None
         self._best_order_list = None
         signal = True
-        market_num = len(self.markets.values())
-        sides = [0, 1, -1]
-        # iterate through each combination of possible order
-        for side_list in product(sides, repeat = market_num):
-            order_list = []
-            net_cost = 0
-            asset_enough = True
-            for market, side in zip(self.markets.values(), side_list):
-                asset_id = market.fm_id
-                order = self._set_order(side, asset_id)
-                if order is not None:
-                    # update cost of this order combination
-                    net_cost += side*order.price
-                    order_list.append(order)
-                    # check if asset is enough
-                    if self._asset[asset_id] + side < 0:
-                        asset_enough = False
-            if (
-                (self._cash - net_cost >= 0) # check if cash is enough
-                and (asset_enough == True)
-                and (len(order_list) != 0)
-                ):
-                # check expected perfomance of this order combination
-                performance = self.get_potential_performance(order_list)
-                # find order 
-                if performance > current_performance + self._min_margin:
-                    if self._best_performance is None or performance > self._best_performance:
-                        self._best_performance = performance
-                        self._best_order_list = order_list
-
-        # if performance > current_performance, set current_performance_optimal signal to False
-        if self._best_performance is not None:
+        for A_side in [0, 1, -1]:
+            for B_side in [0, 1, -1]:
+                for C_side in [0, 1, -1]:
+                    for N_side in [0, 1, -1]:
+                        order_A = self._set_order(A_side, 2714)
+                        order_B = self._set_order(B_side, 2715)
+                        order_C = self._set_order(C_side, 2716)
+                        order_N = self._set_order(N_side, 2717)
+                        net_cost = 0
+                        if order_A is not None:
+                            net_cost += A_side*order_A.price
+                        if order_B is not None:
+                            net_cost += B_side*order_B.price
+                        if order_C is not None:
+                            net_cost += C_side*order_C.price
+                        if order_N is not None:
+                            net_cost += N_side*order_N.price
+                        if (
+                            (self._cash - net_cost >= 0)
+                            and
+                            (self._asset[2714] + A_side >= 0)
+                            and
+                            (self._asset[2715] + B_side >= 0)
+                            and
+                            (self._asset[2716] + C_side >= 0)
+                            and
+                            (self._asset[2717] + N_side >= -20)
+                            ):
+                            order_list = []
+                            for order in [order_A, order_B, order_C, order_N]:
+                                if order is not None:
+                                    order_list.append(order)
+                            if len(order_list) != 0:
+                                performance = self.get_potential_performance(order_list)
+                                if performance > current_performance + self._min_margin:
+                                    if best_performance is None or performance > best_performance:
+                                        best_performance = performance
+                                        self._best_order_list = order_list
+        if best_performance is not None:
             signal = False
             self.inform(f"current performance is not optimal, profit-making order list:")
             for order in self._best_order_list:
                 self.inform(f"\t Market: {order.market.fm_id}, Side: {order.order_side}, Unit: {order.units}, Price: {order.price}")
-            self.inform(f"expected performance: {self._best_performance}")
+            self.inform(f"expected performance: {best_performance}")
         return signal
 
     def _set_order(self, side: int, market_id: int) -> None:
@@ -228,10 +202,9 @@ class CAPMBot(Agent):
         self._best_order_list = None
         signal = False
         for side in [1, -1]:
-            for market in self.markets.values():
-                asset_id = market.fm_id
-                best_bid = self._bids[asset_id]
-                best_ask = self._asks[asset_id]
+            for market_id in [2714, 2715, 2716, 2717]:
+                best_bid = self._bids[market_id]
+                best_ask = self._asks[market_id]
                 price = None
                 if best_bid is not None and best_ask is not None:
                     bid_ask_spread = best_ask - best_bid
@@ -242,7 +215,7 @@ class CAPMBot(Agent):
                     elif side == -1:
                         price = best_ask - cut
                         # self.inform(f"Price: {price}")
-                    market = Market.get_by_id(asset_id)
+                    market = Market.get_by_id(market_id)
                     new_order = Order.create_new(market = market)
                     new_order.order_type = OrderType.LIMIT
                     new_order.mine = True
@@ -253,7 +226,7 @@ class CAPMBot(Agent):
                     new_order.units = 1
                     new_order.price = price
                     # check performance of this intended limit order
-                    if (self._cash - side * price >= 0) and (self._asset[asset_id] + side >= 0):
+                    if (self._cash - side * price >= 0) and (self._asset[market_id] + side >= 0):
                         order_list = [new_order]
                         performance = self.get_potential_performance(order_list)
                         if performance > self._current_performance + self._min_margin:
@@ -295,21 +268,13 @@ class CAPMBot(Agent):
 
         if is_order_placing is False and is_standing_order is False and is_cancelling_order is False:
             self._wait_time  = 0
-            is_profitable = False
             is_optimal = self.is_portfolio_optimal()
-            if (
-                (is_optimal == False) 
-                and (self._best_performance > self._current_performance + self._min_margin)
-                ):
-                is_profitable = True
-
-            if is_profitable:
+            if not is_optimal:
                 for order in self._best_order_list:
                     self._place_order(order)
                     self._order_placing[order.market.fm_id] = True
                 self._perform_check_time = 0
-            
-            elif not is_profitable:
+            elif is_optimal:
                 self._perform_check_time += 1
                 if self._perform_check_time >= 10:
                     is_placing_opportunity = self._placing_opportunity()
