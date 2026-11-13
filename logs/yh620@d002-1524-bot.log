@@ -38208,3 +38208,965 @@
 [2026-03-19 20:31:58,570:             agent.CAPMBot]:     INFO - current performance is: 122.47874999999999
 [2026-03-19 20:31:59,576:             agent.CAPMBot]:     INFO - current performance is: 122.47874999999999
 [2026-03-19 20:32:00,584:             agent.CAPMBot]:     INFO - current performance is: 122.47874999999999
+
+=============================== Log Started [2026-03-20 15:21:20 GMT] ===============================
+[2026-03-20 15:21:20,524:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-20 15:21:20,525:             agent.CAPMBot]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-03-20 15:21:20,976:             agent.CAPMBot]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-03-20 15:21:21,248:             agent.CAPMBot]:     INFO - Requesting initial information for marketplace `1524`
+[2026-03-20 15:21:21,332:             ws.FM.CAPMBot]:     INFO - Connected to AHM Server tcp4:174.129.128.48:443
+[2026-03-20 15:21:21,588:             agent.CAPMBot]:     INFO - Initialisation complete. Received marketplace information.
+[2026-03-20 15:21:21,588:             agent.CAPMBot]:     INFO - I am CAPMBot(User(52422,,,yh620@d002,[USER]))
+[2026-03-20 15:21:21,588:             agent.CAPMBot]:     INFO - Bot initialised, I have the payoffs for the states.
+[2026-03-20 15:21:21,589:             agent.CAPMBot]:     INFO - Session: SID:142643:SessionState.OPEN
+[2026-03-20 15:21:21,589:             agent.CAPMBot]:     INFO - Session id: 142643, your are able to trade
+[2026-03-20 15:21:21,589:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-20 15:21:21,589:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-20 15:21:21,589:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-20 15:21:21,590:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:21:22,590:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:23,596:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:24,604:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:25,610:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:26,615:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:27,622:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:28,628:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:29,635:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:30,641:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:31,647:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:32,656:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:33,662:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:34,669:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:35,678:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:36,685:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:37,692:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:38,699:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:39,706:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:40,713:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:41,720:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:42,727:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:43,733:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:44,741:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:45,748:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:46,755:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:47,761:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:48,770:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:49,779:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:50,786:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:51,794:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:52,801:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:53,808:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:54,815:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:55,824:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:56,831:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:57,838:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:58,844:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:21:59,851:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:00,858:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:01,865:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:02,871:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:03,878:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:04,886:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:05,895:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:06,901:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:07,908:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:08,915:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:09,922:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:10,928:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:11,933:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:12,940:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:13,947:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:14,955:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:15,961:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:16,968:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:17,975:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:18,981:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:19,988:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:20,996:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:22,003:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:23,012:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:24,021:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:25,028:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:26,036:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:27,042:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:28,048:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:29,051:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:30,057:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:31,064:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:32,070:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:33,077:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:34,083:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:35,087:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:36,091:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:37,094:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:38,097:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:39,101:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:40,108:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:41,114:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:42,118:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:43,125:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:44,132:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:45,139:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:46,148:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:47,150:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:48,156:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:49,161:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:50,164:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:51,172:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:52,174:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:53,181:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:54,188:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:55,192:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:56,195:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:57,198:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:58,201:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:22:59,206:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:00,211:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:01,218:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:02,222:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:03,226:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:04,229:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:05,235:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:06,238:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:07,241:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:08,244:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:09,247:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:10,253:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:11,258:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:12,262:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:13,269:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:14,277:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:15,285:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:16,292:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:17,297:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:18,306:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:19,312:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:20,319:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:21,326:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:22,333:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:23,339:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:24,347:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:25,355:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:26,363:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:27,371:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:28,377:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:29,385:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:30,391:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:31,398:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:32,405:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:33,412:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:34,419:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:35,424:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:36,431:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:37,438:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:38,445:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:39,452:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:40,458:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:41,464:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:42,471:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:43,479:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:44,485:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:45,493:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:46,500:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:47,507:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:48,514:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:49,522:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:50,530:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:51,536:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:52,542:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:53,547:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:54,554:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:55,561:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:56,567:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:57,573:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:58,580:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:23:59,588:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:00,594:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:01,601:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:02,607:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:03,614:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:04,622:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:05,627:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:06,634:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:07,641:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:08,648:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:09,655:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:10,661:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:11,669:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:12,676:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:13,683:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:14,690:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:15,697:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:16,704:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:17,711:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:18,718:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:19,725:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:20,731:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:21,738:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:22,747:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:23,756:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:24,763:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:25,771:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:26,781:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:27,790:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:28,797:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:29,804:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:30,813:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:31,819:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:32,827:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:33,835:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:34,844:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:35,850:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:36,858:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:37,864:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:38,872:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:39,879:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:40,887:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:41,895:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:42,903:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:43,910:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:44,918:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:45,925:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:46,932:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:47,939:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:48,944:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:49,953:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:50,960:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:51,967:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:52,973:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:53,979:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:54,987:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:55,992:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:56,997:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:58,005:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:24:59,011:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:00,016:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:01,023:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:02,031:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:03,035:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:04,040:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:05,045:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:06,050:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:07,057:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:08,063:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:09,069:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:10,077:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:11,085:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:12,091:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:13,098:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:14,106:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:15,114:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:16,119:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:17,128:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:18,135:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:19,145:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:20,152:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:21,160:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:22,168:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:23,176:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:24,183:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:25,190:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:26,197:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:27,204:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:28,209:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:29,216:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 15:25:29,222:             agent.CAPMBot]:     INFO - current performance is not optimal, profit-making order list:
+[2026-03-20 15:25:29,222:             agent.CAPMBot]:     INFO - 	 Market: 2714, Side: OrderSide.SELL, Unit: 1, Price: 298
+[2026-03-20 15:25:29,223:             agent.CAPMBot]:     INFO - expected performance: 105.94874999999999
+[2026-03-20 15:25:29,223:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,SELL,1@298,A,LIMIT,REF:'Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 298')
+[2026-03-20 15:25:29,587:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 298
+[2026-03-20 15:25:29,673:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 13
+[2026-03-20 15:25:29,674:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-20 15:25:29,674:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-20 15:25:29,674:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:25:29,674:             agent.CAPMBot]:     INFO - Trade success: Order(52018038,Mine,SELL,1@298,A,LIMIT,REF:'Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 298')
+[2026-03-20 15:25:30,224:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:31,231:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:32,237:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:33,244:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:34,251:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:35,258:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:36,265:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:37,269:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:38,276:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:39,281:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:40,288:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:41,296:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:42,299:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:43,304:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:44,312:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:45,318:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:46,326:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:47,329:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:48,337:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:49,344:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:50,351:             agent.CAPMBot]:     INFO - current performance is: 105.94874999999999
+[2026-03-20 15:25:50,357:             agent.CAPMBot]:     INFO - current performance is not optimal, profit-making order list:
+[2026-03-20 15:25:50,357:             agent.CAPMBot]:     INFO - 	 Market: 2714, Side: OrderSide.SELL, Unit: 1, Price: 203
+[2026-03-20 15:25:50,357:             agent.CAPMBot]:     INFO - expected performance: 106.50999999999999
+[2026-03-20 15:25:50,357:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,SELL,1@203,A,LIMIT,REF:'Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 203')
+[2026-03-20 15:25:50,775:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 203
+[2026-03-20 15:25:50,912:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 12
+[2026-03-20 15:25:50,912:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-20 15:25:50,912:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-20 15:25:50,912:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:25:50,912:             agent.CAPMBot]:     INFO - Trade success: Order(52018042,Mine,SELL,1@203,A,LIMIT,REF:'Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 203')
+[2026-03-20 15:25:51,359:             agent.CAPMBot]:     INFO - current performance is: 106.50999999999999
+[2026-03-20 15:25:52,363:             agent.CAPMBot]:     INFO - current performance is: 106.50999999999999
+[2026-03-20 15:25:53,370:             agent.CAPMBot]:     INFO - current performance is: 106.50999999999999
+[2026-03-20 15:25:54,377:             agent.CAPMBot]:     INFO - current performance is: 106.50999999999999
+[2026-03-20 15:25:55,382:             agent.CAPMBot]:     INFO - current performance is: 106.50999999999999
+[2026-03-20 15:25:56,390:             agent.CAPMBot]:     INFO - current performance is: 106.50999999999999
+[2026-03-20 15:25:57,394:             agent.CAPMBot]:     INFO - current performance is: 106.50999999999999
+[2026-03-20 15:25:58,402:             agent.CAPMBot]:     INFO - current performance is: 106.50999999999999
+[2026-03-20 15:25:59,410:             agent.CAPMBot]:     INFO - current performance is: 106.50999999999999
+[2026-03-20 15:26:00,418:             agent.CAPMBot]:     INFO - current performance is: 106.50999999999999
+[2026-03-20 15:26:01,424:             agent.CAPMBot]:     INFO - current performance is: 106.50999999999999
+[2026-03-20 15:26:02,430:             agent.CAPMBot]:     INFO - current performance is: 106.50999999999999
+[2026-03-20 15:26:03,436:             agent.CAPMBot]:     INFO - current performance is: 106.50999999999999
+[2026-03-20 15:26:04,444:             agent.CAPMBot]:     INFO - current performance is: 106.50999999999999
+[2026-03-20 15:26:05,450:             agent.CAPMBot]:     INFO - current performance is: 106.50999999999999
+[2026-03-20 15:26:05,457:             agent.CAPMBot]:     INFO - current performance is not optimal, profit-making order list:
+[2026-03-20 15:26:05,457:             agent.CAPMBot]:     INFO - 	 Market: 2714, Side: OrderSide.SELL, Unit: 1, Price: 466
+[2026-03-20 15:26:05,457:             agent.CAPMBot]:     INFO - expected performance: 109.38875000000002
+[2026-03-20 15:26:05,457:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,SELL,1@466,A,LIMIT,REF:'Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 466')
+[2026-03-20 15:26:05,691:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 466
+[2026-03-20 15:26:05,773:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 11
+[2026-03-20 15:26:05,774:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-20 15:26:05,774:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-20 15:26:05,774:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:26:05,774:             agent.CAPMBot]:     INFO - Trade success: Order(52018044,Mine,SELL,1@466,A,LIMIT,REF:'Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 466')
+[2026-03-20 15:26:06,458:             agent.CAPMBot]:     INFO - current performance is: 109.38875000000002
+[2026-03-20 15:26:07,466:             agent.CAPMBot]:     INFO - current performance is: 109.38875000000002
+[2026-03-20 15:26:08,473:             agent.CAPMBot]:     INFO - current performance is: 109.38875000000002
+[2026-03-20 15:26:09,480:             agent.CAPMBot]:     INFO - current performance is: 109.38875000000002
+[2026-03-20 15:26:10,487:             agent.CAPMBot]:     INFO - current performance is: 109.38875000000002
+[2026-03-20 15:26:11,493:             agent.CAPMBot]:     INFO - current performance is: 109.38875000000002
+[2026-03-20 15:26:12,500:             agent.CAPMBot]:     INFO - current performance is: 109.38875000000002
+[2026-03-20 15:26:13,509:             agent.CAPMBot]:     INFO - current performance is: 109.38875000000002
+[2026-03-20 15:26:14,517:             agent.CAPMBot]:     INFO - current performance is: 109.38875000000002
+[2026-03-20 15:26:15,524:             agent.CAPMBot]:     INFO - current performance is: 109.38875000000002
+[2026-03-20 15:26:16,530:             agent.CAPMBot]:     INFO - current performance is: 109.38875000000002
+[2026-03-20 15:26:17,538:             agent.CAPMBot]:     INFO - current performance is: 109.38875000000002
+[2026-03-20 15:26:18,545:             agent.CAPMBot]:     INFO - current performance is: 109.38875000000002
+[2026-03-20 15:26:19,552:             agent.CAPMBot]:     INFO - current performance is: 109.38875000000002
+[2026-03-20 15:26:20,560:             agent.CAPMBot]:     INFO - current performance is: 109.38875000000002
+[2026-03-20 15:26:21,569:             agent.CAPMBot]:     INFO - current performance is: 109.38875000000002
+[2026-03-20 15:26:21,576:             agent.CAPMBot]:     INFO - current performance is not optimal, profit-making order list:
+[2026-03-20 15:26:21,576:             agent.CAPMBot]:     INFO - 	 Market: 2715, Side: OrderSide.BUY, Unit: 1, Price: 415
+[2026-03-20 15:26:21,576:             agent.CAPMBot]:     INFO - expected performance: 109.86375000000001
+[2026-03-20 15:26:21,576:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,BUY,1@415,B,LIMIT,REF:'Market: Market(2715,B,Asset B,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 415')
+[2026-03-20 15:26:22,118:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2715,B,Asset B,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 415
+[2026-03-20 15:26:22,151:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 11
+[2026-03-20 15:26:22,151:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 5
+[2026-03-20 15:26:22,151:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-20 15:26:22,151:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:26:22,151:             agent.CAPMBot]:     INFO - Trade success: Order(52018048,Mine,BUY,1@415,B,LIMIT,REF:'Market: Market(2715,B,Asset B,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 415')
+[2026-03-20 15:26:22,577:             agent.CAPMBot]:     INFO - current performance is: 109.86375000000001
+[2026-03-20 15:26:23,585:             agent.CAPMBot]:     INFO - current performance is: 109.86375000000001
+[2026-03-20 15:26:24,595:             agent.CAPMBot]:     INFO - current performance is: 109.86375000000001
+[2026-03-20 15:26:25,602:             agent.CAPMBot]:     INFO - current performance is: 109.86375000000001
+[2026-03-20 15:26:26,609:             agent.CAPMBot]:     INFO - current performance is: 109.86375000000001
+[2026-03-20 15:26:27,615:             agent.CAPMBot]:     INFO - current performance is: 109.86375000000001
+[2026-03-20 15:26:28,621:             agent.CAPMBot]:     INFO - current performance is: 109.86375000000001
+[2026-03-20 15:26:29,628:             agent.CAPMBot]:     INFO - current performance is: 109.86375000000001
+[2026-03-20 15:26:30,635:             agent.CAPMBot]:     INFO - current performance is: 109.86375000000001
+[2026-03-20 15:26:31,642:             agent.CAPMBot]:     INFO - current performance is: 109.86375000000001
+[2026-03-20 15:26:32,650:             agent.CAPMBot]:     INFO - current performance is: 109.86375000000001
+[2026-03-20 15:26:33,658:             agent.CAPMBot]:     INFO - current performance is: 109.86375000000001
+[2026-03-20 15:26:34,666:             agent.CAPMBot]:     INFO - current performance is: 109.86375000000001
+[2026-03-20 15:26:35,674:             agent.CAPMBot]:     INFO - current performance is: 109.86375000000001
+[2026-03-20 15:26:35,681:             agent.CAPMBot]:     INFO - current performance is not optimal, profit-making order list:
+[2026-03-20 15:26:35,681:             agent.CAPMBot]:     INFO - 	 Market: 2716, Side: OrderSide.BUY, Unit: 1, Price: 590
+[2026-03-20 15:26:35,681:             agent.CAPMBot]:     INFO - expected performance: 110.96375
+[2026-03-20 15:26:35,681:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,BUY,1@590,C,LIMIT,REF:'Market: Market(2716,C,Asset C,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 590')
+[2026-03-20 15:26:35,776:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2716,C,Asset C,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 590
+[2026-03-20 15:26:35,803:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 11
+[2026-03-20 15:26:35,803:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 5
+[2026-03-20 15:26:35,803:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 1
+[2026-03-20 15:26:35,803:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:26:35,804:             agent.CAPMBot]:     INFO - Trade success: Order(52018051,Mine,BUY,1@590,C,LIMIT,REF:'Market: Market(2716,C,Asset C,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 590')
+[2026-03-20 15:26:36,683:             agent.CAPMBot]:     INFO - current performance is: 110.96375
+[2026-03-20 15:26:37,690:             agent.CAPMBot]:     INFO - current performance is: 110.96375
+[2026-03-20 15:26:38,698:             agent.CAPMBot]:     INFO - current performance is: 110.96375
+[2026-03-20 15:26:39,707:             agent.CAPMBot]:     INFO - current performance is: 110.96375
+[2026-03-20 15:26:39,713:             agent.CAPMBot]:     INFO - current performance is not optimal, profit-making order list:
+[2026-03-20 15:26:39,713:             agent.CAPMBot]:     INFO - 	 Market: 2716, Side: OrderSide.BUY, Unit: 1, Price: 634
+[2026-03-20 15:26:39,713:             agent.CAPMBot]:     INFO - expected performance: 111.31125
+[2026-03-20 15:26:39,713:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,BUY,1@634,C,LIMIT,REF:'Market: Market(2716,C,Asset C,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 634')
+[2026-03-20 15:26:39,892:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2716,C,Asset C,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 634
+[2026-03-20 15:26:39,949:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 11
+[2026-03-20 15:26:39,949:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 5
+[2026-03-20 15:26:39,949:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 2
+[2026-03-20 15:26:39,950:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:26:39,950:             agent.CAPMBot]:     INFO - Trade success: Order(52018053,Mine,BUY,1@634,C,LIMIT,REF:'Market: Market(2716,C,Asset C,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 634')
+[2026-03-20 15:26:40,715:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:26:41,722:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:26:42,730:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:26:43,738:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:26:44,745:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:26:45,752:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:26:46,760:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:26:47,767:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:26:48,776:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:26:49,783:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:26:50,791:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:26:51,797:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:26:52,806:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:26:52,813:             agent.CAPMBot]:     INFO - Detected order placing opportunity:
+[2026-03-20 15:26:52,813:             agent.CAPMBot]:     INFO - 	 Market: 2716, Side: OrderSide.BUY, Unit: 1, Price: 362
+[2026-03-20 15:26:52,813:             agent.CAPMBot]:     INFO - expected performance: 114.06625
+[2026-03-20 15:26:52,813:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,BUY,1@362,C,LIMIT)
+[2026-03-20 15:26:53,042:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: None
+[2026-03-20 15:26:53,092:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 11
+[2026-03-20 15:26:53,092:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 5
+[2026-03-20 15:26:53,092:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 2
+[2026-03-20 15:26:53,092:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:26:55,816:             agent.CAPMBot]:     INFO - Wait time > 3s, cancel standing orders
+[2026-03-20 15:26:55,817:             agent.CAPMBot]:     INFO - 	 Cancelling order: Order(52018055,Mine,BUY,1@362,C,LIMIT)
+[2026-03-20 15:26:56,171:             agent.CAPMBot]:     INFO - I have OrderType.CANCEL order accepted by book: None
+[2026-03-20 15:26:56,225:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 11
+[2026-03-20 15:26:56,225:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 5
+[2026-03-20 15:26:56,225:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 2
+[2026-03-20 15:26:56,225:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:26:56,818:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:26:57,826:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:26:58,834:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:26:59,841:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:00,849:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:01,857:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:02,865:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:03,873:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:04,881:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:05,887:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:05,895:             agent.CAPMBot]:     INFO - Detected order placing opportunity:
+[2026-03-20 15:27:05,895:             agent.CAPMBot]:     INFO - 	 Market: 2716, Side: OrderSide.BUY, Unit: 1, Price: 362
+[2026-03-20 15:27:05,895:             agent.CAPMBot]:     INFO - expected performance: 114.06625
+[2026-03-20 15:27:05,895:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,BUY,1@362,C,LIMIT)
+[2026-03-20 15:27:06,056:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: None
+[2026-03-20 15:27:06,129:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 11
+[2026-03-20 15:27:06,129:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 5
+[2026-03-20 15:27:06,129:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 2
+[2026-03-20 15:27:06,129:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:27:08,898:             agent.CAPMBot]:     INFO - Wait time > 3s, cancel standing orders
+[2026-03-20 15:27:08,898:             agent.CAPMBot]:     INFO - 	 Cancelling order: Order(52018057,Mine,BUY,1@362,C,LIMIT)
+[2026-03-20 15:27:09,181:             agent.CAPMBot]:     INFO - I have OrderType.CANCEL order accepted by book: None
+[2026-03-20 15:27:09,264:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 11
+[2026-03-20 15:27:09,264:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 5
+[2026-03-20 15:27:09,264:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 2
+[2026-03-20 15:27:09,264:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:27:09,900:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:10,906:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:11,913:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:12,921:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:13,932:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:14,941:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:15,949:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:16,957:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:17,964:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:18,970:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:18,977:             agent.CAPMBot]:     INFO - Detected order placing opportunity:
+[2026-03-20 15:27:18,977:             agent.CAPMBot]:     INFO - 	 Market: 2716, Side: OrderSide.BUY, Unit: 1, Price: 362
+[2026-03-20 15:27:18,977:             agent.CAPMBot]:     INFO - expected performance: 114.06625
+[2026-03-20 15:27:18,977:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,BUY,1@362,C,LIMIT)
+[2026-03-20 15:27:19,070:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: None
+[2026-03-20 15:27:19,071:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 11
+[2026-03-20 15:27:19,071:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 5
+[2026-03-20 15:27:19,071:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 2
+[2026-03-20 15:27:19,072:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:27:21,981:             agent.CAPMBot]:     INFO - Wait time > 3s, cancel standing orders
+[2026-03-20 15:27:21,981:             agent.CAPMBot]:     INFO - 	 Cancelling order: Order(52018059,Mine,BUY,1@362,C,LIMIT)
+[2026-03-20 15:27:22,196:             agent.CAPMBot]:     INFO - I have OrderType.CANCEL order accepted by book: None
+[2026-03-20 15:27:22,203:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 11
+[2026-03-20 15:27:22,204:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 5
+[2026-03-20 15:27:22,204:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 2
+[2026-03-20 15:27:22,204:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:27:22,983:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:23,991:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:24,999:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:26,006:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:27,014:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:28,022:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:29,030:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:30,038:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:31,046:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:32,055:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:32,061:             agent.CAPMBot]:     INFO - Detected order placing opportunity:
+[2026-03-20 15:27:32,062:             agent.CAPMBot]:     INFO - 	 Market: 2716, Side: OrderSide.BUY, Unit: 1, Price: 362
+[2026-03-20 15:27:32,062:             agent.CAPMBot]:     INFO - expected performance: 114.06625
+[2026-03-20 15:27:32,062:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,BUY,1@362,C,LIMIT)
+[2026-03-20 15:27:32,328:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: None
+[2026-03-20 15:27:32,415:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 11
+[2026-03-20 15:27:32,415:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 5
+[2026-03-20 15:27:32,415:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 2
+[2026-03-20 15:27:32,415:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:27:35,065:             agent.CAPMBot]:     INFO - Wait time > 3s, cancel standing orders
+[2026-03-20 15:27:35,066:             agent.CAPMBot]:     INFO - 	 Cancelling order: Order(52018061,Mine,BUY,1@362,C,LIMIT)
+[2026-03-20 15:27:35,201:             agent.CAPMBot]:     INFO - I have OrderType.CANCEL order accepted by book: None
+[2026-03-20 15:27:35,246:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 11
+[2026-03-20 15:27:35,247:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 5
+[2026-03-20 15:27:35,247:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 2
+[2026-03-20 15:27:35,247:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:27:36,067:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:37,074:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:38,083:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:39,090:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:40,098:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:41,105:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:42,109:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:43,116:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:44,122:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:45,129:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:45,136:             agent.CAPMBot]:     INFO - Detected order placing opportunity:
+[2026-03-20 15:27:45,136:             agent.CAPMBot]:     INFO - 	 Market: 2716, Side: OrderSide.BUY, Unit: 1, Price: 362
+[2026-03-20 15:27:45,136:             agent.CAPMBot]:     INFO - expected performance: 114.06625
+[2026-03-20 15:27:45,136:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,BUY,1@362,C,LIMIT)
+[2026-03-20 15:27:45,337:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: None
+[2026-03-20 15:27:45,357:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 11
+[2026-03-20 15:27:45,357:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 5
+[2026-03-20 15:27:45,358:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 2
+[2026-03-20 15:27:45,358:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:27:48,139:             agent.CAPMBot]:     INFO - Wait time > 3s, cancel standing orders
+[2026-03-20 15:27:48,139:             agent.CAPMBot]:     INFO - 	 Cancelling order: Order(52018063,Mine,BUY,1@362,C,LIMIT)
+[2026-03-20 15:27:48,462:             agent.CAPMBot]:     INFO - I have OrderType.CANCEL order accepted by book: None
+[2026-03-20 15:27:48,492:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 11
+[2026-03-20 15:27:48,492:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 5
+[2026-03-20 15:27:48,493:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 2
+[2026-03-20 15:27:48,493:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 15:27:49,141:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:50,148:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:51,157:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:52,166:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+[2026-03-20 15:27:53,175:             agent.CAPMBot]:     INFO - current performance is: 111.31125
+
+=============================== Log Started [2026-03-20 16:01:21 GMT] ===============================
+[2026-03-20 16:01:21,167:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-20 16:01:21,168:             agent.CAPMBot]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-03-20 16:01:21,639:             agent.CAPMBot]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-03-20 16:01:21,914:             agent.CAPMBot]:     INFO - Requesting initial information for marketplace `1524`
+[2026-03-20 16:01:22,000:             ws.FM.CAPMBot]:     INFO - Connected to AHM Server tcp4:54.205.8.205:443
+[2026-03-20 16:01:22,257:             agent.CAPMBot]:     INFO - Initialisation complete. Received marketplace information.
+[2026-03-20 16:01:22,257:             agent.CAPMBot]:     INFO - I am CAPMBot(User(52422,,,yh620@d002,[USER]))
+[2026-03-20 16:01:22,257:             agent.CAPMBot]:     INFO - Bot initialised, I have the payoffs for the states.
+[2026-03-20 16:01:22,258:             agent.CAPMBot]:     INFO - Session: SID:142645:SessionState.OPEN
+[2026-03-20 16:01:22,258:             agent.CAPMBot]:     INFO - Session id: 142645, your are able to trade
+[2026-03-20 16:01:22,258:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-20 16:01:22,258:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-20 16:01:22,258:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 0
+[2026-03-20 16:01:22,258:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 16:01:23,259:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:24,266:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:25,274:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:26,280:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:27,286:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:28,293:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:29,299:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:30,307:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:31,317:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:32,324:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:33,328:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:34,334:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:35,341:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:36,344:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:37,347:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:38,355:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:39,364:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:40,367:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:41,370:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:42,374:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:43,377:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:44,381:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:45,385:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:46,389:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:47,396:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:48,404:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:49,410:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:50,416:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:51,423:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:52,430:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:53,434:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:54,437:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:55,442:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:56,447:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:57,456:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:58,459:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:01:59,466:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:00,471:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:01,475:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:02,478:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:03,483:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:04,491:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:05,498:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:06,507:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:07,513:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:08,521:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:09,526:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:10,532:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:11,540:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:12,550:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:13,559:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:14,568:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:15,574:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:16,582:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:17,590:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:18,596:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:19,604:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:20,611:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:21,618:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:22,625:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:23,632:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:24,641:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:25,649:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:26,655:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:27,662:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:28,669:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:29,676:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:30,683:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:31,690:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:32,698:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:33,706:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:34,713:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:35,720:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:36,726:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:37,734:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:38,741:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:39,748:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:40,756:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:41,764:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:42,771:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:43,780:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:44,788:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:45,796:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:46,805:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:47,809:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:48,816:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:49,822:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:50,828:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:51,835:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:52,838:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:53,845:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:54,852:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:55,859:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:56,865:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:57,868:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:58,876:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:02:59,883:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:00,890:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:01,898:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:02,901:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:03,908:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:04,915:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:05,925:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:06,932:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:07,936:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:08,942:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:09,949:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:10,956:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:11,965:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:12,969:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:13,976:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:14,983:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:15,989:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:16,997:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:18,002:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:19,009:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:20,016:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:21,024:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:22,030:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:23,036:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:24,043:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:25,050:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:26,057:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:27,066:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:28,073:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:29,081:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:30,088:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:31,097:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:32,104:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:33,112:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:34,119:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:35,126:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:36,133:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:37,140:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:38,149:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:39,157:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:40,166:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:41,173:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:42,179:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:43,186:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:44,192:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:45,201:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:46,208:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:47,213:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:48,220:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:49,227:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:50,234:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:51,240:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:52,246:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:53,255:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:54,261:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:55,269:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:56,275:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:57,282:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:58,288:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:03:59,295:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:00,302:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:01,310:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:02,317:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:03,324:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:04,330:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:05,335:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:06,341:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:07,349:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:08,359:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:09,366:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:10,369:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:11,372:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:12,377:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:13,382:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:14,388:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:15,397:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:16,405:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:17,412:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:18,419:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:19,426:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:20,433:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:21,439:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:22,446:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:23,455:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:24,462:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:25,468:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:26,475:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:27,482:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:28,490:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:29,500:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:30,507:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:31,516:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:32,524:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:33,532:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:34,541:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:35,548:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:36,554:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:37,561:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:38,568:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:39,575:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:40,583:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:41,590:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:42,596:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:43,603:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:44,609:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:45,616:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:46,624:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:47,631:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:48,638:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:49,646:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:50,653:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:51,660:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:52,663:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:53,667:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:54,671:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:55,674:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:56,678:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:57,682:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:58,686:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:04:59,690:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:00,694:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:01,697:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:02,700:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:03,704:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:04,712:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:05,718:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:06,725:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:07,733:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:08,740:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:09,747:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:10,754:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:11,760:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:12,767:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:13,775:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:14,783:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:15,791:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:16,798:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:17,806:             agent.CAPMBot]:     INFO - current performance is: 104.125
+[2026-03-20 16:05:17,812:             agent.CAPMBot]:     INFO - current performance is not optimal, profit-making order list:
+[2026-03-20 16:05:17,812:             agent.CAPMBot]:     INFO - 	 Market: 2716, Side: OrderSide.BUY, Unit: 1, Price: 759
+[2026-03-20 16:05:17,812:             agent.CAPMBot]:     INFO - expected performance: 104.56625
+[2026-03-20 16:05:17,812:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,BUY,1@759,C,LIMIT,REF:'Market: Market(2716,C,Asset C,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 759')
+[2026-03-20 16:05:18,176:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2716,C,Asset C,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 759
+[2026-03-20 16:05:18,217:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-20 16:05:18,218:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-20 16:05:18,218:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 1
+[2026-03-20 16:05:18,218:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 16:05:18,218:             agent.CAPMBot]:     INFO - Trade success: Order(52018067,Mine,BUY,1@759,C,LIMIT,REF:'Market: Market(2716,C,Asset C,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 759')
+[2026-03-20 16:05:18,813:             agent.CAPMBot]:     INFO - current performance is: 104.56625
+[2026-03-20 16:05:19,821:             agent.CAPMBot]:     INFO - current performance is: 104.56625
+[2026-03-20 16:05:20,829:             agent.CAPMBot]:     INFO - current performance is: 104.56625
+[2026-03-20 16:05:21,836:             agent.CAPMBot]:     INFO - current performance is: 104.56625
+[2026-03-20 16:05:22,843:             agent.CAPMBot]:     INFO - current performance is: 104.56625
+[2026-03-20 16:05:22,851:             agent.CAPMBot]:     INFO - current performance is not optimal, profit-making order list:
+[2026-03-20 16:05:22,851:             agent.CAPMBot]:     INFO - 	 Market: 2716, Side: OrderSide.BUY, Unit: 1, Price: 525
+[2026-03-20 16:05:22,851:             agent.CAPMBot]:     INFO - expected performance: 107.035
+[2026-03-20 16:05:22,851:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,BUY,1@525,C,LIMIT,REF:'Market: Market(2716,C,Asset C,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 525')
+[2026-03-20 16:05:23,047:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2716,C,Asset C,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 525
+[2026-03-20 16:05:23,072:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-20 16:05:23,072:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-20 16:05:23,072:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 2
+[2026-03-20 16:05:23,072:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 16:05:23,072:             agent.CAPMBot]:     INFO - Trade success: Order(52018069,Mine,BUY,1@525,C,LIMIT,REF:'Market: Market(2716,C,Asset C,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 525')
+[2026-03-20 16:05:23,853:             agent.CAPMBot]:     INFO - current performance is: 107.035
+[2026-03-20 16:05:24,860:             agent.CAPMBot]:     INFO - current performance is: 107.035
+[2026-03-20 16:05:25,866:             agent.CAPMBot]:     INFO - current performance is: 107.035
+[2026-03-20 16:05:25,873:             agent.CAPMBot]:     INFO - current performance is not optimal, profit-making order list:
+[2026-03-20 16:05:25,873:             agent.CAPMBot]:     INFO - 	 Market: 2716, Side: OrderSide.BUY, Unit: 1, Price: 386
+[2026-03-20 16:05:25,873:             agent.CAPMBot]:     INFO - expected performance: 110.58125000000001
+[2026-03-20 16:05:25,874:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,BUY,1@386,C,LIMIT,REF:'Market: Market(2716,C,Asset C,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 386')
+[2026-03-20 16:05:26,161:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2716,C,Asset C,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 386
+[2026-03-20 16:05:26,206:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 14
+[2026-03-20 16:05:26,206:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-20 16:05:26,206:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 3
+[2026-03-20 16:05:26,206:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 16:05:26,206:             agent.CAPMBot]:     INFO - Trade success: Order(52018071,Mine,BUY,1@386,C,LIMIT,REF:'Market: Market(2716,C,Asset C,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 386')
+[2026-03-20 16:05:26,875:             agent.CAPMBot]:     INFO - current performance is: 110.58125000000001
+[2026-03-20 16:05:27,882:             agent.CAPMBot]:     INFO - current performance is: 110.58125000000001
+[2026-03-20 16:05:28,890:             agent.CAPMBot]:     INFO - current performance is: 110.58125000000001
+[2026-03-20 16:05:29,897:             agent.CAPMBot]:     INFO - current performance is: 110.58125000000001
+[2026-03-20 16:05:30,905:             agent.CAPMBot]:     INFO - current performance is: 110.58125000000001
+[2026-03-20 16:05:30,913:             agent.CAPMBot]:     INFO - current performance is not optimal, profit-making order list:
+[2026-03-20 16:05:30,913:             agent.CAPMBot]:     INFO - 	 Market: 2714, Side: OrderSide.SELL, Unit: 1, Price: 305
+[2026-03-20 16:05:30,913:             agent.CAPMBot]:     INFO - expected performance: 111.63125
+[2026-03-20 16:05:30,913:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,SELL,1@305,A,LIMIT,REF:'Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 305')
+[2026-03-20 16:05:31,033:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 305
+[2026-03-20 16:05:31,059:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 13
+[2026-03-20 16:05:31,059:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-20 16:05:31,060:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 3
+[2026-03-20 16:05:31,060:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 16:05:31,060:             agent.CAPMBot]:     INFO - Trade success: Order(52018073,Mine,SELL,1@305,A,LIMIT,REF:'Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 305')
+[2026-03-20 16:05:31,915:             agent.CAPMBot]:     INFO - current performance is: 111.63125
+[2026-03-20 16:05:32,922:             agent.CAPMBot]:     INFO - current performance is: 111.63125
+[2026-03-20 16:05:33,930:             agent.CAPMBot]:     INFO - current performance is: 111.63125
+[2026-03-20 16:05:33,937:             agent.CAPMBot]:     INFO - current performance is not optimal, profit-making order list:
+[2026-03-20 16:05:33,937:             agent.CAPMBot]:     INFO - 	 Market: 2714, Side: OrderSide.SELL, Unit: 1, Price: 261
+[2026-03-20 16:05:33,937:             agent.CAPMBot]:     INFO - expected performance: 111.92875000000001
+[2026-03-20 16:05:33,937:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,SELL,1@261,A,LIMIT,REF:'Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 261')
+[2026-03-20 16:05:34,146:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 261
+[2026-03-20 16:05:34,196:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 12
+[2026-03-20 16:05:34,197:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-20 16:05:34,197:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 3
+[2026-03-20 16:05:34,197:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 16:05:34,197:             agent.CAPMBot]:     INFO - Trade success: Order(52018075,Mine,SELL,1@261,A,LIMIT,REF:'Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 261')
+[2026-03-20 16:05:34,939:             agent.CAPMBot]:     INFO - current performance is: 111.92875000000001
+[2026-03-20 16:05:35,946:             agent.CAPMBot]:     INFO - current performance is: 111.92875000000001
+[2026-03-20 16:05:36,954:             agent.CAPMBot]:     INFO - current performance is: 111.92875000000001
+[2026-03-20 16:05:37,958:             agent.CAPMBot]:     INFO - current performance is: 111.92875000000001
+[2026-03-20 16:05:38,966:             agent.CAPMBot]:     INFO - current performance is: 111.92875000000001
+[2026-03-20 16:05:39,975:             agent.CAPMBot]:     INFO - current performance is: 111.92875000000001
+[2026-03-20 16:05:40,981:             agent.CAPMBot]:     INFO - current performance is: 111.92875000000001
+[2026-03-20 16:05:41,988:             agent.CAPMBot]:     INFO - current performance is: 111.92875000000001
+[2026-03-20 16:05:42,992:             agent.CAPMBot]:     INFO - current performance is: 111.92875000000001
+[2026-03-20 16:05:44,000:             agent.CAPMBot]:     INFO - current performance is: 111.92875000000001
+[2026-03-20 16:05:45,007:             agent.CAPMBot]:     INFO - current performance is: 111.92875000000001
+[2026-03-20 16:05:45,012:             agent.CAPMBot]:     INFO - current performance is not optimal, profit-making order list:
+[2026-03-20 16:05:45,012:             agent.CAPMBot]:     INFO - 	 Market: 2714, Side: OrderSide.SELL, Unit: 1, Price: 313
+[2026-03-20 16:05:45,012:             agent.CAPMBot]:     INFO - expected performance: 112.43375
+[2026-03-20 16:05:45,012:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,SELL,1@313,A,LIMIT,REF:'Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 313')
+[2026-03-20 16:05:45,289:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 313
+[2026-03-20 16:05:45,325:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 11
+[2026-03-20 16:05:45,325:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-20 16:05:45,325:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 3
+[2026-03-20 16:05:45,325:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 16:05:45,325:             agent.CAPMBot]:     INFO - Trade success: Order(52018079,Mine,SELL,1@313,A,LIMIT,REF:'Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 313')
+[2026-03-20 16:05:46,013:             agent.CAPMBot]:     INFO - current performance is: 112.43375
+[2026-03-20 16:05:47,021:             agent.CAPMBot]:     INFO - current performance is: 112.43375
+[2026-03-20 16:05:48,024:             agent.CAPMBot]:     INFO - current performance is: 112.43375
+[2026-03-20 16:05:48,029:             agent.CAPMBot]:     INFO - current performance is not optimal, profit-making order list:
+[2026-03-20 16:05:48,030:             agent.CAPMBot]:     INFO - 	 Market: 2714, Side: OrderSide.SELL, Unit: 1, Price: 569
+[2026-03-20 16:05:48,030:             agent.CAPMBot]:     INFO - expected performance: 115.18625
+[2026-03-20 16:05:48,030:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,SELL,1@569,A,LIMIT,REF:'Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 569')
+[2026-03-20 16:05:48,149:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 569
+[2026-03-20 16:05:48,156:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 10
+[2026-03-20 16:05:48,156:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-20 16:05:48,156:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 3
+[2026-03-20 16:05:48,157:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 16:05:48,157:             agent.CAPMBot]:     INFO - Trade success: Order(52018081,Mine,SELL,1@569,A,LIMIT,REF:'Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 569')
+[2026-03-20 16:05:49,031:             agent.CAPMBot]:     INFO - current performance is: 115.18625
+[2026-03-20 16:05:50,039:             agent.CAPMBot]:     INFO - current performance is: 115.18625
+[2026-03-20 16:05:51,046:             agent.CAPMBot]:     INFO - current performance is: 115.18625
+[2026-03-20 16:05:51,053:             agent.CAPMBot]:     INFO - current performance is not optimal, profit-making order list:
+[2026-03-20 16:05:51,054:             agent.CAPMBot]:     INFO - 	 Market: 2714, Side: OrderSide.SELL, Unit: 1, Price: 430
+[2026-03-20 16:05:51,054:             agent.CAPMBot]:     INFO - expected performance: 116.23624999999998
+[2026-03-20 16:05:51,054:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,SELL,1@430,A,LIMIT,REF:'Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 430')
+[2026-03-20 16:05:51,267:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 430
+[2026-03-20 16:05:51,294:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 9
+[2026-03-20 16:05:51,294:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 4
+[2026-03-20 16:05:51,294:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 3
+[2026-03-20 16:05:51,294:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 16:05:51,294:             agent.CAPMBot]:     INFO - Trade success: Order(52018083,Mine,SELL,1@430,A,LIMIT,REF:'Market: Market(2714,A,Asset A,False), Order Type: OrderType.LIMIT, Side: OrderSide.SELL, Unit: 1, Price: 430')
+[2026-03-20 16:05:52,055:             agent.CAPMBot]:     INFO - current performance is: 116.23624999999998
+[2026-03-20 16:05:53,059:             agent.CAPMBot]:     INFO - current performance is: 116.23624999999998
+[2026-03-20 16:05:54,066:             agent.CAPMBot]:     INFO - current performance is: 116.23624999999998
+[2026-03-20 16:05:55,077:             agent.CAPMBot]:     INFO - current performance is: 116.23624999999998
+[2026-03-20 16:05:56,085:             agent.CAPMBot]:     INFO - current performance is: 116.23624999999998
+[2026-03-20 16:05:57,093:             agent.CAPMBot]:     INFO - current performance is: 116.23624999999998
+[2026-03-20 16:05:58,097:             agent.CAPMBot]:     INFO - current performance is: 116.23624999999998
+[2026-03-20 16:05:59,105:             agent.CAPMBot]:     INFO - current performance is: 116.23624999999998
+[2026-03-20 16:06:00,113:             agent.CAPMBot]:     INFO - current performance is: 116.23624999999998
+[2026-03-20 16:06:01,119:             agent.CAPMBot]:     INFO - current performance is: 116.23624999999998
+[2026-03-20 16:06:02,126:             agent.CAPMBot]:     INFO - current performance is: 116.23624999999998
+[2026-03-20 16:06:03,132:             agent.CAPMBot]:     INFO - current performance is: 116.23624999999998
+[2026-03-20 16:06:04,138:             agent.CAPMBot]:     INFO - current performance is: 116.23624999999998
+[2026-03-20 16:06:04,145:             agent.CAPMBot]:     INFO - current performance is not optimal, profit-making order list:
+[2026-03-20 16:06:04,145:             agent.CAPMBot]:     INFO - 	 Market: 2715, Side: OrderSide.BUY, Unit: 1, Price: 334
+[2026-03-20 16:06:04,145:             agent.CAPMBot]:     INFO - expected performance: 116.77125000000001
+[2026-03-20 16:06:04,145:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,BUY,1@334,B,LIMIT,REF:'Market: Market(2715,B,Asset B,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334')
+[2026-03-20 16:06:04,420:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2715,B,Asset B,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334
+[2026-03-20 16:06:04,437:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 9
+[2026-03-20 16:06:04,437:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 5
+[2026-03-20 16:06:04,437:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 3
+[2026-03-20 16:06:04,437:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 16:06:04,437:             agent.CAPMBot]:     INFO - Trade success: Order(52018086,Mine,BUY,1@334,B,LIMIT,REF:'Market: Market(2715,B,Asset B,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334')
+[2026-03-20 16:06:05,146:             agent.CAPMBot]:     INFO - current performance is: 116.77125000000001
+[2026-03-20 16:06:06,154:             agent.CAPMBot]:     INFO - current performance is: 116.77125000000001
+[2026-03-20 16:06:07,160:             agent.CAPMBot]:     INFO - current performance is: 116.77125000000001
+[2026-03-20 16:06:07,167:             agent.CAPMBot]:     INFO - current performance is not optimal, profit-making order list:
+[2026-03-20 16:06:07,167:             agent.CAPMBot]:     INFO - 	 Market: 2715, Side: OrderSide.BUY, Unit: 1, Price: 334
+[2026-03-20 16:06:07,167:             agent.CAPMBot]:     INFO - expected performance: 116.99375
+[2026-03-20 16:06:07,167:             agent.CAPMBot]:     INFO - Placed order: Order(None,Mine,BUY,1@334,B,LIMIT,REF:'Market: Market(2715,B,Asset B,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334')
+[2026-03-20 16:06:07,284:             agent.CAPMBot]:     INFO - I have OrderType.LIMIT order accepted by book: Market: Market(2715,B,Asset B,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334
+[2026-03-20 16:06:07,374:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 9
+[2026-03-20 16:06:07,374:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 6
+[2026-03-20 16:06:07,374:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 3
+[2026-03-20 16:06:07,374:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 16:06:07,374:             agent.CAPMBot]:     INFO - Trade success: Order(52018088,Mine,BUY,1@334,B,LIMIT,REF:'Market: Market(2715,B,Asset B,False), Order Type: OrderType.LIMIT, Side: OrderSide.BUY, Unit: 1, Price: 334')
+[2026-03-20 16:06:08,169:             agent.CAPMBot]:     INFO - current performance is: 116.99375
+[2026-03-20 16:06:09,176:             agent.CAPMBot]:     INFO - current performance is: 116.99375
+[2026-03-20 16:06:10,184:             agent.CAPMBot]:     INFO - current performance is: 116.99375
+[2026-03-20 16:06:11,193:             agent.CAPMBot]:     INFO - current performance is: 116.99375
+[2026-03-20 16:06:12,201:             agent.CAPMBot]:     INFO - current performance is: 116.99375
+[2026-03-20 16:06:13,209:             agent.CAPMBot]:     INFO - current performance is: 116.99375
+[2026-03-20 16:06:14,216:             agent.CAPMBot]:     INFO - current performance is: 116.99375
+[2026-03-20 16:06:15,222:             agent.CAPMBot]:     INFO - current performance is: 116.99375
+
+=============================== Log Started [2026-03-20 16:08:00 GMT] ===============================
+[2026-03-20 16:08:00,337:             agent.CAPMBot]:     INFO - Using FM Client version: 5.2.9-beta
+[2026-03-20 16:08:00,338:             agent.CAPMBot]:     INFO - Attempting to log into AHM as fain-premium|yh620@d002
+[2026-03-20 16:08:00,797:             agent.CAPMBot]:     INFO - Establishing realtime WebSocket connection to AHM
+[2026-03-20 16:08:01,076:             agent.CAPMBot]:     INFO - Requesting initial information for marketplace `1524`
+[2026-03-20 16:08:01,163:             ws.FM.CAPMBot]:     INFO - Connected to AHM Server tcp4:54.235.77.118:443
+[2026-03-20 16:08:01,418:             agent.CAPMBot]:     INFO - Initialisation complete. Received marketplace information.
+[2026-03-20 16:08:01,418:             agent.CAPMBot]:     INFO - I am CAPMBot(User(52422,,,yh620@d002,[USER]))
+[2026-03-20 16:08:01,418:             agent.CAPMBot]:     INFO - Bot initialised, I have the payoffs for the states.
+[2026-03-20 16:08:01,419:             agent.CAPMBot]:     INFO - Session: SID:142645:SessionState.OPEN
+[2026-03-20 16:08:01,419:             agent.CAPMBot]:     INFO - Session id: 142645, your are able to trade
+[2026-03-20 16:08:01,419:             agent.CAPMBot]:     INFO - 	 asset in market Asset A : 9
+[2026-03-20 16:08:01,419:             agent.CAPMBot]:     INFO - 	 asset in market Asset B : 6
+[2026-03-20 16:08:01,419:             agent.CAPMBot]:     INFO - 	 asset in market Asset C : 3
+[2026-03-20 16:08:01,419:             agent.CAPMBot]:     INFO - 	 asset in market Note : 0
+[2026-03-20 16:08:02,420:             agent.CAPMBot]:     INFO - current performance is: 116.99375
+[2026-03-20 16:08:03,429:             agent.CAPMBot]:     INFO - current performance is: 116.99375
+[2026-03-20 16:08:04,437:             agent.CAPMBot]:     INFO - current performance is: 116.99375
+[2026-03-20 16:08:05,446:             agent.CAPMBot]:     INFO - current performance is: 116.99375
+[2026-03-20 16:08:06,453:             agent.CAPMBot]:     INFO - current performance is: 116.99375
+[2026-03-20 16:08:07,461:             agent.CAPMBot]:     INFO - current performance is: 116.99375
+[2026-03-20 16:08:08,469:             agent.CAPMBot]:     INFO - current performance is: 116.99375
+[2026-03-20 16:08:09,476:             agent.CAPMBot]:     INFO - current performance is: 116.99375
+[2026-03-20 16:08:10,484:             agent.CAPMBot]:     INFO - current performance is: 116.99375
